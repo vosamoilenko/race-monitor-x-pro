@@ -1,0 +1,33 @@
+name: py27
+channels:
+  - conda-forge
+dependencies:
+  - _openmp_mutex=4.5=2_gnu
+  - ca-certificates=2024.2.2=hcefe29a_0
+  - certifi=2019.9.11=py27_0
+  - ld_impl_linux-aarch64=2.40=hba4e955_0
+  - libffi=3.2.1=h4c5d2ac_1007
+  - libgcc-ng=13.2.0=he277a41_6
+  - libgomp=13.2.0=he277a41_6
+  - libsqlite=3.45.3=h194ca79_0
+  - libstdcxx-ng=13.2.0=h3f4de04_6
+  - libzlib=1.2.13=h31becfc_5
+  - ncurses=6.4.20240210=h0425590_0
+  - openssl=1.1.1w=h31becfc_0
+  - python=2.7.15=h5a48372_1011_cpython
+  - readline=8.2=h8fc344f_1
+  - setuptools=41.4.0=py27_0
+  - sqlite=3.45.3=h3b3482f_0
+  - tk=8.6.13=h194ca79_0
+  - wheel=0.37.1=pyhd8ed1ab_0
+  - zlib=1.2.13=h31becfc_5
+  - pip:
+      - funcsigs==1.0.2
+      - future==1.0.0
+      - iso8601==0.1.16
+      - obd==0.7.1
+      - pint==0.7.2
+      - pip==9.0.3
+      - pyserial==3.5
+      - pyyaml==5.4.1
+      - serial==0.0.97
