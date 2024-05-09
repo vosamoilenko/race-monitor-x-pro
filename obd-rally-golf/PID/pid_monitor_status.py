@@ -1,6 +1,7 @@
 class PIDMonitorStatus():
     @staticmethod
     def parse(hex_string):
+        return None
         if len(hex_string) < 4:
             return "Invalid hex string"
 

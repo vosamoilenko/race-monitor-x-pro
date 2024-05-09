@@ -93,12 +93,8 @@ with open("logs.txt", "w") as file:
 
 
 
-Display results in tables
 print("\nELM327 Responses:")
-print_table(elm_results)
 print("\nECU Responses:")
-print_table(ecu_results)
 
-Close the serial connection
 print("Closing serial connection...")
 serial_port.close()

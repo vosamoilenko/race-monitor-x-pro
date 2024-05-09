@@ -1,0 +1,16 @@
+{
+  "$schema": "https://shadcn-vue.com/schema.json",
+  "style": "default",
+  "typescript": true,
+  "tailwind": {
+    "config": "tailwind.config.js",
+    "css": "/Users/vo1/Developer/github.com/vosamoilenko/race-monitor-x-pro/fe/src/assets/main.css",
+    "baseColor": "slate",
+    "cssVariables": true
+  },
+  "framework": "vite",
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils"
+  }
+}

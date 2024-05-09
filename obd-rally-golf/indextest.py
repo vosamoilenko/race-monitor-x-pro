@@ -1,11 +1,8 @@
-# -*- coding: utf-8 -*-
-
-import time
-
-from constants import ECU_COMMANDS, ELM_COMMANDS, PIDCommand
-from pid_mapper import PIDMapper
+# # -*- coding: utf-8 -*-
 
 import csv
+import json
+from pid_mapper import PIDMapper
 
 def read_csv_last_column(filename):
     data = []
@@ -14,7 +11,7 @@ def read_csv_last_column(filename):
         reader = csv.reader(csvfile)
         current_array = []
         for i, row in enumerate(reader, 1):
-            current_array.append([row[0], row[-1]])  # Append only the last column
+            current_array.append([row[0], row[-1]])  # Append first and last column
             if i % 11 == 0:
                 data.append(current_array)
                 current_array = []
@@ -26,24 +23,31 @@ def read_csv_last_column(filename):
 
 filename = "/Users/vo1/Developer/github.com/vosamoilenko/race-monitor-x-pro/obd-rally-golf/logs-gran.csv"
 result = read_csv_last_column(filename)
+all_data = []
+
 for arr in result:
-    # print(arr)
-
-    # PIDMapper.map(PIDCommand.MONITOR_STATUS, "410100000000F5")
-    # PIDMapper.map(PIDCommand.ENGINE_LOAD, "4104FFF7")
-    # PIDMapper.map(PIDCommand.COOLANT_TEMPERATURE, "41056D66")
-    # PIDMapper.map(PIDCommand.INTAKE_MANIFOLD_PRESSURE, "410B6463")
-    # PIDMapper.map(PIDCommand.ENGINE_SPEED, "410C247094")
-    # PIDMapper.map(PIDCommand.VEHICLE_SPEED, "410D0001")
-    # PIDMapper.map(PIDCommand.TIMING_ADVANCE, "410EFF01")
-    # PIDMapper.map(PIDCommand.INTAKE_AIR_TEMPERATURE, "410F5D60")
-    # PIDMapper.map(PIDCommand.MAF_SENSOR_AIR_FLOW_RATE, "4110000004")
-    # PIDMapper.map(PIDCommand.THROTTLE_POSITION, "41110005")
-
+    # Initialize an empty dictionary
     obj = {}
-    for item in arr:
-        obj[item[0]] = PIDMapper.mapHex(item[1])
+    # Assign values to the dictionary, checking if each element exists
+    obj['monitorStatus'] = PIDMapper.mapHex(arr[0][1]) if len(arr) > 0 else None
+    obj['fuelSystemStatus'] = PIDMapper.mapHex(arr[1][1]) if len(arr) > 1 else None
+    obj['engineLoad'] = PIDMapper.mapHex(arr[2][1]) if len(arr) > 2 else None
+    obj['coolantTemperature'] = PIDMapper.mapHex(arr[3][1]) if len(arr) > 3 else None
+    obj['intakeManifoldPressure'] = PIDMapper.mapHex(arr[4][1]) if len(arr) > 4 else None
+    obj['engineSpeed'] = PIDMapper.mapHex(arr[5][1]) if len(arr) > 5 else None
+    obj['vehicleSpeed'] = PIDMapper.mapHex(arr[6][1]) if len(arr) > 6 else None
+    obj['timingAdvance'] = PIDMapper.mapHex(arr[7][1]) if len(arr) > 7 else None
+    obj['intakeAirTemperature'] = PIDMapper.mapHex(arr[8][1]) if len(arr) > 8 else None
+    obj['mafSensorAirFlowRate'] = PIDMapper.mapHex(arr[9][1]) if len(arr) > 9 else None
+    obj['throttlePosition'] = PIDMapper.mapHex(arr[10][1]) if len(arr) > 10 else None
+    
+    # Append the dictionary to the list of all data
+    # print(obj)
+    all_data.append(obj)
 
-    print(obj)
+# Write the collected data to a JSON file
+json_filename = "./output.json"
+with open(json_filename, 'w') as jsonfile:
+    json.dump(all_data, jsonfile, indent=4)
 
-
+print(f"Data successfully written to {json_filename}.")
