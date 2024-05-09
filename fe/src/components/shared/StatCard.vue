@@ -13,7 +13,7 @@ const props = withDefaults(defineProps<Props>(), {})
     </CardHeader>
     <CardContent>
       <span class="text-2xl font-bold">{{ value }}</span
-      ><span v-if="postfix">{{ postfix }}</span>
+      ><span v-if="postfix">&nbsp;{{ postfix }}</span>
       <!-- <p class="text-xs text-muted-foreground">{{  }}</p> -->
     </CardContent>
   </Card>
