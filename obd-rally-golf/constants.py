@@ -1,4 +1,23 @@
 # -*- coding: utf-8 -*-
+from enum import Enum
+
+class OBDCommands(Enum):
+    MONITOR_STATUS = "0101", "Monitor status since DTCs cleared. (Includes malfunction indicator lamp (MIL), status and number of DTCs, components tests, DTC readiness checks)"
+    FUEL_SYSTEM_STATUS = "0103", "Fuel system status"
+    ENGINE_LOAD = "0104", "Calculated engine load"
+    COOLANT_TEMPERATURE = "0105", "Engine coolant temperature"
+    INTAKE_MANIFOLD_PRESSURE = "010B", "Intake manifold absolute pressure"
+    ENGINE_SPEED = "010C", "Engine speed"
+    VEHICLE_SPEED = "010D", "Vehicle speed"
+    TIMING_ADVANCE = "010E", "Timing advance"
+    INTAKE_AIR_TEMPERATURE = "010F", "Intake air temperature"
+    MAF_SENSOR_AIR_FLOW_RATE = "0110", "Mass air flow sensor (MAF) air flow rate"
+    THROTTLE_POSITION = "0111", "Throttle position"
+
+# print(OBDCommands.ENGINE_SPEED.value)  # Output: ('010C', 'Engine speed')
+# print(OBDCommands.ENGINE_SPEED.name)   # Output: ENGINE_SPEED
+# print(OBDCommands.ENGINE_SPEED.description)   # Output: Engine speed
+
 
 ECU_COMMANDS = [
     # {"command": b'0100\r\n', "dec": 0, "bytes": 4, "description": "PIDs supported [$01 - $20]"},
@@ -190,7 +209,6 @@ ELM_COMMANDS = [
     {"command": b'0100\r\n', "description": "Set protocol to ISO 9141-2"},
     # {"command": b'ATSP0\r\n', "description": "Set protocol to Auto"},
     # {"command": b'ATAL\r\n', "description": "Allow long messages"}
-# AT S0
-# AT H0
-# AT SP 0
 ]
+
+
