@@ -3,7 +3,20 @@
 import serial
 import time
 
-from constants import ECU_COMMANDS, ELM_COMMANDS
+from constants import ECU_COMMANDS, ELM_COMMANDS, PIDCommand
+from pid_mapper import PIDMapper
+
+# PIDMapper.map(PIDCommand.MONITOR_STATUS, "410100000000F5")
+# PIDMapper.map(PIDCommand.ENGINE_LOAD, "4104FFF7")
+# PIDMapper.map(PIDCommand.COOLANT_TEMPERATURE, "41056D66")
+# PIDMapper.map(PIDCommand.INTAKE_MANIFOLD_PRESSURE, "410B6463")
+# PIDMapper.map(PIDCommand.ENGINE_SPEED, "410C247094")
+# PIDMapper.map(PIDCommand.VEHICLE_SPEED, "410D0001")
+# PIDMapper.map(PIDCommand.TIMING_ADVANCE, "410EFF01")
+# PIDMapper.map(PIDCommand.INTAKE_AIR_TEMPERATURE, "410F5D60")
+# PIDMapper.map(PIDCommand.MAF_SENSOR_AIR_FLOW_RATE, "4110000004")
+# PIDMapper.map(PIDCommand.THROTTLE_POSITION, "41110005")
+
 
 
 def decode_obd_rpm(command_string):

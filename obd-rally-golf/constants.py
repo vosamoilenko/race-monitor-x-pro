@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from enum import Enum
 
-class OBDCommands(Enum):
+class PIDCommand(Enum):
     MONITOR_STATUS = "0101", "Monitor status since DTCs cleared. (Includes malfunction indicator lamp (MIL), status and number of DTCs, components tests, DTC readiness checks)"
     FUEL_SYSTEM_STATUS = "0103", "Fuel system status"
     ENGINE_LOAD = "0104", "Calculated engine load"
@@ -13,6 +13,19 @@ class OBDCommands(Enum):
     INTAKE_AIR_TEMPERATURE = "010F", "Intake air temperature"
     MAF_SENSOR_AIR_FLOW_RATE = "0110", "Mass air flow sensor (MAF) air flow rate"
     THROTTLE_POSITION = "0111", "Throttle position"
+
+class PIDResponse(Enum):
+    MONITOR_STATUS = "0101", "4"
+    FUEL_SYSTEM_STATUS = "0103", "2"
+    ENGINE_LOAD = "0104", "1"
+    COOLANT_TEMPERATURE = "0105", "1"
+    INTAKE_MANIFOLD_PRESSURE = "010B", "1"
+    ENGINE_SPEED = "010C", "2"
+    VEHICLE_SPEED = "010D", "1"
+    TIMING_ADVANCE = "010E", "1"
+    INTAKE_AIR_TEMPERATURE = "010F", "1"
+    MAF_SENSOR_AIR_FLOW_RATE = "0110", "2"
+    THROTTLE_POSITION = "0111", "1"
 
 # print(OBDCommands.ENGINE_SPEED.value)  # Output: ('010C', 'Engine speed')
 # print(OBDCommands.ENGINE_SPEED.name)   # Output: ENGINE_SPEED
