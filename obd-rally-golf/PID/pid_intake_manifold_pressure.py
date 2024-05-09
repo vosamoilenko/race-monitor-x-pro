@@ -13,6 +13,6 @@ class PIDIntakeManifoldPressure():
         # Convert bytes to a single value representing pressure in kPa
         pressure_kpa = int(''.join(bytes_list), 16) / 100
 
-        print("Intake Manifold Pressure: {} kPa".format(pressure_kpa))
+        # print("Intake Manifold Pressure: {} kPa".format(pressure_kpa))
 
         return pressure_kpa

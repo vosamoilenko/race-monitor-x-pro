@@ -11,6 +11,39 @@ from PID.pid_maf_sensor_air_flow_rate import PIDMAFSensorAirFlowRate
 from PID.pid_throttle_position import PIDThrottlePosition
 
 class PIDMapper:
+    @staticmethod
+    def mapHex(hex_string):
+        if hex_string is None or hex_string == "NO DATA":
+            return None
+
+        command = hex_string[:4]
+
+        if command == '4101':
+            return PIDMapper.map(PIDCommand.MONITOR_STATUS, hex_string)
+        elif command == '4103':
+            return PIDMapper.map(PIDCommand.FUEL_SYSTEM_STATUS, hex_string)
+        elif command == '4104':
+            return PIDMapper.map(PIDCommand.ENGINE_LOAD, hex_string)
+        elif command == '4105':
+            return PIDMapper.map(PIDCommand.COOLANT_TEMPERATURE, hex_string)
+        elif command == '410B':
+            return PIDMapper.map(PIDCommand.INTAKE_MANIFOLD_PRESSURE, hex_string)
+        elif command == '410C':
+            return PIDMapper.map(PIDCommand.ENGINE_SPEED, hex_string)
+        elif command == '410D':
+            return PIDMapper.map(PIDCommand.VEHICLE_SPEED, hex_string)
+        elif command == '410E':
+            return PIDMapper.map(PIDCommand.TIMING_ADVANCE, hex_string)
+        elif command == '410F':
+            return PIDMapper.map(PIDCommand.INTAKE_AIR_TEMPERATURE, hex_string)
+        elif command == '4110':
+            return PIDMapper.map(PIDCommand.MAF_SENSOR_AIR_FLOW_RATE, hex_string)
+        elif command == '4111':
+            return PIDMapper.map(PIDCommand.THROTTLE_POSITION, hex_string)
+        else:
+            print(command)
+            return "Unknown command"
+
 
     @staticmethod
     def map(command, hex_string):

@@ -13,6 +13,6 @@ class PIDIntakeAirTemperature():
         # Convert byte to a single value representing intake air temperature in Celsius
         intake_air_temp_celsius = int(bytes_list[0], 16) - 40
 
-        print("Intake Air Temperature: {} °C".format(intake_air_temp_celsius))
+        # print("Intake Air Temperature: {} °C".format(intake_air_temp_celsius))
 
         return intake_air_temp_celsius

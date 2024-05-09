@@ -13,6 +13,6 @@ class PIDThrottlePosition():
         # Convert bytes to throttle position percentage
         throttle_position = (int(bytes_list[0], 16) * 100) / 255
 
-        print("Throttle Position: {} %".format(throttle_position))
+        # print("Throttle Position: {} %".format(throttle_position))
 
         return throttle_position

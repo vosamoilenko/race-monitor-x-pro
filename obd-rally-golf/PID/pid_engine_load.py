@@ -13,6 +13,6 @@ class PIDEngineLoad():
         # Calculate engine load
         engine_load = int(bytes_list[0], 16) * 100 / 255
 
-        print("Engine Load: {:.2f}%".format(engine_load))
+        # print("Engine Load: {:.2f}%".format(engine_load))
 
         return engine_load

@@ -7,15 +7,11 @@ class PIDMonitorStatus():
         code = hex_string[:4]
         value = hex_string[4:]
 
-        print("Code: {}".format(code))
-
         # Split the hex string into bytes
         bytes_list = [value[i:i+2] for i in range(0, len(value), 2)]
-        print("Bytes: {}".format(bytes_list))
 
         # Convert hex bytes to integers
         bytes_int = [int(byt, 16) for byt in bytes_list]
-        print("Bytes int: {}".format(bytes_int))
 
         # Parse byte A
         mil_state = "On" if bytes_int[0] & 0b10000000 else "Off"
@@ -66,11 +62,6 @@ class PIDMonitorStatus():
                 "NOx/SCR Monitor Complete": not bool(bytes_int[3] & 0b00000010),
                 "NMHC Catalyst Complete": not bool(bytes_int[3] & 0b00000001)
             }
-
-        print("MIL State: {}".format(mil_state))
-        print("Number of Confirmed DTCs: {}".format(num_dtc))
-        print("Common Tests: {}".format(common_tests))
-        print("Engine Specific Tests: {}".format(engine_specific_tests))
 
         # Return parsed information
         return {

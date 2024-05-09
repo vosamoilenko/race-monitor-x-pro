@@ -27,6 +27,19 @@ class PIDResponse(Enum):
     MAF_SENSOR_AIR_FLOW_RATE = "0110", "2"
     THROTTLE_POSITION = "0111", "1"
 
+class PIDPostfix(Enum):
+    MONITOR_STATUS = "0101", None
+    FUEL_SYSTEM_STATUS = "0103", None
+    ENGINE_LOAD = "0104", "%"
+    COOLANT_TEMPERATURE = "0105", "°C"
+    INTAKE_MANIFOLD_PRESSURE = "010B", "kPa"
+    ENGINE_SPEED = "010C", "rpm"
+    VEHICLE_SPEED = "010D", "km/h"
+    TIMING_ADVANCE = "010E", "degrees"
+    INTAKE_AIR_TEMPERATURE = "010F", "°C"
+    MAF_SENSOR_AIR_FLOW_RATE = "0110", "g/s"
+    THROTTLE_POSITION = "0111", "%"
+
 # print(OBDCommands.ENGINE_SPEED.value)  # Output: ('010C', 'Engine speed')
 # print(OBDCommands.ENGINE_SPEED.name)   # Output: ENGINE_SPEED
 # print(OBDCommands.ENGINE_SPEED.description)   # Output: Engine speed

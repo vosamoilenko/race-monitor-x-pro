@@ -17,19 +17,6 @@ from pid_mapper import PIDMapper
 # PIDMapper.map(PIDCommand.MAF_SENSOR_AIR_FLOW_RATE, "4110000004")
 # PIDMapper.map(PIDCommand.THROTTLE_POSITION, "41110005")
 
-
-
-def decode_obd_rpm(command_string):
-    if len(command_string) < 4:
-        return "Invalid input"
-    first_byte, second_byte = command_string[:2], command_string[2:4]
-    try:
-        rpm = (int(first_byte, 16) * 256 + int(second_byte, 16)) // 4
-        print("Decoded RPM: {}".format(rpm))
-        return rpm
-    except ValueError:
-        return "Invalid command string"
-
 def read_response(serial_port):
     response = b''
     start_time = time.time()
@@ -103,16 +90,15 @@ with open("logs.txt", "w") as file:
             response = execute_command(serial_port, cmd)
             current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
             file.write("{}, {}, {}\n".format(cmd['command'], current_time, response))
-    
 
 
 
-# Display results in tables
-# print("\nELM327 Responses:")
-# print_table(elm_results)
-# print("\nECU Responses:")
-# print_table(ecu_results)
+Display results in tables
+print("\nELM327 Responses:")
+print_table(elm_results)
+print("\nECU Responses:")
+print_table(ecu_results)
 
-# Close the serial connection
-# print("Closing serial connection...")
+Close the serial connection
+print("Closing serial connection...")
 serial_port.close()

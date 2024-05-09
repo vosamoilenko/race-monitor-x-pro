@@ -13,6 +13,6 @@ class PIDVehicleSpeed():
         # Convert bytes to a single value representing speed in km/h
         speed_kmh = int(''.join(bytes_list), 16)
 
-        print("Vehicle Speed: {} km/h".format(speed_kmh))
+        # print("Vehicle Speed: {} km/h".format(speed_kmh))
 
         return speed_kmh

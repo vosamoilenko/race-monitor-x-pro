@@ -13,6 +13,6 @@ class PIDMAFSensorAirFlowRate():
         # Convert bytes to a single value representing MAF sensor air flow rate
         maf_sensor_air_flow_rate = ((int(bytes_list[0], 16) * 256) + int(bytes_list[1], 16)) / 100
 
-        print("MAF Sensor Air Flow Rate: {} g/s".format(maf_sensor_air_flow_rate))
+        # print("MAF Sensor Air Flow Rate: {} g/s".format(maf_sensor_air_flow_rate))
 
         return maf_sensor_air_flow_rate

@@ -13,6 +13,6 @@ class PIDCoolantTemperature():
         # Convert the first byte to temperature in Celsius
         temperature_celsius = int(bytes_list[0], 16) - 40
 
-        print("Coolant Temperature: {}°C".format(temperature_celsius))
+        # print("Coolant Temperature: {}°C".format(temperature_celsius))
 
         return temperature_celsius

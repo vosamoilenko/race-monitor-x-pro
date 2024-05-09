@@ -13,6 +13,6 @@ class PIDTimingAdvance():
         # Convert byte to a single value representing timing advance in degrees
         timing_advance_degrees = int(bytes_list[0], 16) / 2 - 64
 
-        print("Timing Advance: {} degrees".format(timing_advance_degrees))
+        # print("Timing Advance: {} degrees".format(timing_advance_degrees))
 
         return timing_advance_degrees
