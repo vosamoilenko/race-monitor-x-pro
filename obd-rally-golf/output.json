@@ -1,704 +1,2486 @@
 [
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 100.0,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 256.99,
-        "engineSpeed": 0,
-        "vehicleSpeed": 0,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 53,
-        "mafSensorAirFlowRate": 0.0,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:48:54"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:48:57"
+        },
+        "engineLoad": {
+            "value": 100.0,
+            "timestamp": "2024-05-09T12:49:01"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T12:49:04"
+        },
+        "intakeManifoldPressure": {
+            "value": 256.99,
+            "timestamp": "2024-05-09T12:49:08"
+        },
+        "engineSpeed": {
+            "value": 0,
+            "timestamp": "2024-05-09T12:49:11"
+        },
+        "vehicleSpeed": {
+            "value": 0,
+            "timestamp": "2024-05-09T12:49:15"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:49:18"
+        },
+        "intakeAirTemperature": {
+            "value": 53,
+            "timestamp": "2024-05-09T12:49:22"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T12:49:25"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T12:49:29"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 100.0,
-        "coolantTemperature": 68,
-        "intakeManifoldPressure": 256.99,
-        "engineSpeed": 0,
-        "vehicleSpeed": 0,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 53,
-        "mafSensorAirFlowRate": 0.0,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:49:32"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:49:36"
+        },
+        "engineLoad": {
+            "value": 100.0,
+            "timestamp": "2024-05-09T12:49:39"
+        },
+        "coolantTemperature": {
+            "value": 68,
+            "timestamp": "2024-05-09T12:49:43"
+        },
+        "intakeManifoldPressure": {
+            "value": 256.99,
+            "timestamp": "2024-05-09T12:49:46"
+        },
+        "engineSpeed": {
+            "value": 0,
+            "timestamp": "2024-05-09T12:49:50"
+        },
+        "vehicleSpeed": {
+            "value": 0,
+            "timestamp": "2024-05-09T12:49:54"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:49:57"
+        },
+        "intakeAirTemperature": {
+            "value": 53,
+            "timestamp": "2024-05-09T12:50:01"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T12:50:04"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T12:50:08"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 100.0,
-        "coolantTemperature": 68,
-        "intakeManifoldPressure": 256.99,
-        "engineSpeed": 0,
-        "vehicleSpeed": 0,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 53,
-        "mafSensorAirFlowRate": 0.0,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:50:11"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:50:15"
+        },
+        "engineLoad": {
+            "value": 100.0,
+            "timestamp": "2024-05-09T12:50:18"
+        },
+        "coolantTemperature": {
+            "value": 68,
+            "timestamp": "2024-05-09T12:50:22"
+        },
+        "intakeManifoldPressure": {
+            "value": 256.99,
+            "timestamp": "2024-05-09T12:50:25"
+        },
+        "engineSpeed": {
+            "value": 0,
+            "timestamp": "2024-05-09T12:50:29"
+        },
+        "vehicleSpeed": {
+            "value": 0,
+            "timestamp": "2024-05-09T12:50:32"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:50:36"
+        },
+        "intakeAirTemperature": {
+            "value": 53,
+            "timestamp": "2024-05-09T12:50:39"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T12:50:43"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T12:50:46"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 18.431372549019606,
-        "coolantTemperature": 67,
-        "intakeManifoldPressure": 256.99,
-        "engineSpeed": 843,
-        "vehicleSpeed": 3,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 49,
-        "mafSensorAirFlowRate": 13.62,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:50:50"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:50:53"
+        },
+        "engineLoad": {
+            "value": 18.431372549019606,
+            "timestamp": "2024-05-09T12:50:57"
+        },
+        "coolantTemperature": {
+            "value": 67,
+            "timestamp": "2024-05-09T12:51:00"
+        },
+        "intakeManifoldPressure": {
+            "value": 256.99,
+            "timestamp": "2024-05-09T12:51:04"
+        },
+        "engineSpeed": {
+            "value": 843,
+            "timestamp": "2024-05-09T12:51:07"
+        },
+        "vehicleSpeed": {
+            "value": 3,
+            "timestamp": "2024-05-09T12:51:11"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:51:14"
+        },
+        "intakeAirTemperature": {
+            "value": 49,
+            "timestamp": "2024-05-09T12:51:18"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 13.62,
+            "timestamp": "2024-05-09T12:51:21"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T12:51:25"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 38.03921568627451,
-        "coolantTemperature": 66,
-        "intakeManifoldPressure": 267.27,
-        "engineSpeed": 862,
-        "vehicleSpeed": 0,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 47,
-        "mafSensorAirFlowRate": 12.62,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:51:28"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:51:32"
+        },
+        "engineLoad": {
+            "value": 38.03921568627451,
+            "timestamp": "2024-05-09T12:51:35"
+        },
+        "coolantTemperature": {
+            "value": 66,
+            "timestamp": "2024-05-09T12:51:39"
+        },
+        "intakeManifoldPressure": {
+            "value": 267.27,
+            "timestamp": "2024-05-09T12:51:42"
+        },
+        "engineSpeed": {
+            "value": 862,
+            "timestamp": "2024-05-09T12:51:46"
+        },
+        "vehicleSpeed": {
+            "value": 0,
+            "timestamp": "2024-05-09T12:51:49"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:51:53"
+        },
+        "intakeAirTemperature": {
+            "value": 47,
+            "timestamp": "2024-05-09T12:51:56"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 12.62,
+            "timestamp": "2024-05-09T12:52:00"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T12:52:03"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 17.647058823529413,
-        "coolantTemperature": 67,
-        "intakeManifoldPressure": 267.27,
-        "engineSpeed": 864,
-        "vehicleSpeed": 0,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 48,
-        "mafSensorAirFlowRate": 13.82,
-        "throttlePosition": 32.15686274509804
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:52:07"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:52:10"
+        },
+        "engineLoad": {
+            "value": 17.647058823529413,
+            "timestamp": "2024-05-09T12:52:14"
+        },
+        "coolantTemperature": {
+            "value": 67,
+            "timestamp": "2024-05-09T12:52:17"
+        },
+        "intakeManifoldPressure": {
+            "value": 267.27,
+            "timestamp": "2024-05-09T12:52:21"
+        },
+        "engineSpeed": {
+            "value": 864,
+            "timestamp": "2024-05-09T12:52:24"
+        },
+        "vehicleSpeed": {
+            "value": 0,
+            "timestamp": "2024-05-09T12:52:28"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:52:31"
+        },
+        "intakeAirTemperature": {
+            "value": 48,
+            "timestamp": "2024-05-09T12:52:35"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 13.82,
+            "timestamp": "2024-05-09T12:52:38"
+        },
+        "throttlePosition": {
+            "value": 32.15686274509804,
+            "timestamp": "2024-05-09T12:52:42"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 17.647058823529413,
-        "coolantTemperature": 68,
-        "intakeManifoldPressure": 267.27,
-        "engineSpeed": 1156,
-        "vehicleSpeed": 19,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 48,
-        "mafSensorAirFlowRate": 12.38,
-        "throttlePosition": 4.705882352941177
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:52:45"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:52:49"
+        },
+        "engineLoad": {
+            "value": 17.647058823529413,
+            "timestamp": "2024-05-09T12:52:52"
+        },
+        "coolantTemperature": {
+            "value": 68,
+            "timestamp": "2024-05-09T12:52:56"
+        },
+        "intakeManifoldPressure": {
+            "value": 267.27,
+            "timestamp": "2024-05-09T12:52:59"
+        },
+        "engineSpeed": {
+            "value": 1156,
+            "timestamp": "2024-05-09T12:53:03"
+        },
+        "vehicleSpeed": {
+            "value": 19,
+            "timestamp": "2024-05-09T12:53:06"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:53:10"
+        },
+        "intakeAirTemperature": {
+            "value": 48,
+            "timestamp": "2024-05-09T12:53:13"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 12.38,
+            "timestamp": "2024-05-09T12:53:17"
+        },
+        "throttlePosition": {
+            "value": 4.705882352941177,
+            "timestamp": "2024-05-09T12:53:20"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 92.15686274509804,
-        "coolantTemperature": 68,
-        "intakeManifoldPressure": 272.41,
-        "engineSpeed": 1490,
-        "vehicleSpeed": 31,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 44,
-        "mafSensorAirFlowRate": 35.24,
-        "throttlePosition": 27.058823529411764
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:53:24"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:53:27"
+        },
+        "engineLoad": {
+            "value": 92.15686274509804,
+            "timestamp": "2024-05-09T12:53:31"
+        },
+        "coolantTemperature": {
+            "value": 68,
+            "timestamp": "2024-05-09T12:53:34"
+        },
+        "intakeManifoldPressure": {
+            "value": 272.41,
+            "timestamp": "2024-05-09T12:53:38"
+        },
+        "engineSpeed": {
+            "value": 1490,
+            "timestamp": "2024-05-09T12:53:41"
+        },
+        "vehicleSpeed": {
+            "value": 31,
+            "timestamp": "2024-05-09T12:53:45"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:53:48"
+        },
+        "intakeAirTemperature": {
+            "value": 44,
+            "timestamp": "2024-05-09T12:53:52"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 35.24,
+            "timestamp": "2024-05-09T12:53:55"
+        },
+        "throttlePosition": {
+            "value": 27.058823529411764,
+            "timestamp": "2024-05-09T12:53:59"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 62.745098039215684,
-        "coolantTemperature": 67,
-        "intakeManifoldPressure": 521.7,
-        "engineSpeed": 2127,
-        "vehicleSpeed": 74,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 43,
-        "mafSensorAirFlowRate": 12.36,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:54:02"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:54:06"
+        },
+        "engineLoad": {
+            "value": 62.745098039215684,
+            "timestamp": "2024-05-09T12:54:09"
+        },
+        "coolantTemperature": {
+            "value": 67,
+            "timestamp": "2024-05-09T12:54:13"
+        },
+        "intakeManifoldPressure": {
+            "value": 521.7,
+            "timestamp": "2024-05-09T12:54:16"
+        },
+        "engineSpeed": {
+            "value": 2127,
+            "timestamp": "2024-05-09T12:54:20"
+        },
+        "vehicleSpeed": {
+            "value": 74,
+            "timestamp": "2024-05-09T12:54:23"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:54:27"
+        },
+        "intakeAirTemperature": {
+            "value": 43,
+            "timestamp": "2024-05-09T12:54:30"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 12.36,
+            "timestamp": "2024-05-09T12:54:34"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T12:54:37"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 19.215686274509803,
-        "coolantTemperature": 68,
-        "intakeManifoldPressure": 501.14,
-        "engineSpeed": 2001,
-        "vehicleSpeed": 68,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 44,
-        "mafSensorAirFlowRate": 49.84,
-        "throttlePosition": 38.431372549019606
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:54:41"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:54:44"
+        },
+        "engineLoad": {
+            "value": 19.215686274509803,
+            "timestamp": "2024-05-09T12:54:48"
+        },
+        "coolantTemperature": {
+            "value": 68,
+            "timestamp": "2024-05-09T12:54:51"
+        },
+        "intakeManifoldPressure": {
+            "value": 501.14,
+            "timestamp": "2024-05-09T12:54:55"
+        },
+        "engineSpeed": {
+            "value": 2001,
+            "timestamp": "2024-05-09T12:54:58"
+        },
+        "vehicleSpeed": {
+            "value": 68,
+            "timestamp": "2024-05-09T12:55:02"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:55:05"
+        },
+        "intakeAirTemperature": {
+            "value": 44,
+            "timestamp": "2024-05-09T12:55:09"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 49.84,
+            "timestamp": "2024-05-09T12:55:12"
+        },
+        "throttlePosition": {
+            "value": 38.431372549019606,
+            "timestamp": "2024-05-09T12:55:16"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 24.313725490196077,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 321.24,
-        "engineSpeed": 1719,
-        "vehicleSpeed": 63,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 38,
-        "mafSensorAirFlowRate": 34.34,
-        "throttlePosition": 30.58823529411765
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:55:19"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:55:23"
+        },
+        "engineLoad": {
+            "value": 24.313725490196077,
+            "timestamp": "2024-05-09T12:55:26"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T12:55:30"
+        },
+        "intakeManifoldPressure": {
+            "value": 321.24,
+            "timestamp": "2024-05-09T12:55:33"
+        },
+        "engineSpeed": {
+            "value": 1719,
+            "timestamp": "2024-05-09T12:55:37"
+        },
+        "vehicleSpeed": {
+            "value": 63,
+            "timestamp": "2024-05-09T12:55:41"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:55:44"
+        },
+        "intakeAirTemperature": {
+            "value": 38,
+            "timestamp": "2024-05-09T12:55:48"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 34.34,
+            "timestamp": "2024-05-09T12:55:51"
+        },
+        "throttlePosition": {
+            "value": 30.58823529411765,
+            "timestamp": "2024-05-09T12:55:55"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 30.980392156862745,
-        "coolantTemperature": 68,
-        "intakeManifoldPressure": 321.24,
-        "engineSpeed": 1752,
-        "vehicleSpeed": 64,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 36,
-        "mafSensorAirFlowRate": 43.92,
-        "throttlePosition": 27.84313725490196
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:55:58"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:56:02"
+        },
+        "engineLoad": {
+            "value": 30.980392156862745,
+            "timestamp": "2024-05-09T12:56:05"
+        },
+        "coolantTemperature": {
+            "value": 68,
+            "timestamp": "2024-05-09T12:56:09"
+        },
+        "intakeManifoldPressure": {
+            "value": 321.24,
+            "timestamp": "2024-05-09T12:56:12"
+        },
+        "engineSpeed": {
+            "value": 1752,
+            "timestamp": "2024-05-09T12:56:16"
+        },
+        "vehicleSpeed": {
+            "value": 64,
+            "timestamp": "2024-05-09T12:56:19"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:56:23"
+        },
+        "intakeAirTemperature": {
+            "value": 36,
+            "timestamp": "2024-05-09T12:56:26"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 43.92,
+            "timestamp": "2024-05-09T12:56:30"
+        },
+        "throttlePosition": {
+            "value": 27.84313725490196,
+            "timestamp": "2024-05-09T12:56:33"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 17.254901960784313,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 336.66,
-        "engineSpeed": 1586,
-        "vehicleSpeed": 53,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 34,
-        "mafSensorAirFlowRate": 24.04,
-        "throttlePosition": 61.568627450980394
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:56:37"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:56:40"
+        },
+        "engineLoad": {
+            "value": 17.254901960784313,
+            "timestamp": "2024-05-09T12:56:44"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T12:56:47"
+        },
+        "intakeManifoldPressure": {
+            "value": 336.66,
+            "timestamp": "2024-05-09T12:56:51"
+        },
+        "engineSpeed": {
+            "value": 1586,
+            "timestamp": "2024-05-09T12:56:54"
+        },
+        "vehicleSpeed": {
+            "value": 53,
+            "timestamp": "2024-05-09T12:56:58"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:57:01"
+        },
+        "intakeAirTemperature": {
+            "value": 34,
+            "timestamp": "2024-05-09T12:57:05"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 24.04,
+            "timestamp": "2024-05-09T12:57:08"
+        },
+        "throttlePosition": {
+            "value": 61.568627450980394,
+            "timestamp": "2024-05-09T12:57:12"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 6.666666666666667,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 326.38,
-        "engineSpeed": 1806,
-        "vehicleSpeed": 80,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 34,
-        "mafSensorAirFlowRate": 13.24,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:57:15"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:57:19"
+        },
+        "engineLoad": {
+            "value": 6.666666666666667,
+            "timestamp": "2024-05-09T12:57:22"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T12:57:26"
+        },
+        "intakeManifoldPressure": {
+            "value": 326.38,
+            "timestamp": "2024-05-09T12:57:29"
+        },
+        "engineSpeed": {
+            "value": 1806,
+            "timestamp": "2024-05-09T12:57:33"
+        },
+        "vehicleSpeed": {
+            "value": 80,
+            "timestamp": "2024-05-09T12:57:36"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:57:40"
+        },
+        "intakeAirTemperature": {
+            "value": 34,
+            "timestamp": "2024-05-09T12:57:43"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 13.24,
+            "timestamp": "2024-05-09T12:57:47"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T12:57:50"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 76.86274509803921,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 274.98,
-        "engineSpeed": 1189,
-        "vehicleSpeed": 37,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 33,
-        "mafSensorAirFlowRate": 31.34,
-        "throttlePosition": 58.8235294117647
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:57:54"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:57:57"
+        },
+        "engineLoad": {
+            "value": 76.86274509803921,
+            "timestamp": "2024-05-09T12:58:01"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T12:58:04"
+        },
+        "intakeManifoldPressure": {
+            "value": 274.98,
+            "timestamp": "2024-05-09T12:58:08"
+        },
+        "engineSpeed": {
+            "value": 1189,
+            "timestamp": "2024-05-09T12:58:11"
+        },
+        "vehicleSpeed": {
+            "value": 37,
+            "timestamp": "2024-05-09T12:58:15"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:58:18"
+        },
+        "intakeAirTemperature": {
+            "value": 33,
+            "timestamp": "2024-05-09T12:58:22"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 31.34,
+            "timestamp": "2024-05-09T12:58:25"
+        },
+        "throttlePosition": {
+            "value": 58.8235294117647,
+            "timestamp": "2024-05-09T12:58:29"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 52.94117647058823,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 526.84,
-        "engineSpeed": 2342,
-        "vehicleSpeed": 97,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 34,
-        "mafSensorAirFlowRate": 13.1,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:58:32"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:58:36"
+        },
+        "engineLoad": {
+            "value": 52.94117647058823,
+            "timestamp": "2024-05-09T12:58:39"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T12:58:43"
+        },
+        "intakeManifoldPressure": {
+            "value": 526.84,
+            "timestamp": "2024-05-09T12:58:46"
+        },
+        "engineSpeed": {
+            "value": 2342,
+            "timestamp": "2024-05-09T12:58:50"
+        },
+        "vehicleSpeed": {
+            "value": 97,
+            "timestamp": "2024-05-09T12:58:53"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:58:57"
+        },
+        "intakeAirTemperature": {
+            "value": 34,
+            "timestamp": "2024-05-09T12:59:00"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 13.1,
+            "timestamp": "2024-05-09T12:59:04"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T12:59:07"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 90.98039215686275,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 483.15,
-        "engineSpeed": 2332,
-        "vehicleSpeed": 93,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 36,
-        "mafSensorAirFlowRate": 35.4,
-        "throttlePosition": 27.84313725490196
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:59:11"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:59:14"
+        },
+        "engineLoad": {
+            "value": 90.98039215686275,
+            "timestamp": "2024-05-09T12:59:18"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T12:59:21"
+        },
+        "intakeManifoldPressure": {
+            "value": 483.15,
+            "timestamp": "2024-05-09T12:59:25"
+        },
+        "engineSpeed": {
+            "value": 2332,
+            "timestamp": "2024-05-09T12:59:28"
+        },
+        "vehicleSpeed": {
+            "value": 93,
+            "timestamp": "2024-05-09T12:59:32"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T12:59:35"
+        },
+        "intakeAirTemperature": {
+            "value": 36,
+            "timestamp": "2024-05-09T12:59:39"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 35.4,
+            "timestamp": "2024-05-09T12:59:42"
+        },
+        "throttlePosition": {
+            "value": 27.84313725490196,
+            "timestamp": "2024-05-09T12:59:46"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 43.529411764705884,
-        "coolantTemperature": 71,
-        "intakeManifoldPressure": 529.41,
-        "engineSpeed": 2139,
-        "vehicleSpeed": 91,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 32,
-        "mafSensorAirFlowRate": 13.12,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:59:49"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T12:59:53"
+        },
+        "engineLoad": {
+            "value": 43.529411764705884,
+            "timestamp": "2024-05-09T12:59:56"
+        },
+        "coolantTemperature": {
+            "value": 71,
+            "timestamp": "2024-05-09T13:00:00"
+        },
+        "intakeManifoldPressure": {
+            "value": 529.41,
+            "timestamp": "2024-05-09T13:00:03"
+        },
+        "engineSpeed": {
+            "value": 2139,
+            "timestamp": "2024-05-09T13:00:07"
+        },
+        "vehicleSpeed": {
+            "value": 91,
+            "timestamp": "2024-05-09T13:00:10"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:00:14"
+        },
+        "intakeAirTemperature": {
+            "value": 32,
+            "timestamp": "2024-05-09T13:00:17"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 13.12,
+            "timestamp": "2024-05-09T13:00:21"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T13:00:24"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 0.7843137254901961,
-        "coolantTemperature": 70,
-        "intakeManifoldPressure": 508.85,
-        "engineSpeed": 1919,
-        "vehicleSpeed": 80,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 33,
-        "mafSensorAirFlowRate": 42.3,
-        "throttlePosition": 76.47058823529412
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:00:28"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:00:31"
+        },
+        "engineLoad": {
+            "value": 0.7843137254901961,
+            "timestamp": "2024-05-09T13:00:35"
+        },
+        "coolantTemperature": {
+            "value": 70,
+            "timestamp": "2024-05-09T13:00:38"
+        },
+        "intakeManifoldPressure": {
+            "value": 508.85,
+            "timestamp": "2024-05-09T13:00:42"
+        },
+        "engineSpeed": {
+            "value": 1919,
+            "timestamp": "2024-05-09T13:00:45"
+        },
+        "vehicleSpeed": {
+            "value": 80,
+            "timestamp": "2024-05-09T13:00:49"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:00:52"
+        },
+        "intakeAirTemperature": {
+            "value": 33,
+            "timestamp": "2024-05-09T13:00:56"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 42.3,
+            "timestamp": "2024-05-09T13:00:59"
+        },
+        "throttlePosition": {
+            "value": 76.47058823529412,
+            "timestamp": "2024-05-09T13:01:03"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 20.784313725490197,
-        "coolantTemperature": 72,
-        "intakeManifoldPressure": 274.98,
-        "engineSpeed": 1095,
-        "vehicleSpeed": 32,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 32,
-        "mafSensorAirFlowRate": 87.7,
-        "throttlePosition": 100.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:01:06"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:01:10"
+        },
+        "engineLoad": {
+            "value": 20.784313725490197,
+            "timestamp": "2024-05-09T13:01:13"
+        },
+        "coolantTemperature": {
+            "value": 72,
+            "timestamp": "2024-05-09T13:01:17"
+        },
+        "intakeManifoldPressure": {
+            "value": 274.98,
+            "timestamp": "2024-05-09T13:01:21"
+        },
+        "engineSpeed": {
+            "value": 1095,
+            "timestamp": "2024-05-09T13:01:24"
+        },
+        "vehicleSpeed": {
+            "value": 32,
+            "timestamp": "2024-05-09T13:01:28"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:01:31"
+        },
+        "intakeAirTemperature": {
+            "value": 32,
+            "timestamp": "2024-05-09T13:01:35"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 87.7,
+            "timestamp": "2024-05-09T13:01:38"
+        },
+        "throttlePosition": {
+            "value": 100.0,
+            "timestamp": "2024-05-09T13:01:42"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 0.7843137254901961,
-        "coolantTemperature": 73,
-        "intakeManifoldPressure": 277.55,
-        "engineSpeed": 853,
-        "vehicleSpeed": 78,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 34,
-        "mafSensorAirFlowRate": 13.18,
-        "throttlePosition": 39.6078431372549
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:01:45"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:01:49"
+        },
+        "engineLoad": {
+            "value": 0.7843137254901961,
+            "timestamp": "2024-05-09T13:01:52"
+        },
+        "coolantTemperature": {
+            "value": 73,
+            "timestamp": "2024-05-09T13:01:56"
+        },
+        "intakeManifoldPressure": {
+            "value": 277.55,
+            "timestamp": "2024-05-09T13:01:59"
+        },
+        "engineSpeed": {
+            "value": 853,
+            "timestamp": "2024-05-09T13:02:03"
+        },
+        "vehicleSpeed": {
+            "value": 78,
+            "timestamp": "2024-05-09T13:02:06"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:02:10"
+        },
+        "intakeAirTemperature": {
+            "value": 34,
+            "timestamp": "2024-05-09T13:02:13"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 13.18,
+            "timestamp": "2024-05-09T13:02:17"
+        },
+        "throttlePosition": {
+            "value": 39.6078431372549,
+            "timestamp": "2024-05-09T13:02:20"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 100.0,
-        "coolantTemperature": 72,
-        "intakeManifoldPressure": 398.34,
-        "engineSpeed": 2451,
-        "vehicleSpeed": 111,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 35,
-        "mafSensorAirFlowRate": 64.6,
-        "throttlePosition": 76.86274509803921
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:02:24"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:02:27"
+        },
+        "engineLoad": {
+            "value": 100.0,
+            "timestamp": "2024-05-09T13:02:31"
+        },
+        "coolantTemperature": {
+            "value": 72,
+            "timestamp": "2024-05-09T13:02:34"
+        },
+        "intakeManifoldPressure": {
+            "value": 398.34,
+            "timestamp": "2024-05-09T13:02:38"
+        },
+        "engineSpeed": {
+            "value": 2451,
+            "timestamp": "2024-05-09T13:02:41"
+        },
+        "vehicleSpeed": {
+            "value": 111,
+            "timestamp": "2024-05-09T13:02:45"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:02:48"
+        },
+        "intakeAirTemperature": {
+            "value": 35,
+            "timestamp": "2024-05-09T13:02:52"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 64.6,
+            "timestamp": "2024-05-09T13:02:55"
+        },
+        "throttlePosition": {
+            "value": 76.86274509803921,
+            "timestamp": "2024-05-09T13:02:59"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 23.529411764705884,
-        "coolantTemperature": 73,
-        "intakeManifoldPressure": 370.07,
-        "engineSpeed": 2047,
-        "vehicleSpeed": 90,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 32,
-        "mafSensorAirFlowRate": 62.8,
-        "throttlePosition": 26.666666666666668
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:03:02"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:03:06"
+        },
+        "engineLoad": {
+            "value": 23.529411764705884,
+            "timestamp": "2024-05-09T13:03:09"
+        },
+        "coolantTemperature": {
+            "value": 73,
+            "timestamp": "2024-05-09T13:03:13"
+        },
+        "intakeManifoldPressure": {
+            "value": 370.07,
+            "timestamp": "2024-05-09T13:03:16"
+        },
+        "engineSpeed": {
+            "value": 2047,
+            "timestamp": "2024-05-09T13:03:20"
+        },
+        "vehicleSpeed": {
+            "value": 90,
+            "timestamp": "2024-05-09T13:03:23"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:03:27"
+        },
+        "intakeAirTemperature": {
+            "value": 32,
+            "timestamp": "2024-05-09T13:03:30"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 62.8,
+            "timestamp": "2024-05-09T13:03:34"
+        },
+        "throttlePosition": {
+            "value": 26.666666666666668,
+            "timestamp": "2024-05-09T13:03:37"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 0.7843137254901961,
-        "coolantTemperature": 73,
-        "intakeManifoldPressure": 274.98,
-        "engineSpeed": 1660,
-        "vehicleSpeed": 56,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 30,
-        "mafSensorAirFlowRate": 13.04,
-        "throttlePosition": 25.88235294117647
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:03:41"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:03:44"
+        },
+        "engineLoad": {
+            "value": 0.7843137254901961,
+            "timestamp": "2024-05-09T13:03:48"
+        },
+        "coolantTemperature": {
+            "value": 73,
+            "timestamp": "2024-05-09T13:03:51"
+        },
+        "intakeManifoldPressure": {
+            "value": 274.98,
+            "timestamp": "2024-05-09T13:03:55"
+        },
+        "engineSpeed": {
+            "value": 1660,
+            "timestamp": "2024-05-09T13:03:58"
+        },
+        "vehicleSpeed": {
+            "value": 56,
+            "timestamp": "2024-05-09T13:04:02"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:04:05"
+        },
+        "intakeAirTemperature": {
+            "value": 30,
+            "timestamp": "2024-05-09T13:04:09"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 13.04,
+            "timestamp": "2024-05-09T13:04:12"
+        },
+        "throttlePosition": {
+            "value": 25.88235294117647,
+            "timestamp": "2024-05-09T13:04:16"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 21.568627450980394,
-        "coolantTemperature": 71,
-        "intakeManifoldPressure": 290.4,
-        "engineSpeed": 1882,
-        "vehicleSpeed": 51,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 31,
-        "mafSensorAirFlowRate": 33.76,
-        "throttlePosition": 72.15686274509804
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:04:19"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:04:23"
+        },
+        "engineLoad": {
+            "value": 21.568627450980394,
+            "timestamp": "2024-05-09T13:04:26"
+        },
+        "coolantTemperature": {
+            "value": 71,
+            "timestamp": "2024-05-09T13:04:30"
+        },
+        "intakeManifoldPressure": {
+            "value": 290.4,
+            "timestamp": "2024-05-09T13:04:33"
+        },
+        "engineSpeed": {
+            "value": 1882,
+            "timestamp": "2024-05-09T13:04:37"
+        },
+        "vehicleSpeed": {
+            "value": 51,
+            "timestamp": "2024-05-09T13:04:40"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:04:44"
+        },
+        "intakeAirTemperature": {
+            "value": 31,
+            "timestamp": "2024-05-09T13:04:47"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 33.76,
+            "timestamp": "2024-05-09T13:04:51"
+        },
+        "throttlePosition": {
+            "value": 72.15686274509804,
+            "timestamp": "2024-05-09T13:04:54"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 48.23529411764706,
-        "coolantTemperature": 71,
-        "intakeManifoldPressure": 292.97,
-        "engineSpeed": 2054,
-        "vehicleSpeed": 74,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 31,
-        "mafSensorAirFlowRate": 40.4,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:04:58"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:05:01"
+        },
+        "engineLoad": {
+            "value": 48.23529411764706,
+            "timestamp": "2024-05-09T13:05:05"
+        },
+        "coolantTemperature": {
+            "value": 71,
+            "timestamp": "2024-05-09T13:05:08"
+        },
+        "intakeManifoldPressure": {
+            "value": 292.97,
+            "timestamp": "2024-05-09T13:05:12"
+        },
+        "engineSpeed": {
+            "value": 2054,
+            "timestamp": "2024-05-09T13:05:15"
+        },
+        "vehicleSpeed": {
+            "value": 74,
+            "timestamp": "2024-05-09T13:05:19"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:05:22"
+        },
+        "intakeAirTemperature": {
+            "value": 31,
+            "timestamp": "2024-05-09T13:05:26"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 40.4,
+            "timestamp": "2024-05-09T13:05:29"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T13:05:33"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 37.254901960784316,
-        "coolantTemperature": 70,
-        "intakeManifoldPressure": 323.81,
-        "engineSpeed": 845,
-        "vehicleSpeed": 52,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 29,
-        "mafSensorAirFlowRate": 12.82,
-        "throttlePosition": 27.84313725490196
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:05:36"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:05:40"
+        },
+        "engineLoad": {
+            "value": 37.254901960784316,
+            "timestamp": "2024-05-09T13:05:43"
+        },
+        "coolantTemperature": {
+            "value": 70,
+            "timestamp": "2024-05-09T13:05:47"
+        },
+        "intakeManifoldPressure": {
+            "value": 323.81,
+            "timestamp": "2024-05-09T13:05:50"
+        },
+        "engineSpeed": {
+            "value": 845,
+            "timestamp": "2024-05-09T13:05:54"
+        },
+        "vehicleSpeed": {
+            "value": 52,
+            "timestamp": "2024-05-09T13:05:57"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:06:01"
+        },
+        "intakeAirTemperature": {
+            "value": 29,
+            "timestamp": "2024-05-09T13:06:04"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 12.82,
+            "timestamp": "2024-05-09T13:06:08"
+        },
+        "throttlePosition": {
+            "value": 27.84313725490196,
+            "timestamp": "2024-05-09T13:06:11"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 18.823529411764707,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 298.11,
-        "engineSpeed": 1496,
-        "vehicleSpeed": 24,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 29,
-        "mafSensorAirFlowRate": 56.02,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:06:15"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:06:18"
+        },
+        "engineLoad": {
+            "value": 18.823529411764707,
+            "timestamp": "2024-05-09T13:06:22"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T13:06:25"
+        },
+        "intakeManifoldPressure": {
+            "value": 298.11,
+            "timestamp": "2024-05-09T13:06:29"
+        },
+        "engineSpeed": {
+            "value": 1496,
+            "timestamp": "2024-05-09T13:06:32"
+        },
+        "vehicleSpeed": {
+            "value": 24,
+            "timestamp": "2024-05-09T13:06:36"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:06:39"
+        },
+        "intakeAirTemperature": {
+            "value": 29,
+            "timestamp": "2024-05-09T13:06:43"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 56.02,
+            "timestamp": "2024-05-09T13:06:46"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T13:06:50"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 72.54901960784314,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 272.41,
-        "engineSpeed": 1485,
-        "vehicleSpeed": 35,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 30,
-        "mafSensorAirFlowRate": 56.76,
-        "throttlePosition": 56.470588235294116
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:06:53"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:06:57"
+        },
+        "engineLoad": {
+            "value": 72.54901960784314,
+            "timestamp": "2024-05-09T13:07:00"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T13:07:04"
+        },
+        "intakeManifoldPressure": {
+            "value": 272.41,
+            "timestamp": "2024-05-09T13:07:08"
+        },
+        "engineSpeed": {
+            "value": 1485,
+            "timestamp": "2024-05-09T13:07:11"
+        },
+        "vehicleSpeed": {
+            "value": 35,
+            "timestamp": "2024-05-09T13:07:15"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:07:18"
+        },
+        "intakeAirTemperature": {
+            "value": 30,
+            "timestamp": "2024-05-09T13:07:22"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 56.76,
+            "timestamp": "2024-05-09T13:07:25"
+        },
+        "throttlePosition": {
+            "value": 56.470588235294116,
+            "timestamp": "2024-05-09T13:07:29"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 91.37254901960785,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 470.3,
-        "engineSpeed": 2355,
-        "vehicleSpeed": 82,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 34,
-        "mafSensorAirFlowRate": 39.94,
-        "throttlePosition": 27.84313725490196
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:07:32"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:07:36"
+        },
+        "engineLoad": {
+            "value": 91.37254901960785,
+            "timestamp": "2024-05-09T13:07:39"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T13:07:43"
+        },
+        "intakeManifoldPressure": {
+            "value": 470.3,
+            "timestamp": "2024-05-09T13:07:46"
+        },
+        "engineSpeed": {
+            "value": 2355,
+            "timestamp": "2024-05-09T13:07:50"
+        },
+        "vehicleSpeed": {
+            "value": 82,
+            "timestamp": "2024-05-09T13:07:53"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:07:57"
+        },
+        "intakeAirTemperature": {
+            "value": 34,
+            "timestamp": "2024-05-09T13:08:00"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 39.94,
+            "timestamp": "2024-05-09T13:08:04"
+        },
+        "throttlePosition": {
+            "value": 27.84313725490196,
+            "timestamp": "2024-05-09T13:08:07"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 33.333333333333336,
-        "coolantTemperature": 71,
-        "intakeManifoldPressure": 310.96,
-        "engineSpeed": 2045,
-        "vehicleSpeed": 72,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 31,
-        "mafSensorAirFlowRate": 39.08,
-        "throttlePosition": 28.235294117647058
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:08:11"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:08:14"
+        },
+        "engineLoad": {
+            "value": 33.333333333333336,
+            "timestamp": "2024-05-09T13:08:18"
+        },
+        "coolantTemperature": {
+            "value": 71,
+            "timestamp": "2024-05-09T13:08:21"
+        },
+        "intakeManifoldPressure": {
+            "value": 310.96,
+            "timestamp": "2024-05-09T13:08:25"
+        },
+        "engineSpeed": {
+            "value": 2045,
+            "timestamp": "2024-05-09T13:08:28"
+        },
+        "vehicleSpeed": {
+            "value": 72,
+            "timestamp": "2024-05-09T13:08:32"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:08:35"
+        },
+        "intakeAirTemperature": {
+            "value": 31,
+            "timestamp": "2024-05-09T13:08:39"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 39.08,
+            "timestamp": "2024-05-09T13:08:42"
+        },
+        "throttlePosition": {
+            "value": 28.235294117647058,
+            "timestamp": "2024-05-09T13:08:46"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 25.88235294117647,
-        "coolantTemperature": 70,
-        "intakeManifoldPressure": 303.25,
-        "engineSpeed": 2020,
-        "vehicleSpeed": 79,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 30,
-        "mafSensorAirFlowRate": 39.66,
-        "throttlePosition": 29.019607843137255
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:08:49"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:08:53"
+        },
+        "engineLoad": {
+            "value": 25.88235294117647,
+            "timestamp": "2024-05-09T13:08:56"
+        },
+        "coolantTemperature": {
+            "value": 70,
+            "timestamp": "2024-05-09T13:09:00"
+        },
+        "intakeManifoldPressure": {
+            "value": 303.25,
+            "timestamp": "2024-05-09T13:09:03"
+        },
+        "engineSpeed": {
+            "value": 2020,
+            "timestamp": "2024-05-09T13:09:07"
+        },
+        "vehicleSpeed": {
+            "value": 79,
+            "timestamp": "2024-05-09T13:09:10"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:09:14"
+        },
+        "intakeAirTemperature": {
+            "value": 30,
+            "timestamp": "2024-05-09T13:09:17"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 39.66,
+            "timestamp": "2024-05-09T13:09:21"
+        },
+        "throttlePosition": {
+            "value": 29.019607843137255,
+            "timestamp": "2024-05-09T13:09:24"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 32.549019607843135,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 277.55,
-        "engineSpeed": 1960,
-        "vehicleSpeed": 71,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 29,
-        "mafSensorAirFlowRate": 41.28,
-        "throttlePosition": 25.49019607843137
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:09:28"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:09:31"
+        },
+        "engineLoad": {
+            "value": 32.549019607843135,
+            "timestamp": "2024-05-09T13:09:35"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T13:09:38"
+        },
+        "intakeManifoldPressure": {
+            "value": 277.55,
+            "timestamp": "2024-05-09T13:09:42"
+        },
+        "engineSpeed": {
+            "value": 1960,
+            "timestamp": "2024-05-09T13:09:45"
+        },
+        "vehicleSpeed": {
+            "value": 71,
+            "timestamp": "2024-05-09T13:09:49"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:09:52"
+        },
+        "intakeAirTemperature": {
+            "value": 29,
+            "timestamp": "2024-05-09T13:09:56"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 41.28,
+            "timestamp": "2024-05-09T13:09:59"
+        },
+        "throttlePosition": {
+            "value": 25.49019607843137,
+            "timestamp": "2024-05-09T13:10:03"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 41.96078431372549,
-        "coolantTemperature": 68,
-        "intakeManifoldPressure": 313.53,
-        "engineSpeed": 2237,
-        "vehicleSpeed": 75,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 30,
-        "mafSensorAirFlowRate": 73.3,
-        "throttlePosition": 36.86274509803921
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:10:06"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:10:10"
+        },
+        "engineLoad": {
+            "value": 41.96078431372549,
+            "timestamp": "2024-05-09T13:10:13"
+        },
+        "coolantTemperature": {
+            "value": 68,
+            "timestamp": "2024-05-09T13:10:17"
+        },
+        "intakeManifoldPressure": {
+            "value": 313.53,
+            "timestamp": "2024-05-09T13:10:20"
+        },
+        "engineSpeed": {
+            "value": 2237,
+            "timestamp": "2024-05-09T13:10:24"
+        },
+        "vehicleSpeed": {
+            "value": 75,
+            "timestamp": "2024-05-09T13:10:27"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:10:31"
+        },
+        "intakeAirTemperature": {
+            "value": 30,
+            "timestamp": "2024-05-09T13:10:34"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 73.3,
+            "timestamp": "2024-05-09T13:10:38"
+        },
+        "throttlePosition": {
+            "value": 36.86274509803921,
+            "timestamp": "2024-05-09T13:10:41"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 49.80392156862745,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 303.25,
-        "engineSpeed": 2132,
-        "vehicleSpeed": 93,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 30,
-        "mafSensorAirFlowRate": 34.1,
-        "throttlePosition": 13.333333333333334
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:10:45"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:10:48"
+        },
+        "engineLoad": {
+            "value": 49.80392156862745,
+            "timestamp": "2024-05-09T13:10:52"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T13:10:55"
+        },
+        "intakeManifoldPressure": {
+            "value": 303.25,
+            "timestamp": "2024-05-09T13:10:59"
+        },
+        "engineSpeed": {
+            "value": 2132,
+            "timestamp": "2024-05-09T13:11:02"
+        },
+        "vehicleSpeed": {
+            "value": 93,
+            "timestamp": "2024-05-09T13:11:06"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:11:09"
+        },
+        "intakeAirTemperature": {
+            "value": 30,
+            "timestamp": "2024-05-09T13:11:13"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 34.1,
+            "timestamp": "2024-05-09T13:11:16"
+        },
+        "throttlePosition": {
+            "value": 13.333333333333334,
+            "timestamp": "2024-05-09T13:11:20"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 91.37254901960785,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 519.13,
-        "engineSpeed": 1995,
-        "vehicleSpeed": 90,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 30,
-        "mafSensorAirFlowRate": 40.06,
-        "throttlePosition": 40.3921568627451
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:11:23"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:11:27"
+        },
+        "engineLoad": {
+            "value": 91.37254901960785,
+            "timestamp": "2024-05-09T13:11:30"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T13:11:34"
+        },
+        "intakeManifoldPressure": {
+            "value": 519.13,
+            "timestamp": "2024-05-09T13:11:37"
+        },
+        "engineSpeed": {
+            "value": 1995,
+            "timestamp": "2024-05-09T13:11:41"
+        },
+        "vehicleSpeed": {
+            "value": 90,
+            "timestamp": "2024-05-09T13:11:44"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:11:48"
+        },
+        "intakeAirTemperature": {
+            "value": 30,
+            "timestamp": "2024-05-09T13:11:51"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 40.06,
+            "timestamp": "2024-05-09T13:11:55"
+        },
+        "throttlePosition": {
+            "value": 40.3921568627451,
+            "timestamp": "2024-05-09T13:11:58"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 43.13725490196079,
-        "coolantTemperature": 70,
-        "intakeManifoldPressure": 285.26,
-        "engineSpeed": 1812,
-        "vehicleSpeed": 80,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 29,
-        "mafSensorAirFlowRate": 51.46,
-        "throttlePosition": 21.96078431372549
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:12:02"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:12:05"
+        },
+        "engineLoad": {
+            "value": 43.13725490196079,
+            "timestamp": "2024-05-09T13:12:09"
+        },
+        "coolantTemperature": {
+            "value": 70,
+            "timestamp": "2024-05-09T13:12:12"
+        },
+        "intakeManifoldPressure": {
+            "value": 285.26,
+            "timestamp": "2024-05-09T13:12:16"
+        },
+        "engineSpeed": {
+            "value": 1812,
+            "timestamp": "2024-05-09T13:12:19"
+        },
+        "vehicleSpeed": {
+            "value": 80,
+            "timestamp": "2024-05-09T13:12:23"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:12:26"
+        },
+        "intakeAirTemperature": {
+            "value": 29,
+            "timestamp": "2024-05-09T13:12:30"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 51.46,
+            "timestamp": "2024-05-09T13:12:33"
+        },
+        "throttlePosition": {
+            "value": 21.96078431372549,
+            "timestamp": "2024-05-09T13:12:37"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 58.8235294117647,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 524.27,
-        "engineSpeed": 2094,
-        "vehicleSpeed": 91,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 30,
-        "mafSensorAirFlowRate": 41.68,
-        "throttlePosition": 23.529411764705884
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:12:40"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:12:44"
+        },
+        "engineLoad": {
+            "value": 58.8235294117647,
+            "timestamp": "2024-05-09T13:12:47"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T13:12:51"
+        },
+        "intakeManifoldPressure": {
+            "value": 524.27,
+            "timestamp": "2024-05-09T13:12:55"
+        },
+        "engineSpeed": {
+            "value": 2094,
+            "timestamp": "2024-05-09T13:12:58"
+        },
+        "vehicleSpeed": {
+            "value": 91,
+            "timestamp": "2024-05-09T13:13:02"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:13:05"
+        },
+        "intakeAirTemperature": {
+            "value": 30,
+            "timestamp": "2024-05-09T13:13:09"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 41.68,
+            "timestamp": "2024-05-09T13:13:12"
+        },
+        "throttlePosition": {
+            "value": 23.529411764705884,
+            "timestamp": "2024-05-09T13:13:16"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 0.7843137254901961,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 280.12,
-        "engineSpeed": 1644,
-        "vehicleSpeed": 73,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 28,
-        "mafSensorAirFlowRate": 21.38,
-        "throttlePosition": 39.21568627450981
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:13:19"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:13:23"
+        },
+        "engineLoad": {
+            "value": 0.7843137254901961,
+            "timestamp": "2024-05-09T13:13:26"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T13:13:30"
+        },
+        "intakeManifoldPressure": {
+            "value": 280.12,
+            "timestamp": "2024-05-09T13:13:33"
+        },
+        "engineSpeed": {
+            "value": 1644,
+            "timestamp": "2024-05-09T13:13:37"
+        },
+        "vehicleSpeed": {
+            "value": 73,
+            "timestamp": "2024-05-09T13:13:40"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:13:44"
+        },
+        "intakeAirTemperature": {
+            "value": 28,
+            "timestamp": "2024-05-09T13:13:47"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 21.38,
+            "timestamp": "2024-05-09T13:13:51"
+        },
+        "throttlePosition": {
+            "value": 39.21568627450981,
+            "timestamp": "2024-05-09T13:13:54"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 43.92156862745098,
-        "coolantTemperature": 68,
-        "intakeManifoldPressure": 462.59,
-        "engineSpeed": 2181,
-        "vehicleSpeed": 79,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 31,
-        "mafSensorAirFlowRate": 40.9,
-        "throttlePosition": 44.31372549019608
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:13:58"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:14:01"
+        },
+        "engineLoad": {
+            "value": 43.92156862745098,
+            "timestamp": "2024-05-09T13:14:05"
+        },
+        "coolantTemperature": {
+            "value": 68,
+            "timestamp": "2024-05-09T13:14:08"
+        },
+        "intakeManifoldPressure": {
+            "value": 462.59,
+            "timestamp": "2024-05-09T13:14:12"
+        },
+        "engineSpeed": {
+            "value": 2181,
+            "timestamp": "2024-05-09T13:14:15"
+        },
+        "vehicleSpeed": {
+            "value": 79,
+            "timestamp": "2024-05-09T13:14:19"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:14:22"
+        },
+        "intakeAirTemperature": {
+            "value": 31,
+            "timestamp": "2024-05-09T13:14:26"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 40.9,
+            "timestamp": "2024-05-09T13:14:29"
+        },
+        "throttlePosition": {
+            "value": 44.31372549019608,
+            "timestamp": "2024-05-09T13:14:33"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 19.607843137254903,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 313.53,
-        "engineSpeed": 2203,
-        "vehicleSpeed": 80,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 29,
-        "mafSensorAirFlowRate": 41.3,
-        "throttlePosition": 32.94117647058823
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:14:36"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:14:40"
+        },
+        "engineLoad": {
+            "value": 19.607843137254903,
+            "timestamp": "2024-05-09T13:14:43"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T13:14:47"
+        },
+        "intakeManifoldPressure": {
+            "value": 313.53,
+            "timestamp": "2024-05-09T13:14:50"
+        },
+        "engineSpeed": {
+            "value": 2203,
+            "timestamp": "2024-05-09T13:14:54"
+        },
+        "vehicleSpeed": {
+            "value": 80,
+            "timestamp": "2024-05-09T13:14:57"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:15:01"
+        },
+        "intakeAirTemperature": {
+            "value": 29,
+            "timestamp": "2024-05-09T13:15:04"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 41.3,
+            "timestamp": "2024-05-09T13:15:08"
+        },
+        "throttlePosition": {
+            "value": 32.94117647058823,
+            "timestamp": "2024-05-09T13:15:11"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 36.07843137254902,
-        "coolantTemperature": 68,
-        "intakeManifoldPressure": 305.82,
-        "engineSpeed": 2346,
-        "vehicleSpeed": 83,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 29,
-        "mafSensorAirFlowRate": 39.1,
-        "throttlePosition": 25.49019607843137
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:15:15"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:15:18"
+        },
+        "engineLoad": {
+            "value": 36.07843137254902,
+            "timestamp": "2024-05-09T13:15:22"
+        },
+        "coolantTemperature": {
+            "value": 68,
+            "timestamp": "2024-05-09T13:15:25"
+        },
+        "intakeManifoldPressure": {
+            "value": 305.82,
+            "timestamp": "2024-05-09T13:15:29"
+        },
+        "engineSpeed": {
+            "value": 2346,
+            "timestamp": "2024-05-09T13:15:32"
+        },
+        "vehicleSpeed": {
+            "value": 83,
+            "timestamp": "2024-05-09T13:15:36"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:15:39"
+        },
+        "intakeAirTemperature": {
+            "value": 29,
+            "timestamp": "2024-05-09T13:15:43"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 39.1,
+            "timestamp": "2024-05-09T13:15:46"
+        },
+        "throttlePosition": {
+            "value": 25.49019607843137,
+            "timestamp": "2024-05-09T13:15:50"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 26.274509803921568,
-        "coolantTemperature": 68,
-        "intakeManifoldPressure": 303.25,
-        "engineSpeed": 2278,
-        "vehicleSpeed": 77,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 28,
-        "mafSensorAirFlowRate": 33.3,
-        "throttlePosition": 17.647058823529413
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:15:53"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:15:57"
+        },
+        "engineLoad": {
+            "value": 26.274509803921568,
+            "timestamp": "2024-05-09T13:16:00"
+        },
+        "coolantTemperature": {
+            "value": 68,
+            "timestamp": "2024-05-09T13:16:04"
+        },
+        "intakeManifoldPressure": {
+            "value": 303.25,
+            "timestamp": "2024-05-09T13:16:07"
+        },
+        "engineSpeed": {
+            "value": 2278,
+            "timestamp": "2024-05-09T13:16:11"
+        },
+        "vehicleSpeed": {
+            "value": 77,
+            "timestamp": "2024-05-09T13:16:14"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:16:18"
+        },
+        "intakeAirTemperature": {
+            "value": 28,
+            "timestamp": "2024-05-09T13:16:21"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 33.3,
+            "timestamp": "2024-05-09T13:16:25"
+        },
+        "throttlePosition": {
+            "value": 17.647058823529413,
+            "timestamp": "2024-05-09T13:16:28"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 18.823529411764707,
-        "coolantTemperature": 67,
-        "intakeManifoldPressure": 292.97,
-        "engineSpeed": 1770,
-        "vehicleSpeed": 61,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 27,
-        "mafSensorAirFlowRate": 32.54,
-        "throttlePosition": 10.588235294117647
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:16:32"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:16:35"
+        },
+        "engineLoad": {
+            "value": 18.823529411764707,
+            "timestamp": "2024-05-09T13:16:39"
+        },
+        "coolantTemperature": {
+            "value": 67,
+            "timestamp": "2024-05-09T13:16:42"
+        },
+        "intakeManifoldPressure": {
+            "value": 292.97,
+            "timestamp": "2024-05-09T13:16:46"
+        },
+        "engineSpeed": {
+            "value": 1770,
+            "timestamp": "2024-05-09T13:16:49"
+        },
+        "vehicleSpeed": {
+            "value": 61,
+            "timestamp": "2024-05-09T13:16:53"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:16:56"
+        },
+        "intakeAirTemperature": {
+            "value": 27,
+            "timestamp": "2024-05-09T13:17:00"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 32.54,
+            "timestamp": "2024-05-09T13:17:03"
+        },
+        "throttlePosition": {
+            "value": 10.588235294117647,
+            "timestamp": "2024-05-09T13:17:07"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 18.823529411764707,
-        "coolantTemperature": 66,
-        "intakeManifoldPressure": 272.41,
-        "engineSpeed": 857,
-        "vehicleSpeed": 0,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 27,
-        "mafSensorAirFlowRate": 13.54,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:17:10"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:17:14"
+        },
+        "engineLoad": {
+            "value": 18.823529411764707,
+            "timestamp": "2024-05-09T13:17:17"
+        },
+        "coolantTemperature": {
+            "value": 66,
+            "timestamp": "2024-05-09T13:17:21"
+        },
+        "intakeManifoldPressure": {
+            "value": 272.41,
+            "timestamp": "2024-05-09T13:17:24"
+        },
+        "engineSpeed": {
+            "value": 857,
+            "timestamp": "2024-05-09T13:17:28"
+        },
+        "vehicleSpeed": {
+            "value": 0,
+            "timestamp": "2024-05-09T13:17:31"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:17:35"
+        },
+        "intakeAirTemperature": {
+            "value": 27,
+            "timestamp": "2024-05-09T13:17:38"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 13.54,
+            "timestamp": "2024-05-09T13:17:42"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T13:17:45"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 18.03921568627451,
-        "coolantTemperature": 66,
-        "intakeManifoldPressure": 457.45,
-        "engineSpeed": 1896,
-        "vehicleSpeed": 42,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 30,
-        "mafSensorAirFlowRate": 12.54,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:17:49"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:17:52"
+        },
+        "engineLoad": {
+            "value": 18.03921568627451,
+            "timestamp": "2024-05-09T13:17:56"
+        },
+        "coolantTemperature": {
+            "value": 66,
+            "timestamp": "2024-05-09T13:17:59"
+        },
+        "intakeManifoldPressure": {
+            "value": 457.45,
+            "timestamp": "2024-05-09T13:18:03"
+        },
+        "engineSpeed": {
+            "value": 1896,
+            "timestamp": "2024-05-09T13:18:06"
+        },
+        "vehicleSpeed": {
+            "value": 42,
+            "timestamp": "2024-05-09T13:18:10"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:18:13"
+        },
+        "intakeAirTemperature": {
+            "value": 30,
+            "timestamp": "2024-05-09T13:18:17"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 12.54,
+            "timestamp": "2024-05-09T13:18:20"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T13:18:24"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 45.09803921568628,
-        "coolantTemperature": 67,
-        "intakeManifoldPressure": 272.41,
-        "engineSpeed": 860,
-        "vehicleSpeed": 0,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 31,
-        "mafSensorAirFlowRate": 13.4,
-        "throttlePosition": 40.3921568627451
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:18:27"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:18:31"
+        },
+        "engineLoad": {
+            "value": 45.09803921568628,
+            "timestamp": "2024-05-09T13:18:34"
+        },
+        "coolantTemperature": {
+            "value": 67,
+            "timestamp": "2024-05-09T13:18:38"
+        },
+        "intakeManifoldPressure": {
+            "value": 272.41,
+            "timestamp": "2024-05-09T13:18:41"
+        },
+        "engineSpeed": {
+            "value": 860,
+            "timestamp": "2024-05-09T13:18:45"
+        },
+        "vehicleSpeed": {
+            "value": 0,
+            "timestamp": "2024-05-09T13:18:48"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:18:52"
+        },
+        "intakeAirTemperature": {
+            "value": 31,
+            "timestamp": "2024-05-09T13:18:55"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 13.4,
+            "timestamp": "2024-05-09T13:18:59"
+        },
+        "throttlePosition": {
+            "value": 40.3921568627451,
+            "timestamp": "2024-05-09T13:19:03"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 0.7843137254901961,
-        "coolantTemperature": 67,
-        "intakeManifoldPressure": 388.06,
-        "engineSpeed": 1520,
-        "vehicleSpeed": 39,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 33,
-        "mafSensorAirFlowRate": 34.82,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:19:06"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:19:10"
+        },
+        "engineLoad": {
+            "value": 0.7843137254901961,
+            "timestamp": "2024-05-09T13:19:13"
+        },
+        "coolantTemperature": {
+            "value": 67,
+            "timestamp": "2024-05-09T13:19:17"
+        },
+        "intakeManifoldPressure": {
+            "value": 388.06,
+            "timestamp": "2024-05-09T13:19:20"
+        },
+        "engineSpeed": {
+            "value": 1520,
+            "timestamp": "2024-05-09T13:19:24"
+        },
+        "vehicleSpeed": {
+            "value": 39,
+            "timestamp": "2024-05-09T13:19:27"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:19:31"
+        },
+        "intakeAirTemperature": {
+            "value": 33,
+            "timestamp": "2024-05-09T13:19:34"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 34.82,
+            "timestamp": "2024-05-09T13:19:38"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T13:19:41"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 35.294117647058826,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 295.54,
-        "engineSpeed": 1935,
-        "vehicleSpeed": 47,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 33,
-        "mafSensorAirFlowRate": 13.1,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:19:45"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:19:48"
+        },
+        "engineLoad": {
+            "value": 35.294117647058826,
+            "timestamp": "2024-05-09T13:19:52"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T13:19:55"
+        },
+        "intakeManifoldPressure": {
+            "value": 295.54,
+            "timestamp": "2024-05-09T13:19:59"
+        },
+        "engineSpeed": {
+            "value": 1935,
+            "timestamp": "2024-05-09T13:20:02"
+        },
+        "vehicleSpeed": {
+            "value": 47,
+            "timestamp": "2024-05-09T13:20:06"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:20:09"
+        },
+        "intakeAirTemperature": {
+            "value": 33,
+            "timestamp": "2024-05-09T13:20:13"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 13.1,
+            "timestamp": "2024-05-09T13:20:16"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T13:20:20"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 28.627450980392158,
-        "coolantTemperature": 68,
-        "intakeManifoldPressure": 295.54,
-        "engineSpeed": 1910,
-        "vehicleSpeed": 29,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 31,
-        "mafSensorAirFlowRate": 66.76,
-        "throttlePosition": 60.78431372549019
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:20:23"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:20:27"
+        },
+        "engineLoad": {
+            "value": 28.627450980392158,
+            "timestamp": "2024-05-09T13:20:30"
+        },
+        "coolantTemperature": {
+            "value": 68,
+            "timestamp": "2024-05-09T13:20:34"
+        },
+        "intakeManifoldPressure": {
+            "value": 295.54,
+            "timestamp": "2024-05-09T13:20:37"
+        },
+        "engineSpeed": {
+            "value": 1910,
+            "timestamp": "2024-05-09T13:20:41"
+        },
+        "vehicleSpeed": {
+            "value": 29,
+            "timestamp": "2024-05-09T13:20:44"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:20:48"
+        },
+        "intakeAirTemperature": {
+            "value": 31,
+            "timestamp": "2024-05-09T13:20:51"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 66.76,
+            "timestamp": "2024-05-09T13:20:55"
+        },
+        "throttlePosition": {
+            "value": 60.78431372549019,
+            "timestamp": "2024-05-09T13:20:58"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 17.647058823529413,
-        "coolantTemperature": 68,
-        "intakeManifoldPressure": 272.41,
-        "engineSpeed": 858,
-        "vehicleSpeed": 16,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 32,
-        "mafSensorAirFlowRate": 13.12,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:21:02"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:21:05"
+        },
+        "engineLoad": {
+            "value": 17.647058823529413,
+            "timestamp": "2024-05-09T13:21:09"
+        },
+        "coolantTemperature": {
+            "value": 68,
+            "timestamp": "2024-05-09T13:21:12"
+        },
+        "intakeManifoldPressure": {
+            "value": 272.41,
+            "timestamp": "2024-05-09T13:21:16"
+        },
+        "engineSpeed": {
+            "value": 858,
+            "timestamp": "2024-05-09T13:21:19"
+        },
+        "vehicleSpeed": {
+            "value": 16,
+            "timestamp": "2024-05-09T13:21:23"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:21:26"
+        },
+        "intakeAirTemperature": {
+            "value": 32,
+            "timestamp": "2024-05-09T13:21:30"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 13.12,
+            "timestamp": "2024-05-09T13:21:33"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T13:21:37"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 17.647058823529413,
-        "coolantTemperature": 68,
-        "intakeManifoldPressure": 269.84,
-        "engineSpeed": 859,
-        "vehicleSpeed": 5,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 32,
-        "mafSensorAirFlowRate": 46.24,
-        "throttlePosition": 0.0
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:21:40"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:21:44"
+        },
+        "engineLoad": {
+            "value": 17.647058823529413,
+            "timestamp": "2024-05-09T13:21:47"
+        },
+        "coolantTemperature": {
+            "value": 68,
+            "timestamp": "2024-05-09T13:21:51"
+        },
+        "intakeManifoldPressure": {
+            "value": 269.84,
+            "timestamp": "2024-05-09T13:21:54"
+        },
+        "engineSpeed": {
+            "value": 859,
+            "timestamp": "2024-05-09T13:21:58"
+        },
+        "vehicleSpeed": {
+            "value": 5,
+            "timestamp": "2024-05-09T13:22:01"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:22:05"
+        },
+        "intakeAirTemperature": {
+            "value": 32,
+            "timestamp": "2024-05-09T13:22:08"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 46.24,
+            "timestamp": "2024-05-09T13:22:12"
+        },
+        "throttlePosition": {
+            "value": 0.0,
+            "timestamp": "2024-05-09T13:22:15"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 18.03921568627451,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": 269.84,
-        "engineSpeed": 861,
-        "vehicleSpeed": 18,
-        "timingAdvance": 63.5,
-        "intakeAirTemperature": 33,
-        "mafSensorAirFlowRate": 12.88,
-        "throttlePosition": 45.490196078431374
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:22:19"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:22:22"
+        },
+        "engineLoad": {
+            "value": 18.03921568627451,
+            "timestamp": "2024-05-09T13:22:26"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T13:22:29"
+        },
+        "intakeManifoldPressure": {
+            "value": 269.84,
+            "timestamp": "2024-05-09T13:22:33"
+        },
+        "engineSpeed": {
+            "value": 861,
+            "timestamp": "2024-05-09T13:22:36"
+        },
+        "vehicleSpeed": {
+            "value": 18,
+            "timestamp": "2024-05-09T13:22:40"
+        },
+        "timingAdvance": {
+            "value": 63.5,
+            "timestamp": "2024-05-09T13:22:43"
+        },
+        "intakeAirTemperature": {
+            "value": 33,
+            "timestamp": "2024-05-09T13:22:47"
+        },
+        "mafSensorAirFlowRate": {
+            "value": 12.88,
+            "timestamp": "2024-05-09T13:22:50"
+        },
+        "throttlePosition": {
+            "value": 45.490196078431374,
+            "timestamp": "2024-05-09T13:22:54"
+        }
     },
     {
-        "monitorStatus": null,
-        "fuelSystemStatus": null,
-        "engineLoad": 16.862745098039216,
-        "coolantTemperature": 69,
-        "intakeManifoldPressure": null,
-        "engineSpeed": null,
-        "vehicleSpeed": null,
-        "timingAdvance": null,
-        "intakeAirTemperature": null,
-        "mafSensorAirFlowRate": null,
-        "throttlePosition": null
+        "monitorStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:22:57"
+        },
+        "fuelSystemStatus": {
+            "value": null,
+            "timestamp": "2024-05-09T13:23:01"
+        },
+        "engineLoad": {
+            "value": 16.862745098039216,
+            "timestamp": "2024-05-09T13:23:04"
+        },
+        "coolantTemperature": {
+            "value": 69,
+            "timestamp": "2024-05-09T13:23:08"
+        },
+        "intakeManifoldPressure": {
+            "value": null,
+            "timestamp": null
+        },
+        "engineSpeed": {
+            "value": null,
+            "timestamp": null
+        },
+        "vehicleSpeed": {
+            "value": null,
+            "timestamp": null
+        },
+        "timingAdvance": {
+            "value": null,
+            "timestamp": null
+        },
+        "intakeAirTemperature": {
+            "value": null,
+            "timestamp": null
+        },
+        "mafSensorAirFlowRate": {
+            "value": null,
+            "timestamp": null
+        },
+        "throttlePosition": {
+            "value": null,
+            "timestamp": null
+        }
     }
 ]

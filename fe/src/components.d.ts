@@ -7,15 +7,23 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    Button: typeof import('./components/ui/button/Button.vue')['default']
     Card: typeof import('./components/ui/card/Card.vue')['default']
     CardContent: typeof import('./components/ui/card/CardContent.vue')['default']
     CardDescription: typeof import('./components/ui/card/CardDescription.vue')['default']
     CardFooter: typeof import('./components/ui/card/CardFooter.vue')['default']
     CardHeader: typeof import('./components/ui/card/CardHeader.vue')['default']
     CardTitle: typeof import('./components/ui/card/CardTitle.vue')['default']
+    Ch: typeof import('./components/shared/Ch.vue')['default']
+    ChartCrosshair: typeof import('./components/ui/chart/ChartCrosshair.vue')['default']
+    ChartLegend: typeof import('./components/ui/chart/ChartLegend.vue')['default']
+    ChartSingleTooltip: typeof import('./components/ui/chart/ChartSingleTooltip.vue')['default']
+    ChartTooltip: typeof import('./components/ui/chart/ChartTooltip.vue')['default']
     HomeView: typeof import('./views/HomeView.vue')['default']
+    LineChart: typeof import('./components/ui/chart-line/LineChart.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Speedometer: typeof import('./components/shared/Speedometer.vue')['default']
     StatCard: typeof import('./components/shared/StatCard.vue')['default']
   }
 }

@@ -1,5 +1,17 @@
 ## Pid codes
 
+# firebase api key
+AIzaSyAkizDa-4faZ6_Uw8kRq2mSyLxNwso7JLA
+
+# Boot 
+Idea is to run all scripts on pi boot up via services
+Services and init scripts are located at ./boot
+The services file symlinks need to be moved to /etc/systemd/system/
+```sh
+sudo ln -s /home/pi/my_services/init_service.service /etc/systemd/system/init_service.service
+
+```
+
 ## Executed Commands Log
 | Command Description | Command Sent | Response |
 |---------------------|--------------|----------|

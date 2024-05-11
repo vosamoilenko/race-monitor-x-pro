@@ -12,8 +12,13 @@ const props = withDefaults(defineProps<Props>(), {})
       <CardTitle class="text-sm font-medium"> {{ title }} </CardTitle>
     </CardHeader>
     <CardContent>
-      <span class="text-2xl font-bold">{{ value }}</span
-      ><span v-if="postfix">&nbsp;{{ postfix }}</span>
+      <div>
+        <span class="text-2xl font-bold">{{ value }}</span
+        ><span v-if="postfix">&nbsp;{{ postfix }}</span>
+      </div>
+      <div class="relative flex">
+        <slot></slot>
+      </div>
       <!-- <p class="text-xs text-muted-foreground">{{  }}</p> -->
     </CardContent>
   </Card>
