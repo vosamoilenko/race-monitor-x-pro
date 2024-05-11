@@ -8,7 +8,20 @@ Idea is to run all scripts on pi boot up via services
 Services and init scripts are located at ./boot
 The services file symlinks need to be moved to /etc/systemd/system/
 ```sh
-sudo ln -s /home/pi/my_services/init_service.service /etc/systemd/system/init_service.service
+sudo ln -s /home/pi/Developer/py/boot/init_service.service /etc/systemd/system/init_service.service
+sudo ln -s /home/pi/Developer/py/boot/main.service /etc/systemd/system/main_service.service
+sudo systemctl daemon-reload
+
+sudo systemctl enable init_service.service
+sudo systemctl start init_service.service
+
+sudo systemctl status init_service.service
+
+sudo systemctl enable main_service.service
+sudo systemctl start main_service.service
+
+sudo systemctl status main_service.service
+
 
 ```
 

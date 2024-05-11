@@ -1,0 +1,12 @@
+[Unit]
+Description=Main Python Service
+Requires=init_service.service
+After=init_service.service
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/environment
+ExecStart=/home/pi/Developer/py/obd-rally-golf/index.py
+
+[Install]
+WantedBy=multi-user.target
