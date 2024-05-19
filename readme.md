@@ -1,26 +1,37 @@
 ## Pid codes
 
-# firebase api key
-AIzaSyAkizDa-4faZ6_Uw8kRq2mSyLxNwso7JLA
+# Waveshare SIM7600X 4G HAT
+
+## Installation & Connection
+https://core-electronics.com.au/guides/raspberry-pi/raspberry-pi-4g-gps-hat/
+
+## HTTP 
+https://www.waveshare.com/w/upload/b/b2/A7600_Series_HTTP%28S%29_Application_Note_V1.00.pdf
+
+## Issues
+The device is not visible for pi over usb
+The usb is not needed for device to work.
+But it would be awesome to have it working to use minicom over usb connection
+for debugging purposes.
+
+Another issue that raises from not seeing device over usb
+is that we cannot setup the network interface for pi
+and instead we can send http requests only from AT commands.
 
 # Boot 
 Idea is to run all scripts on pi boot up via services
 Services and init scripts are located at ./boot
 The services file symlinks need to be moved to /etc/systemd/system/
 ```sh
-sudo ln -s /home/pi/Developer/py/boot/init_service.service /etc/systemd/system/init_service.service
-sudo ln -s /home/pi/Developer/py/boot/main.service /etc/systemd/system/main_service.service
+sudo ln -s /home/pi/Developer/py/boot/init_rmpx_service.service /etc/systemd/system/init_rmpx_service.service
+
 sudo systemctl daemon-reload
 
-sudo systemctl enable init_service.service
-sudo systemctl start init_service.service
 
-sudo systemctl status init_service.service
+sudo systemctl enable init_rmpx_service.service
+sudo systemctl start init_rmpx_service.service
 
-sudo systemctl enable main_service.service
-sudo systemctl start main_service.service
-
-sudo systemctl status main_service.service
+sudo systemctl status init_rmpx_service.service
 
 
 ```

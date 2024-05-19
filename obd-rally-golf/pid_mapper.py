@@ -126,10 +126,3 @@ class PIDMapper:
     def mapThrottlePosition(hex_string):
         pass
 
-
-
-# # Example usage:
-# command = PIDCommand.ENGINE_COOLANT_TEMPERATURE
-# hex_value = "410A"
-# result = PIDMapper.map_pid(command, hex_value)
-# print(result)  # Output will depend on the conversion logic for engine coolant temperature
