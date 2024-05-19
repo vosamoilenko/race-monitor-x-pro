@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class PIDMonitorStatus():
     @staticmethod
     def parse(hex_string):

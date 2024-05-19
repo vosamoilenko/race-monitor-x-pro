@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class PIDIntakeAirTemperature():
     @staticmethod
     def parse(hex_string):

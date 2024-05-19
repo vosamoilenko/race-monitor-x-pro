@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    environment:
+      RABBITMQ_DEFAULT_USER: portal
+      RABBITMQ_DEFAULT_PASS: none
+    ports:
+      - "5672:5672" # RabbitMQ
+      - "15672:15672" # Management UI
+    volumes:
+      - ./file_storage/rabbitmq_data:/var/lib/rabbitmq

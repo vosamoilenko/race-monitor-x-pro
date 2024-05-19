@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class PIDTimingAdvance():
     @staticmethod
     def parse(hex_string):

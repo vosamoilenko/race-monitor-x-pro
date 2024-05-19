@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 class PIDThrottlePosition():
     @staticmethod
     def parse(hex_string):

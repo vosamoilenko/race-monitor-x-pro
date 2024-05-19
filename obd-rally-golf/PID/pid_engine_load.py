@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 class PIDEngineLoad():
     @staticmethod
     def parse(hex_string):
