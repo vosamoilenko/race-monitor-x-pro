@@ -36,7 +36,40 @@ sudo systemctl status init_rmpx_service.service
 
 ```
 
-## Executed Commands Log
+# Gcloud cli
+
+```
+sudo apt install snapd
+sudo reboot
+
+sudo snap install core
+sudo snap install google-cloud-cli --classic
+
+```
+
+Activate service account
+```
+gcloud auth activate-service-account --key-file=/home/pi/Developer/py/race-monitor-pro-x-firebase-adminsdk-ttnud-d12cb67075.json
+```
+
+Get access token: 
+```
+gcloud auth print-access-token
+```
+
+Send request:
+```
+ACCESS_TOKEN=
+curl -X POST   -H "Authorization: Bearer $ACCESS_TOKEN"   -H "Content-Type: application/json"   -d '{
+        "fields": {
+          "speed": {"stringValue": "120 km/h"},
+          "latitude": {"stringValue": "51.5074 N"},
+          "longitude": {"stringValue": "0.1278 W"}
+        }
+      }'   "https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+```
+
+# Executed Commands Log
 | Command Description | Command Sent | Response |
 |---------------------|--------------|----------|
 | PIDs supported [$01 - $20] | 0100 | 8 6B 00 41 00 98 3F 80 11 5C INIT...OK |
