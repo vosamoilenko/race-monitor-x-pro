@@ -1,8 +1,13 @@
+# waveshare/WaveshareSerial.py
+# -*- coding:utf-8 -*-
+
+
 import RPi.GPIO as GPIO
+from utils.SerialDevice import SerialDevice
 
 class WaveshareSerial(SerialDevice):
     def __init__(self, serial_port, baud_rate, power_key):
-        super(WaveshareSerialDevice, self).__init__(serial_port, baud_rate)
+        super(SerialDevice, self).__init__(serial_port, baud_rate)
         self.power_key = power_key
 
     def power_on(self):

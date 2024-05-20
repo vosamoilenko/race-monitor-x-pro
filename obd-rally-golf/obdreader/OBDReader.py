@@ -73,9 +73,6 @@ class OBDReader:
         
         return all_supported_pids
 
-
-
-    
 def decode_obd_response(data, base_pid):
     if not data:
         logging.error("Input data is empty.")
