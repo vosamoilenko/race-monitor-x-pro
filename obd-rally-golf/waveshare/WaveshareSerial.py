@@ -1,13 +1,13 @@
 # waveshare/WaveshareSerial.py
 # -*- coding:utf-8 -*-
-
-
 import RPi.GPIO as GPIO
+import logging
+import time
 from utils.SerialDevice import SerialDevice
 
 class WaveshareSerial(SerialDevice):
     def __init__(self, serial_port, baud_rate, power_key):
-        super(SerialDevice, self).__init__(serial_port, baud_rate)
+        super(WaveshareSerial, self).__init__(serial_port, baud_rate)  # Corrected for Python 2.7
         self.power_key = power_key
 
     def power_on(self):
@@ -19,7 +19,7 @@ class WaveshareSerial(SerialDevice):
         time.sleep(2)
         GPIO.output(self.power_key, GPIO.LOW)
         time.sleep(20)
-        self.flushInput()
+        self.ser.flushInput()
         logging.info('Device is ready')
 
     def power_off(self):
@@ -28,6 +28,6 @@ class WaveshareSerial(SerialDevice):
         time.sleep(3)
         GPIO.output(self.power_key, GPIO.LOW)
         time.sleep(18)
-        self.close()
+        self.ser.close()
         GPIO.cleanup()
         logging.info('Device is powered off')

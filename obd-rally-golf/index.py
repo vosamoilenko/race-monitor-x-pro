@@ -8,6 +8,7 @@ import logging
 from pid_mapper import PIDMapper
 from constants import ECU_COMMANDS, ELM_COMMANDS, PIDCommand
 from waveshare.waveshare import Waveshare
+from waveshare.WaveshareSerial import WaveshareSerial
 from obdreader.OBDReader import OBDReader
 import sys
 
@@ -22,12 +23,16 @@ logging.info("Version info.")
 logging.info(sys.version_info)
 
 # Assume OBDReader and decode_obd_response are correctly defined elsewhere
-obd = OBDReader()
-obd.initialize()
+# obd = OBDReader()
+# obd.initialize()
 
 waveshare = Waveshare()
-response = waveshare.send_at("ATZ", 1)
-print(response)
+waveshare.getGPS()
+
+# waveshare = WaveshareSerial('/dev/ttyS0', 115200, 6)
+# response = waveshare.send_at("ATZ", 1)
+# print(response)
+exit(1)
 
 # obd.scanPIDS()
 # data = obd.getAllPIDsData()

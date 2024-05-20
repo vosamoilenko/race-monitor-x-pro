@@ -19,16 +19,16 @@ class OBDReader:
         return self.serial.send_at(command, sleep)
 
     def initialize(self):
-        print(self.send("ATD", 0))
-        print(self.send("ATZ", 0))
-        print(self.send("ATE0", 0))
-        print(self.send("ATL0", 0))
-        print(self.send("ATS0", 0))
-        print(self.send("ATH0", 0))
-        print(self.send("ATSP3", 0))
+        print(self.send("ATD", 1))
+        print(self.send("ATZ", 1))
+        print(self.send("ATE0", 1))
+        print(self.send("ATL0", 1))
+        print(self.send("ATS0", 1))
+        print(self.send("ATH0", 1))
+        print(self.send("ATSP3", 1))
 
         # Sometimes the first request to '0100' returns bus status instead of PIDs, so we do it twice
-        self.send("0100", 3)  # We ignore the first result in case it's just bus status like "BUS INIT...OK"
+        self.send("0100", 5)  # We ignore the first result in case it's just bus status like "BUS INIT...OK"
 
     def scanPIDS(self):
         self.allPIDs = self.query_pids("0100")

@@ -1,17 +1,16 @@
 # utils/SerialDevice.py
 # -*- coding: utf-8 -*-
-
 import logging
 import serial
 import time
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-class SerialDevice:
+class SerialDevice(object):  # Explicit new-style class
     def __init__(self, serial_port, baud_rate):
+        logging.info("Initializing serial connection on {} with baud rate {}".format(serial_port, baud_rate))
         self.serial_port = serial_port
         self.baud_rate = baud_rate
-        logging.info("Initializing serial connection on {} with baud rate {}".format(serial_port, baud_rate))
         self.ser = serial.Serial(self.serial_port, baudrate=self.baud_rate, timeout=1)
         self.ser.flushInput()
         logging.info("Serial input flushed and ready.")
