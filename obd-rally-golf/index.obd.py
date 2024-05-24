@@ -26,4 +26,7 @@ while True:
     data['ts'] = int(time.time())
     
     json_data = json.dumps(data)
+
+    logging.info(json_data)
+    
     rabbitMq.send(json_data)

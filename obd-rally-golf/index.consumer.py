@@ -1,25 +1,21 @@
 import pika
 import json
+import os
 from collections import defaultdict
 import subprocess
 import logging
 import time
+from dotenv import load_dotenv
 from firebase.Firebase import Firebase
+
+logging.basicConfig(filename="/home/pi/Developer/py/obd-rally-golf/logs/consumer.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Set up basic logging
 fb = Firebase()
-logging.basicConfig(filename="logs.txt",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def get_access_token():
-    logging.info("Obtaining access token using gcloud")
-    try:
-        result = subprocess.check_output(['gcloud', 'auth', 'print-access-token'])
-        access_token = result.decode('utf-8').strip()
-        logging.info("Access token obtained")
-        return access_token
-    except subprocess.CalledProcessError as e:
-        logging.error("Failed to obtain access token: %s", e.output)
-        return None
+load_dotenv()
+
+FAKE_FIREBASE = os.environ.get("FAKE_FIREBASE")
 
 # Establish connection
 credentials = pika.PlainCredentials('portal', 'none')
@@ -30,28 +26,17 @@ channel = connection.channel()
 # Data storage for queues
 data_storage = defaultdict(dict)
 
-def adjust_to_firebase_format(data):
-    firebase_data = {}
-    for key, value in data.items():
-        if isinstance(value, float):
-            firebase_data[key] = {'doubleValue': value}
-        elif isinstance(value, int):
-            firebase_data[key] = {'integerValue': value}
-        else:
-            firebase_data[key] = {'stringValue': str(value)}
-    return firebase_data
-
 def process_and_send_to_firebase():
-    # if 'gps' in data_storage:
     if 'gps' in data_storage and 'obd' in data_storage:
         # Combine the data
         combined_data = data_storage['gps'].copy()
         combined_data.update(data_storage['obd'])
         logging.info("Processing and sending data to Firebase: %s", combined_data)
 
-        fb.push('vova',combined_data)
+        if FAKE_FIREBASE != 'true':
+            fb.push('vova',combined_data)
+            logging.info("Data sent to Firebase")
 
-        logging.info("Data sent to Firebase")
         data_storage.clear()
 
 def callback(ch, method, properties, body, queue_name):
