@@ -1,5 +1,28 @@
 ## Pid codes
 
+# Pi
+
+## Setup wifi/hotspot autoconnection
+
+[Source](https://www.tech-sparks.com/raspberry-pi-auto-connect-to-wifi/#:~:text=Edit%20wpa_supplicant.,conf&text=When%20you%20need%20to%20connect,networks%20by%20modifying%20their%20details.)
+
+
+```bash
+#/etc/wpa_supplicant/wpa_supplicant.conf 
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=AT
+
+network=(
+    ssid="Vo1phone"
+    psk="ooopppooo"
+)
+network=(
+    ssid="not-UPC"
+    psk="********"
+)
+```
+
 # Waveshare SIM7600X 4G HAT
 
 ## Installation & Connection
@@ -68,6 +91,12 @@ curl -X POST   -H "Authorization: Bearer $ACCESS_TOKEN"   -H "Content-Type: appl
         }
       }'   "https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
 ```
+
+# OBD
+
+Connection to OBD happens over Serial connection.
+There is only one cable from @niki's collection that works properly with current setup.
+
 
 # Executed Commands Log
 | Command Description | Command Sent | Response |

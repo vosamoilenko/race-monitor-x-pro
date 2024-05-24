@@ -1,28 +1,23 @@
 # waveshare/waveshare.py
 # -*- coding:utf-8 -*-
 import RPi.GPIO as GPIO
-import serial
 import time
 import json
 import logging
 from .WaveshareSerial import WaveshareSerial
 import subprocess
-import redis
 
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-
-redis_host = 'localhost'
-redis_port = 6379
-r = redis.StrictRedis(host=redis_host, port=redis_port, db=0, decode_responses=True)
 
 class Waveshare:
     def __init__(self):
         self.ser = WaveshareSerial('/dev/ttyS0', 115200, 6)
-        # self.ser.power_on()
+        
+    def initGPS(self):
+        self.ser.send_at('AT+CGPS=1,1', 1)
+        time.sleep(1)
 
     def getGPS(self, callback):
-        self.ser.send_at('AT+CGPS=1,1', 1)
-        time.sleep(2)
         gps_data = self.ser.send_at('AT+CGPSINFO', 1)
         if gps_data:
             try:
@@ -32,11 +27,11 @@ class Waveshare:
                     callback(lat, lon)
                 else:
                     logging.info('Incomplete GPS data, retrying...')
-            finally:
-                print('smth wrong')
+            except Exception as e:
+                # General exception for any error that occurs during the GPS data fetching
+                logging.error("An error occurred: {}".format( str(e)))
         else:
             logging.info('No GPS data received. Retrying...')
-        time.sleep(1.5)
 
     def sendToFirebase(self, data, access_token):
         project_id = "race-monitor-pro-x"
