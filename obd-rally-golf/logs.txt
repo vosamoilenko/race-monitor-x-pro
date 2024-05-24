@@ -1,254 +1,9 @@
-2024-05-11 13:43:01,886 - INFO - Initializing serial connection...
-2024-05-11 13:43:01,889 - INFO - 
-Executing command for: Set all to default
-2024-05-11 13:43:01,889 - INFO - Sending command: ATD
-
-2024-05-11 13:43:09,399 - INFO - Received buffer: OK>
-2024-05-11 13:43:09,400 - INFO - Complete response received: OK>
-2024-05-11 13:43:09,400 - INFO - Decoded response: OK>
-2024-05-11 13:43:09,400 - INFO - 
-Executing command for: Reset
-2024-05-11 13:43:09,401 - INFO - Sending command: ATZ
-
-2024-05-11 13:43:16,906 - INFO - Received buffer: ELM327 v1.3a>
-2024-05-11 13:43:16,907 - INFO - Complete response received: ELM327 v1.3a>
-2024-05-11 13:43:16,907 - INFO - Decoded response: ELM327 v1.3a>
-2024-05-11 13:43:16,907 - INFO - 
-Executing command for: Turn echo off
-2024-05-11 13:43:16,908 - INFO - Sending command: ATE0
-
-2024-05-11 13:43:24,417 - INFO - Received buffer: OK>
-2024-05-11 13:43:24,417 - INFO - Complete response received: OK>
-2024-05-11 13:43:24,418 - INFO - Decoded response: OK>
-2024-05-11 13:43:24,418 - INFO - 
-Executing command for: Line feed off
-2024-05-11 13:43:24,419 - INFO - Sending command: ATL0
-
-2024-05-11 13:43:31,928 - INFO - Received buffer: OK>
-2024-05-11 13:43:31,928 - INFO - Complete response received: OK>
-2024-05-11 13:43:31,929 - INFO - Decoded response: OK>
-2024-05-11 13:43:31,929 - INFO - 
-Executing command for: Spaces off
-2024-05-11 13:43:31,929 - INFO - Sending command: ATS0
-
-2024-05-11 13:43:39,435 - INFO - Received buffer: OK>
-2024-05-11 13:43:39,435 - INFO - Complete response received: OK>
-2024-05-11 13:43:39,436 - INFO - Decoded response: OK>
-2024-05-11 13:43:39,436 - INFO - 
-Executing command for: Headers off
-2024-05-11 13:43:39,436 - INFO - Sending command: ATH0
-
-2024-05-11 13:43:46,946 - INFO - Received buffer: OK>
-2024-05-11 13:43:46,946 - INFO - Complete response received: OK>
-2024-05-11 13:43:46,947 - INFO - Decoded response: OK>
-2024-05-11 13:43:46,947 - INFO - 
-Executing command for: Set protocol to ISO 9141-2
-2024-05-11 13:43:46,947 - INFO - Sending command: ATSP3
-
-2024-05-11 13:43:54,456 - INFO - Received buffer: OK>
-2024-05-11 13:43:54,457 - INFO - Complete response received: OK>
-2024-05-11 13:43:54,457 - INFO - Decoded response: OK>
-2024-05-11 13:43:54,458 - INFO - 
-Executing command for: Set protocol to ISO 9141-2
-2024-05-11 13:43:54,458 - INFO - Sending command: 0100
-
-2024-05-11 13:44:04,223 - INFO - Received buffer: BUS INIT...OK4100983F80115C>
-2024-05-11 13:44:04,224 - INFO - Complete response received: BUS INIT...OK4100983F80115C>
-2024-05-11 13:44:04,224 - INFO - Decoded response: BUS INIT...OK4100983F80115C>
-2024-05-11 13:44:04,225 - INFO - 
-Executing command for: Monitor status since DTCs cleared. (Includes malfunction indicator lamp (MIL), status and number of DTCs, components tests, DTC readiness checks)
-2024-05-11 13:44:04,225 - INFO - Sending command: 0101
-
-2024-05-11 13:44:05,729 - INFO - Received buffer: 410100000000F5>
-2024-05-11 13:44:05,729 - INFO - Complete response received: 410100000000F5>
-2024-05-11 13:44:05,730 - INFO - Decoded response: 410100000000F5>
-2024-05-11 13:44:05,730 - INFO - 
-Executing command for: Fuel system status
-2024-05-11 13:44:05,730 - INFO - Sending command: 0103
-
-2024-05-11 13:44:07,233 - INFO - Received buffer: NO DATA>
-2024-05-11 13:44:07,233 - INFO - Complete response received: NO DATA>
-2024-05-11 13:44:07,233 - INFO - Decoded response: NO DATA>
-2024-05-11 13:44:07,234 - INFO - 
-Executing command for: Calculated engine load
-2024-05-11 13:44:07,234 - INFO - Sending command: 0104
-
-2024-05-11 13:44:08,736 - INFO - Received buffer: 4104FFF7>
-2024-05-11 13:44:08,737 - INFO - Complete response received: 4104FFF7>
-2024-05-11 13:44:08,737 - INFO - Decoded response: 4104FFF7>
-2024-05-11 13:44:08,737 - INFO - 
-Executing command for: Engine coolant temperature
-2024-05-11 13:44:08,737 - INFO - Sending command: 0105
-
-2024-05-11 13:44:10,240 - INFO - Received buffer: 41055851>
-2024-05-11 13:44:10,240 - INFO - Complete response received: 41055851>
-2024-05-11 13:44:10,240 - INFO - Decoded response: 41055851>
-2024-05-11 13:44:10,240 - INFO - 
-Executing command for: Intake manifold absolute pressure
-2024-05-11 13:44:10,241 - INFO - Sending command: 010B
-
-2024-05-11 13:44:11,743 - INFO - Received buffer: 410B6463>
-2024-05-11 13:44:11,743 - INFO - Complete response received: 410B6463>
-2024-05-11 13:44:11,744 - INFO - Decoded response: 410B6463>
-2024-05-11 13:44:11,744 - INFO - 
-Executing command for: Engine speed
-2024-05-11 13:44:11,744 - INFO - Sending command: 010C
-
-2024-05-11 13:44:13,246 - INFO - Received buffer: 410C000000>
-2024-05-11 13:44:13,247 - INFO - Complete response received: 410C000000>
-2024-05-11 13:44:13,247 - INFO - Decoded response: 410C000000>
-2024-05-11 13:44:13,247 - INFO - 
-Executing command for: Vehicle speed
-2024-05-11 13:44:13,247 - INFO - Sending command: 010D
-
-2024-05-11 13:44:14,750 - INFO - Received buffer: 410D0001>
-2024-05-11 13:44:14,750 - INFO - Complete response received: 410D0001>
-2024-05-11 13:44:14,750 - INFO - Decoded response: 410D0001>
-2024-05-11 13:44:14,751 - INFO - 
-Executing command for: Timing advance
-2024-05-11 13:44:14,751 - INFO - Sending command: 010E
-
-2024-05-11 13:44:16,253 - INFO - Received buffer: 410EFF01>
-2024-05-11 13:44:16,254 - INFO - Complete response received: 410EFF01>
-2024-05-11 13:44:16,254 - INFO - Decoded response: 410EFF01>
-2024-05-11 13:44:16,255 - INFO - 
-Executing command for: Intake air temperature
-2024-05-11 13:44:16,255 - INFO - Sending command: 010F
-
-2024-05-11 13:44:17,758 - INFO - Received buffer: 410F5356>
-2024-05-11 13:44:17,759 - INFO - Complete response received: 410F5356>
-2024-05-11 13:44:17,759 - INFO - Decoded response: 410F5356>
-2024-05-11 13:44:17,760 - INFO - 
-Executing command for: Mass air flow sensor (MAF) air flow rate
-2024-05-11 13:44:17,760 - INFO - Sending command: 0110
-
-2024-05-11 13:44:19,264 - INFO - Received buffer: 4110000004>
-2024-05-11 13:44:19,265 - INFO - Complete response received: 4110000004>
-2024-05-11 13:44:19,265 - INFO - Decoded response: 4110000004>
-2024-05-11 13:44:19,265 - INFO - 
-Executing command for: Throttle position
-2024-05-11 13:44:19,266 - INFO - Sending command: 0111
-
-2024-05-11 13:44:20,769 - INFO - Received buffer: 41110005>
-2024-05-11 13:44:20,770 - INFO - Complete response received: 41110005>
-2024-05-11 13:44:20,770 - INFO - Decoded response: 41110005>
-2024-05-11 13:45:37,005 - INFO - Python version
-2024-05-11 13:45:37,005 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
+2024-05-20 14:25:25,808 - INFO - Python version
+2024-05-20 14:25:25,809 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
 [GCC 7.3.0]
-2024-05-11 13:45:37,005 - INFO - Version info.
-2024-05-11 13:45:37,006 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 13:46:14,466 - INFO - Python version
-2024-05-11 13:46:14,466 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 13:46:14,466 - INFO - Version info.
-2024-05-11 13:46:14,466 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 13:46:57,869 - INFO - Python version
-2024-05-11 13:46:57,870 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 13:46:57,870 - INFO - Version info.
-2024-05-11 13:46:57,870 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 13:47:26,615 - INFO - Python version
-2024-05-11 13:47:26,615 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 13:47:26,615 - INFO - Version info.
-2024-05-11 13:47:26,616 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 13:57:01,617 - INFO - Python version
-2024-05-11 13:57:01,617 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 13:57:01,617 - INFO - Version info.
-2024-05-11 13:57:01,617 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 13:59:06,879 - INFO - Python version
-2024-05-11 13:59:06,880 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 13:59:06,880 - INFO - Version info.
-2024-05-11 13:59:06,880 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 14:01:26,082 - INFO - Python version
-2024-05-11 14:01:26,082 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:01:26,082 - INFO - Version info.
-2024-05-11 14:01:26,082 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 14:07:15,568 - INFO - Python version
-2024-05-11 14:07:15,569 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:07:15,569 - INFO - Version info.
-2024-05-11 14:07:15,569 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 14:08:16,190 - INFO - Python version
-2024-05-11 14:08:16,190 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:08:16,190 - INFO - Version info.
-2024-05-11 14:08:16,190 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 14:09:44,589 - INFO - Python version
-2024-05-11 14:09:44,590 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:09:44,590 - INFO - Version info.
-2024-05-11 14:09:44,590 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 14:14:19,359 - INFO - Python version
-2024-05-11 14:14:19,359 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:14:19,359 - INFO - Version info.
-2024-05-11 14:14:19,359 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 14:16:54,827 - INFO - Python version
-2024-05-11 14:16:54,827 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:16:54,827 - INFO - Version info.
-2024-05-11 14:16:54,827 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 14:19:24,055 - INFO - Python version
-2024-05-11 14:19:24,055 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:19:24,055 - INFO - Version info.
-2024-05-11 14:19:24,055 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 14:20:11,728 - INFO - Python version
-2024-05-11 14:20:11,728 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:20:11,728 - INFO - Version info.
-2024-05-11 14:20:11,728 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 14:21:10,526 - INFO - Python version
-2024-05-11 14:21:10,526 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:21:10,526 - INFO - Version info.
-2024-05-11 14:21:10,526 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 14:22:09,183 - INFO - Python version
-2024-05-11 14:22:09,183 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:22:09,184 - INFO - Version info.
-2024-05-11 14:22:09,184 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 14:23:43,610 - INFO - Python version
-2024-05-11 14:23:43,610 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:23:43,610 - INFO - Version info.
-2024-05-11 14:23:43,610 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 14:24:39,854 - INFO - Python version
-2024-05-11 14:24:39,855 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:24:39,855 - INFO - Version info.
-2024-05-11 14:24:39,855 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 14:25:05,338 - INFO - Python version
-2024-05-11 14:25:05,338 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:25:05,338 - INFO - Version info.
-2024-05-11 14:25:05,338 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-                                                                                                                                                                                                                                                                                                                               2024-05-11 14:31:44,508 - INFO - Python version
-2024-05-11 14:31:44,514 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 14:31:44,514 - INFO - Version info.
-2024-05-11 14:31:44,514 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 16:37:01,504 - INFO - Python version
-2024-05-11 16:37:01,507 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 16:37:01,507 - INFO - Version info.
-2024-05-11 16:37:01,507 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 20:43:41,745 - INFO - Python version
-2024-05-11 20:43:41,750 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 20:43:41,750 - INFO - Version info.
-2024-05-11 20:43:41,750 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-11 21:06:24,222 - INFO - Python version
-2024-05-11 21:06:24,226 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-11 21:06:24,226 - INFO - Version info.
-2024-05-11 21:06:24,226 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-19 12:01:49,786 - INFO - Python version
-2024-05-19 12:01:49,787 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-19 12:01:49,787 - INFO - Version info.
-2024-05-19 12:01:49,787 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
+2024-05-20 14:25:25,810 - INFO - Version info.
+2024-05-20 14:25:25,810 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
+2024-05-20 14:25:25,811 - INFO - Initializing serial connection on /dev/ttyS0 with baud rate 115200
+2024-05-20 14:25:25,812 - INFO - Serial input flushed and ready.
+2024-05-20 14:25:25,812 - INFO - Powering on the device...
+2024-05-20 14:25:47,831 - INFO - Device is ready

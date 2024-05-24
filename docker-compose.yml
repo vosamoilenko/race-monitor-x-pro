@@ -11,3 +11,10 @@ services:
       - "15672:15672" # Management UI
     volumes:
       - ./file_storage/rabbitmq_data:/var/lib/rabbitmq
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379" # Redis
+    volumes:
+      - ./file_storage/redis_data:/data

@@ -1,0 +1,1058 @@
+2024-05-20 14:13:18,375 - INFO - Device is ready
+2024-05-20 14:13:18,376 - INFO - Obtaining access token using gcloud
+2024-05-20 14:13:22,695 - INFO - Access token obtained
+2024-05-20 14:13:22,695 - INFO - Preparing to send AT command: AT+CSQ
+2024-05-20 14:13:23,698 - INFO - Received buffer: AT+CSQ
+
+2024-05-20 14:13:23,699 - INFO - Received buffer: +CSQ: 17,99
+
+2024-05-20 14:13:23,700 - INFO - Received buffer: 
+
+2024-05-20 14:13:23,700 - INFO - Received buffer: OK
+
+2024-05-20 14:13:24,701 - INFO - Complete response received: AT+CSQ
++CSQ: 17,99
+
+OK
+
+2024-05-20 14:13:24,702 - INFO - Preparing to send AT command: AT+CREG?
+2024-05-20 14:13:25,704 - INFO - Received buffer: AT+CREG?
+
+2024-05-20 14:13:25,705 - INFO - Received buffer: +CREG: 0,1
+
+2024-05-20 14:13:25,705 - INFO - Received buffer: 
+
+2024-05-20 14:13:25,706 - INFO - Received buffer: OK
+
+2024-05-20 14:13:26,707 - INFO - Complete response received: AT+CREG?
++CREG: 0,1
+
+OK
+
+2024-05-20 14:13:26,708 - INFO - Preparing to send AT command: AT+CGREG?
+2024-05-20 14:13:27,710 - INFO - Received buffer: AT+CGREG?
+
+2024-05-20 14:13:27,711 - INFO - Received buffer: +CGREG: 0,1
+
+2024-05-20 14:13:27,711 - INFO - Received buffer: 
+
+2024-05-20 14:13:27,711 - INFO - Received buffer: OK
+
+2024-05-20 14:13:28,713 - INFO - Complete response received: AT+CGREG?
++CGREG: 0,1
+
+OK
+
+2024-05-20 14:13:28,713 - INFO - Preparing to send AT command: AT+CPSI?
+2024-05-20 14:13:29,716 - INFO - Received buffer: AT+CPSI?
+
+2024-05-20 14:13:29,723 - INFO - Received buffer: +CPSI: LTE,Online,232-03,0x36F8,18230037,147,EUTRAN-BAND20,6400,3,3,-127,-1103,-807,14
+
+2024-05-20 14:13:29,724 - INFO - Received buffer: 
+
+2024-05-20 14:13:29,725 - INFO - Received buffer: OK
+
+2024-05-20 14:13:30,726 - INFO - Complete response received: AT+CPSI?
++CPSI: LTE,Online,232-03,0x36F8,18230037,147,EUTRAN-BAND20,6400,3,3,-127,-1103,-807,14
+
+OK
+
+2024-05-20 14:13:30,727 - INFO - Preparing to send AT command: AT+CGDCONT=cid,"ip","APN"
+2024-05-20 14:13:31,731 - INFO - Received buffer: AT+CGDCONT=cid,"ip","APN"
+
+2024-05-20 14:13:31,731 - INFO - Received buffer: ERROR
+
+2024-05-20 14:13:32,733 - INFO - Complete response received: AT+CGDCONT=cid,"ip","APN"
+ERROR
+
+2024-05-20 14:13:32,739 - INFO - Preparing to send AT command: AT+CGACT=1,cid
+2024-05-20 14:13:33,741 - INFO - Received buffer: AT+CGACT=1,cid
+
+2024-05-20 14:13:33,742 - INFO - Received buffer: ERROR
+
+2024-05-20 14:13:34,746 - INFO - Complete response received: AT+CGACT=1,cid
+ERROR
+
+2024-05-20 14:13:34,746 - INFO - Preparing to send AT command: AT+CGACT=?
+2024-05-20 14:13:35,750 - INFO - Received buffer: AT+CGACT=?
+
+2024-05-20 14:13:35,751 - INFO - Received buffer: +CGACT: (0,1)
+
+2024-05-20 14:13:35,752 - INFO - Received buffer: 
+
+2024-05-20 14:13:35,752 - INFO - Received buffer: OK
+
+2024-05-20 14:13:36,754 - INFO - Complete response received: AT+CGACT=?
++CGACT: (0,1)
+
+OK
+
+2024-05-20 14:13:36,755 - INFO - Preparing to send AT command: AT+HTTPINIT
+2024-05-20 14:13:37,758 - INFO - Received buffer: AT+HTTPINIT
+
+2024-05-20 14:13:37,760 - INFO - Received buffer: ERROR
+
+2024-05-20 14:13:38,764 - INFO - Complete response received: AT+HTTPINIT
+ERROR
+
+2024-05-20 14:13:38,765 - INFO - Preparing to send AT command: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+2024-05-20 14:13:39,777 - INFO - Received buffer: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+
+2024-05-20 14:13:39,779 - INFO - Received buffer: OK
+
+2024-05-20 14:13:40,780 - INFO - Complete response received: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+OK
+
+2024-05-20 14:13:40,781 - INFO - Preparing to send AT command: AT+HTTPPARA="CONTENT","application/json"
+2024-05-20 14:15:00,457 - INFO - Initializing serial connection on /dev/ttyS0 with baud rate 115200
+2024-05-20 14:15:00,458 - INFO - Serial input flushed and ready.
+2024-05-20 14:15:00,458 - INFO - Powering on the device...
+2024-05-20 14:15:22,481 - INFO - Device is ready
+2024-05-20 14:15:22,482 - INFO - Obtaining access token using gcloud
+2024-05-20 14:15:26,776 - INFO - Access token obtained
+2024-05-20 14:15:26,776 - INFO - Preparing to send AT command: AT+CSQ
+2024-05-20 14:15:27,779 - INFO - Received buffer: AT+CSQ
+
+2024-05-20 14:15:27,780 - INFO - Received buffer: +CSQ: 17,99
+
+2024-05-20 14:15:27,783 - INFO - Received buffer: 
+
+2024-05-20 14:15:27,784 - INFO - Received buffer: OK
+
+2024-05-20 14:15:28,785 - INFO - Complete response received: AT+CSQ
++CSQ: 17,99
+
+OK
+
+2024-05-20 14:15:28,786 - INFO - Preparing to send AT command: AT+CREG?
+2024-05-20 14:15:29,788 - INFO - Received buffer: AT+CREG?
+
+2024-05-20 14:15:29,789 - INFO - Received buffer: +CREG: 0,1
+
+2024-05-20 14:15:29,789 - INFO - Received buffer: 
+
+2024-05-20 14:15:29,790 - INFO - Received buffer: OK
+
+2024-05-20 14:15:30,791 - INFO - Complete response received: AT+CREG?
++CREG: 0,1
+
+OK
+
+2024-05-20 14:15:30,792 - INFO - Preparing to send AT command: AT+CGREG?
+2024-05-20 14:15:31,794 - INFO - Received buffer: AT+CGREG?
+
+2024-05-20 14:15:31,795 - INFO - Received buffer: +CGREG: 0,1
+
+2024-05-20 14:15:31,795 - INFO - Received buffer: 
+
+2024-05-20 14:15:31,795 - INFO - Received buffer: OK
+
+2024-05-20 14:15:32,797 - INFO - Complete response received: AT+CGREG?
++CGREG: 0,1
+
+OK
+
+2024-05-20 14:15:32,798 - INFO - Preparing to send AT command: AT+CPSI?
+2024-05-20 14:15:33,801 - INFO - Received buffer: AT+CPSI?
+
+2024-05-20 14:15:33,808 - INFO - Received buffer: +CPSI: LTE,Online,232-03,0x36F8,18230037,147,EUTRAN-BAND20,6400,3,3,-109,-1097,-824,14
+
+2024-05-20 14:15:33,809 - INFO - Received buffer: 
+
+2024-05-20 14:15:33,809 - INFO - Received buffer: OK
+
+2024-05-20 14:15:34,810 - INFO - Complete response received: AT+CPSI?
++CPSI: LTE,Online,232-03,0x36F8,18230037,147,EUTRAN-BAND20,6400,3,3,-109,-1097,-824,14
+
+OK
+
+2024-05-20 14:15:34,812 - INFO - Preparing to send AT command: AT+CGDCONT=cid,"ip","internet.t-mobile.at"
+2024-05-20 14:15:35,815 - INFO - Received buffer: AT+CGDCONT=cid,"ip","internet.t-mobile.at"
+
+2024-05-20 14:15:35,816 - INFO - Received buffer: ERROR
+
+2024-05-20 14:15:36,817 - INFO - Complete response received: AT+CGDCONT=cid,"ip","internet.t-mobile.at"
+ERROR
+
+2024-05-20 14:15:36,818 - INFO - Preparing to send AT command: AT+CGACT=1,cid
+2024-05-20 14:15:37,820 - INFO - Received buffer: AT+CGACT=1,cid
+
+2024-05-20 14:15:37,821 - INFO - Received buffer: ERROR
+
+2024-05-20 14:15:38,822 - INFO - Complete response received: AT+CGACT=1,cid
+ERROR
+
+2024-05-20 14:15:38,823 - INFO - Preparing to send AT command: AT+CGACT=?
+2024-05-20 14:15:39,825 - INFO - Received buffer: AT+CGACT=?
+
+2024-05-20 14:15:39,826 - INFO - Received buffer: +CGACT: (0,1)
+
+2024-05-20 14:15:39,827 - INFO - Received buffer: 
+
+2024-05-20 14:15:39,827 - INFO - Received buffer: OK
+
+2024-05-20 14:15:40,829 - INFO - Complete response received: AT+CGACT=?
++CGACT: (0,1)
+
+OK
+
+2024-05-20 14:15:40,831 - INFO - Preparing to send AT command: AT+HTTPINIT
+2024-05-20 14:15:41,834 - INFO - Received buffer: AT+HTTPINIT
+
+2024-05-20 14:15:41,835 - INFO - Received buffer: ERROR
+
+2024-05-20 14:15:42,837 - INFO - Complete response received: AT+HTTPINIT
+ERROR
+
+2024-05-20 14:15:42,838 - INFO - Preparing to send AT command: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+2024-05-20 14:15:43,854 - INFO - Received buffer: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+
+2024-05-20 14:15:43,855 - INFO - Received buffer: OK
+
+2024-05-20 14:15:44,857 - INFO - Complete response received: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+OK
+
+2024-05-20 14:15:44,857 - INFO - Preparing to send AT command: AT+HTTPPARA="CONTENT","application/json"
+2024-05-20 14:15:45,860 - INFO - Received buffer: AT+HTTPPARA="CONTENT","application/json"
+
+2024-05-20 14:15:45,860 - INFO - Received buffer: OK
+
+2024-05-20 14:16:23,052 - INFO - Initializing serial connection on /dev/ttyS0 with baud rate 115200
+2024-05-20 14:16:23,053 - INFO - Serial input flushed and ready.
+2024-05-20 14:16:23,053 - INFO - Powering on the device...
+2024-05-20 14:16:45,076 - INFO - Device is ready
+2024-05-20 14:16:45,076 - INFO - Obtaining access token using gcloud
+2024-05-20 14:16:49,377 - INFO - Access token obtained
+2024-05-20 14:16:49,377 - INFO - Preparing to send AT command: AT+CSQ
+2024-05-20 14:16:50,380 - INFO - Received buffer: AT+CSQ
+
+2024-05-20 14:16:50,381 - INFO - Received buffer: +CSQ: 17,99
+
+2024-05-20 14:16:50,388 - INFO - Received buffer: 
+
+2024-05-20 14:16:50,388 - INFO - Received buffer: OK
+
+2024-05-20 14:16:51,389 - INFO - Complete response received: AT+CSQ
++CSQ: 17,99
+
+OK
+
+2024-05-20 14:16:51,390 - INFO - Preparing to send AT command: AT+CREG?
+2024-05-20 14:16:52,392 - INFO - Received buffer: AT+CREG?
+
+2024-05-20 14:16:52,393 - INFO - Received buffer: +CREG: 0,1
+
+2024-05-20 14:16:52,393 - INFO - Received buffer: 
+
+2024-05-20 14:16:52,394 - INFO - Received buffer: OK
+
+2024-05-20 14:16:53,396 - INFO - Complete response received: AT+CREG?
++CREG: 0,1
+
+OK
+
+2024-05-20 14:16:53,396 - INFO - Preparing to send AT command: AT+CGREG?
+2024-05-20 14:16:54,398 - INFO - Received buffer: AT+CGREG?
+
+2024-05-20 14:16:54,399 - INFO - Received buffer: +CGREG: 0,1
+
+2024-05-20 14:16:54,399 - INFO - Received buffer: 
+
+2024-05-20 14:16:54,400 - INFO - Received buffer: OK
+
+2024-05-20 14:16:55,401 - INFO - Complete response received: AT+CGREG?
++CGREG: 0,1
+
+OK
+
+2024-05-20 14:16:55,402 - INFO - Preparing to send AT command: AT+CPSI?
+2024-05-20 14:16:56,404 - INFO - Received buffer: AT+CPSI?
+
+2024-05-20 14:16:56,408 - INFO - Received buffer: +CPSI: LTE,Online,232-03,0x36F8,18230037,147,EUTRAN-BAND20,6400,3,3,-137,-1100,-790,9
+
+2024-05-20 14:16:56,408 - INFO - Received buffer: 
+
+2024-05-20 14:16:56,409 - INFO - Received buffer: OK
+
+2024-05-20 14:16:57,410 - INFO - Complete response received: AT+CPSI?
++CPSI: LTE,Online,232-03,0x36F8,18230037,147,EUTRAN-BAND20,6400,3,3,-137,-1100,-790,9
+
+OK
+
+2024-05-20 14:16:57,411 - INFO - Preparing to send AT command: AT+HTTPINIT
+2024-05-20 14:16:58,413 - INFO - Received buffer: AT+HTTPINIT
+
+2024-05-20 14:16:58,414 - INFO - Received buffer: ERROR
+
+2024-05-20 14:16:59,415 - INFO - Complete response received: AT+HTTPINIT
+ERROR
+
+2024-05-20 14:16:59,416 - INFO - Preparing to send AT command: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+2024-05-20 14:17:00,422 - INFO - Received buffer: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+
+2024-05-20 14:17:00,422 - INFO - Received buffer: OK
+
+2024-05-20 14:17:01,424 - INFO - Complete response received: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+OK
+
+2024-05-20 14:17:01,425 - INFO - Preparing to send AT command: AT+HTTPPARA="CONTENT","application/json"
+2024-05-20 14:17:02,428 - INFO - Received buffer: AT+HTTPPARA="CONTENT","application/json"
+
+2024-05-20 14:17:02,428 - INFO - Received buffer: OK
+
+2024-05-20 14:17:03,430 - INFO - Complete response received: AT+HTTPPARA="CONTENT","application/json"
+OK
+
+2024-05-20 14:17:03,431 - INFO - Preparing to send AT command: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+2024-05-20 14:17:04,542 - INFO - Received buffer: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+
+2024-05-20 14:17:04,543 - INFO - Received buffer: ERROR
+
+2024-05-20 14:17:05,544 - INFO - Complete response received: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+ERROR
+
+2024-05-20 14:17:05,545 - INFO - Preparing to send AT command: AT+HTTPDATA=10,10000
+2024-05-20 14:17:05,559 - INFO - Received buffer: AT+HTTPDATA=10,10000
+
+2024-05-20 14:17:05,559 - INFO - Received buffer: DOWNLOAD
+
+2024-05-20 14:17:06,561 - INFO - Complete response received: AT+HTTPDATA=10,10000
+DOWNLOAD
+
+2024-05-20 14:17:06,563 - INFO - Preparing to send AT command: {"a": 123}
+2024-05-20 14:17:07,569 - INFO - Received buffer: {"a": 123}
+
+2024-05-20 14:17:07,569 - INFO - Received buffer: OK
+
+2024-05-20 14:17:08,570 - INFO - Complete response received: {"a": 123}
+OK
+
+2024-05-20 14:17:08,571 - INFO - Preparing to send AT command: AT+HTTPACTION=1
+2024-05-20 14:17:09,573 - INFO - Received buffer: AT+HTTPACTION=1
+
+2024-05-20 14:17:09,573 - INFO - Received buffer: OK
+
+2024-05-20 14:17:09,574 - INFO - Received buffer: 
+
+2024-05-20 14:17:09,575 - INFO - Received buffer: +HTTPACTION: 1,400,0
+
+2024-05-20 14:17:10,576 - INFO - Complete response received: AT+HTTPACTION=1
+OK
+
++HTTPACTION: 1,400,0
+
+2024-05-20 14:20:12,661 - INFO - Initializing serial connection on /dev/ttyS0 with baud rate 115200
+2024-05-20 14:20:12,662 - INFO - Serial input flushed and ready.
+2024-05-20 14:20:12,662 - INFO - Powering on the device...
+2024-05-20 14:20:34,684 - INFO - Device is ready
+2024-05-20 14:20:34,685 - INFO - Obtaining access token using gcloud
+2024-05-20 14:20:39,012 - INFO - Access token obtained
+2024-05-20 14:20:39,013 - INFO - Preparing to send AT command: AT+CSQ
+2024-05-20 14:20:40,016 - INFO - Received buffer: AT+CSQ
+
+2024-05-20 14:20:40,017 - INFO - Received buffer: +CSQ: 17,99
+
+2024-05-20 14:20:40,017 - INFO - Received buffer: 
+
+2024-05-20 14:20:40,017 - INFO - Received buffer: OK
+
+2024-05-20 14:20:41,019 - INFO - Complete response received: AT+CSQ
++CSQ: 17,99
+
+OK
+
+2024-05-20 14:20:41,019 - INFO - Preparing to send AT command: AT+CREG?
+2024-05-20 14:20:42,021 - INFO - Received buffer: AT+CREG?
+
+2024-05-20 14:20:42,022 - INFO - Received buffer: +CREG: 0,1
+
+2024-05-20 14:20:42,023 - INFO - Received buffer: 
+
+2024-05-20 14:20:42,023 - INFO - Received buffer: OK
+
+2024-05-20 14:20:43,025 - INFO - Complete response received: AT+CREG?
++CREG: 0,1
+
+OK
+
+2024-05-20 14:20:43,025 - INFO - Preparing to send AT command: AT+CGREG?
+2024-05-20 14:20:44,028 - INFO - Received buffer: AT+CGREG?
+
+2024-05-20 14:20:44,030 - INFO - Received buffer: +CGREG: 0,1
+
+2024-05-20 14:20:44,031 - INFO - Received buffer: 
+
+2024-05-20 14:20:44,032 - INFO - Received buffer: OK
+
+2024-05-20 14:20:45,034 - INFO - Complete response received: AT+CGREG?
++CGREG: 0,1
+
+OK
+
+2024-05-20 14:20:45,035 - INFO - Preparing to send AT command: AT+CPSI?
+2024-05-20 14:20:46,038 - INFO - Received buffer: AT+CPSI?
+
+2024-05-20 14:20:46,046 - INFO - Received buffer: +CPSI: LTE,Online,232-03,0x36F8,18230037,147,EUTRAN-BAND20,6400,3,3,-106,-1097,-828,16
+
+2024-05-20 14:20:46,047 - INFO - Received buffer: 
+
+2024-05-20 14:20:46,048 - INFO - Received buffer: OK
+
+2024-05-20 14:20:47,049 - INFO - Complete response received: AT+CPSI?
++CPSI: LTE,Online,232-03,0x36F8,18230037,147,EUTRAN-BAND20,6400,3,3,-106,-1097,-828,16
+
+OK
+
+2024-05-20 14:20:47,050 - INFO - Preparing to send AT command: AT+HTTPINIT
+2024-05-20 14:20:48,053 - INFO - Received buffer: AT+HTTPINIT
+
+2024-05-20 14:20:48,053 - INFO - Received buffer: ERROR
+
+2024-05-20 14:20:49,055 - INFO - Complete response received: AT+HTTPINIT
+ERROR
+
+2024-05-20 14:20:49,055 - INFO - Preparing to send AT command: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+2024-05-20 14:20:50,061 - INFO - Received buffer: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+
+2024-05-20 14:20:50,062 - INFO - Received buffer: OK
+
+2024-05-20 14:20:51,063 - INFO - Complete response received: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+OK
+
+2024-05-20 14:20:51,064 - INFO - Preparing to send AT command: AT+HTTPPARA="CONTENT","application/json"
+2024-05-20 14:22:44,942 - INFO - Initializing serial connection on /dev/ttyS0 with baud rate 115200
+2024-05-20 14:22:44,943 - INFO - Serial input flushed and ready.
+2024-05-20 14:22:44,944 - INFO - Powering on the device...
+2024-05-20 14:23:06,966 - INFO - Device is ready
+2024-05-20 14:23:06,967 - INFO - Obtaining access token using gcloud
+2024-05-20 14:23:11,233 - INFO - Access token obtained
+2024-05-20 14:23:11,233 - INFO - Preparing to send AT command: AT+HTTPTERM
+2024-05-20 14:23:12,236 - INFO - Received buffer: AT+HTTPTERM
+
+2024-05-20 14:23:12,237 - INFO - Received buffer: OK
+
+2024-05-20 14:23:13,238 - INFO - Complete response received: AT+HTTPTERM
+OK
+
+2024-05-20 14:23:13,239 - INFO - Preparing to send AT command: AT+CSQ
+2024-05-20 14:23:14,241 - INFO - Received buffer: AT+CSQ
+
+2024-05-20 14:23:14,242 - INFO - Received buffer: +CSQ: 17,99
+
+2024-05-20 14:23:14,242 - INFO - Received buffer: 
+
+2024-05-20 14:23:14,243 - INFO - Received buffer: OK
+
+2024-05-20 14:23:15,244 - INFO - Complete response received: AT+CSQ
++CSQ: 17,99
+
+OK
+
+2024-05-20 14:23:15,245 - INFO - Preparing to send AT command: AT+CREG?
+2024-05-20 14:23:16,247 - INFO - Received buffer: AT+CREG?
+
+2024-05-20 14:23:16,248 - INFO - Received buffer: +CREG: 0,1
+
+2024-05-20 14:23:16,248 - INFO - Received buffer: 
+
+2024-05-20 14:23:16,248 - INFO - Received buffer: OK
+
+2024-05-20 14:23:17,250 - INFO - Complete response received: AT+CREG?
++CREG: 0,1
+
+OK
+
+2024-05-20 14:23:17,250 - INFO - Preparing to send AT command: AT+CGREG?
+2024-05-20 14:23:18,254 - INFO - Received buffer: AT+CGREG?
+
+2024-05-20 14:23:18,257 - INFO - Received buffer: +CGREG: 0,1
+
+2024-05-20 14:23:18,258 - INFO - Received buffer: 
+
+2024-05-20 14:23:18,259 - INFO - Received buffer: OK
+
+2024-05-20 14:23:19,262 - INFO - Complete response received: AT+CGREG?
++CGREG: 0,1
+
+OK
+
+2024-05-20 14:23:19,263 - INFO - Preparing to send AT command: AT+CPSI?
+2024-05-20 14:23:20,265 - INFO - Received buffer: AT+CPSI?
+
+2024-05-20 14:23:20,269 - INFO - Received buffer: +CPSI: LTE,Online,232-03,0x36F8,18230048,380,EUTRAN-BAND1,325,4,4,-130,-1119,-812,10
+
+2024-05-20 14:23:20,269 - INFO - Received buffer: 
+
+2024-05-20 14:23:20,269 - INFO - Received buffer: OK
+
+2024-05-20 14:23:21,271 - INFO - Complete response received: AT+CPSI?
++CPSI: LTE,Online,232-03,0x36F8,18230048,380,EUTRAN-BAND1,325,4,4,-130,-1119,-812,10
+
+OK
+
+2024-05-20 14:23:21,271 - INFO - Preparing to send AT command: AT+HTTPINIT
+2024-05-20 14:23:22,273 - INFO - Received buffer: AT+HTTPINIT
+
+2024-05-20 14:23:22,274 - INFO - Received buffer: OK
+
+2024-05-20 14:23:23,275 - INFO - Complete response received: AT+HTTPINIT
+OK
+
+2024-05-20 14:23:23,276 - INFO - Preparing to send AT command: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+2024-05-20 14:23:24,282 - INFO - Received buffer: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+
+2024-05-20 14:23:24,283 - INFO - Received buffer: OK
+
+2024-05-20 14:23:25,284 - INFO - Complete response received: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+OK
+
+2024-05-20 14:23:25,286 - INFO - Preparing to send AT command: AT+HTTPPARA="CONTENT","application/json"
+2024-05-20 14:23:26,292 - INFO - Received buffer: AT+HTTPPARA="CONTENT","application/json"
+
+2024-05-20 14:23:26,293 - INFO - Received buffer: OK
+
+2024-05-20 14:23:27,294 - INFO - Complete response received: AT+HTTPPARA="CONTENT","application/json"
+OK
+
+2024-05-20 14:23:27,295 - INFO - Preparing to send AT command: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+2024-05-20 14:23:28,456 - INFO - Received buffer: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+
+2024-05-20 14:23:28,458 - INFO - Received buffer: ERROR
+
+2024-05-20 14:23:29,460 - INFO - Complete response received: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+ERROR
+
+2024-05-20 14:23:29,461 - INFO - Preparing to send AT command: AT+HTTPDATA=10,10000
+2024-05-20 14:23:29,475 - INFO - Received buffer: AT+HTTPDATA=10,10000
+
+2024-05-20 14:23:29,476 - INFO - Received buffer: DOWNLOAD
+
+2024-05-20 14:23:30,477 - INFO - Complete response received: AT+HTTPDATA=10,10000
+DOWNLOAD
+
+2024-05-20 14:23:30,478 - INFO - Preparing to send AT command: {"a": 123}
+2024-05-20 14:23:31,480 - INFO - Received buffer: {"a": 123}
+
+2024-05-20 14:23:31,480 - INFO - Received buffer: OK
+
+2024-05-20 14:23:32,482 - INFO - Complete response received: {"a": 123}
+OK
+
+2024-05-20 14:23:32,482 - INFO - Preparing to send AT command: AT+HTTPACTION=1
+2024-05-20 14:23:33,484 - INFO - Received buffer: AT+HTTPACTION=1
+
+2024-05-20 14:23:33,485 - INFO - Received buffer: OK
+
+2024-05-20 14:23:33,486 - INFO - Received buffer: 
+
+2024-05-20 14:23:33,487 - INFO - Received buffer: +HTTPACTION: 1,400,0
+
+2024-05-20 14:23:34,489 - INFO - Complete response received: AT+HTTPACTION=1
+OK
+
++HTTPACTION: 1,400,0
+
+2024-05-20 14:26:16,835 - INFO - Initializing serial connection on /dev/ttyS0 with baud rate 115200
+2024-05-20 14:26:16,839 - INFO - Serial input flushed and ready.
+2024-05-20 14:26:16,840 - INFO - Powering on the device...
+2024-05-20 14:26:21,247 - INFO - Initializing serial connection on /dev/ttyS0 with baud rate 115200
+2024-05-20 14:26:21,249 - INFO - Serial input flushed and ready.
+2024-05-20 14:26:21,249 - INFO - Powering on the device...
+2024-05-20 14:26:43,270 - INFO - Device is ready
+2024-05-20 14:26:43,270 - INFO - Obtaining access token using gcloud
+2024-05-20 14:26:50,433 - INFO - Access token obtained
+2024-05-20 14:26:50,433 - INFO - Preparing to send AT command: AT+HTTPTERM
+2024-05-20 14:26:51,439 - INFO - Received buffer: AT+HTTPTERM
+
+2024-05-20 14:26:51,440 - INFO - Received buffer: ERROR
+
+2024-05-20 14:26:52,441 - INFO - Complete response received: AT+HTTPTERM
+ERROR
+
+2024-05-20 14:26:52,442 - INFO - Preparing to send AT command: AT+CSQ
+2024-05-20 14:26:53,444 - INFO - Received buffer: AT+CSQ
+
+2024-05-20 14:26:53,447 - INFO - Received buffer: +CSQ: 18,99
+
+2024-05-20 14:26:53,448 - INFO - Received buffer: 
+
+2024-05-20 14:26:53,449 - INFO - Received buffer: OK
+
+2024-05-20 14:26:54,450 - INFO - Complete response received: AT+CSQ
++CSQ: 18,99
+
+OK
+
+2024-05-20 14:26:54,451 - INFO - Preparing to send AT command: AT+CREG?
+2024-05-20 14:26:55,453 - INFO - Received buffer: AT+CREG?
+
+2024-05-20 14:26:55,454 - INFO - Received buffer: +CREG: 0,1
+
+2024-05-20 14:26:55,454 - INFO - Received buffer: 
+
+2024-05-20 14:26:55,455 - INFO - Received buffer: OK
+
+2024-05-20 14:26:56,456 - INFO - Complete response received: AT+CREG?
++CREG: 0,1
+
+OK
+
+2024-05-20 14:26:56,456 - INFO - Preparing to send AT command: AT+CGREG?
+2024-05-20 14:26:57,458 - INFO - Received buffer: AT+CGREG?
+
+2024-05-20 14:26:57,459 - INFO - Received buffer: +CGREG: 0,1
+
+2024-05-20 14:26:57,460 - INFO - Received buffer: 
+
+2024-05-20 14:26:57,460 - INFO - Received buffer: OK
+
+2024-05-20 14:26:58,461 - INFO - Complete response received: AT+CGREG?
++CGREG: 0,1
+
+OK
+
+2024-05-20 14:26:58,462 - INFO - Preparing to send AT command: AT+CPSI?
+2024-05-20 14:26:59,465 - INFO - Received buffer: AT+CPSI?
+
+2024-05-20 14:26:59,473 - INFO - Received buffer: +CPSI: LTE,Online,232-03,0x36F8,18230047,379,EUTRAN-BAND1,325,4,4,-138,-1110,-786,13
+
+2024-05-20 14:26:59,474 - INFO - Received buffer: 
+
+2024-05-20 14:26:59,475 - INFO - Received buffer: OK
+
+2024-05-20 14:27:00,476 - INFO - Complete response received: AT+CPSI?
++CPSI: LTE,Online,232-03,0x36F8,18230047,379,EUTRAN-BAND1,325,4,4,-138,-1110,-786,13
+
+OK
+
+2024-05-20 14:27:00,477 - INFO - Preparing to send AT command: AT+HTTPINIT
+2024-05-20 14:27:01,480 - INFO - Received buffer: AT+HTTPINIT
+
+2024-05-20 14:27:01,481 - INFO - Received buffer: OK
+
+2024-05-20 14:27:02,482 - INFO - Complete response received: AT+HTTPINIT
+OK
+
+2024-05-20 14:27:02,483 - INFO - Preparing to send AT command: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+2024-05-20 14:27:03,489 - INFO - Received buffer: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+
+2024-05-20 14:27:03,489 - INFO - Received buffer: OK
+
+2024-05-20 14:27:04,491 - INFO - Complete response received: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+OK
+
+2024-05-20 14:27:04,491 - INFO - Preparing to send AT command: AT+HTTPPARA="CONTENT","application/json"
+2024-05-20 14:27:05,494 - INFO - Received buffer: AT+HTTPPARA="CONTENT","application/json"
+
+2024-05-20 14:27:05,495 - INFO - Received buffer: OK
+
+2024-05-20 14:27:06,496 - INFO - Complete response received: AT+HTTPPARA="CONTENT","application/json"
+OK
+
+2024-05-20 14:27:06,497 - INFO - Preparing to send AT command: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+2024-05-20 14:27:07,662 - INFO - Received buffer: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+
+2024-05-20 14:27:07,662 - INFO - Received buffer: ERROR
+
+2024-05-20 14:27:08,664 - INFO - Complete response received: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+ERROR
+
+2024-05-20 14:27:08,664 - INFO - Preparing to send AT command: AT+HTTPDATA=10,10000
+2024-05-20 14:27:08,680 - INFO - Received buffer: AT+HTTPDATA=10,10000
+
+2024-05-20 14:27:08,681 - INFO - Received buffer: DOWNLOAD
+
+2024-05-20 14:27:09,682 - INFO - Complete response received: AT+HTTPDATA=10,10000
+DOWNLOAD
+
+2024-05-20 14:27:09,682 - INFO - Preparing to send AT command: {"a": 123}
+2024-05-20 14:27:10,684 - INFO - Received buffer: {"a": 123}
+
+2024-05-20 14:27:10,685 - INFO - Received buffer: OK
+
+2024-05-20 14:27:11,686 - INFO - Complete response received: {"a": 123}
+OK
+
+2024-05-20 14:27:11,687 - INFO - Preparing to send AT command: AT+HTTPACTION=1
+2024-05-20 14:27:12,690 - INFO - Received buffer: AT+HTTPACTION=1
+
+2024-05-20 14:27:12,691 - INFO - Received buffer: OK
+
+2024-05-20 14:27:12,692 - INFO - Received buffer: 
+
+2024-05-20 14:27:12,694 - INFO - Received buffer: +HTTPACTION: 1,400,0
+
+2024-05-20 14:27:13,696 - INFO - Complete response received: AT+HTTPACTION=1
+OK
+
++HTTPACTION: 1,400,0
+
+2024-05-20 14:35:36,623 - INFO - Initializing serial connection on /dev/ttyS0 with baud rate 115200
+2024-05-20 14:35:36,624 - INFO - Serial input flushed and ready.
+2024-05-20 14:35:36,625 - INFO - Device is ready
+2024-05-20 14:35:58,440 - INFO - Initializing serial connection on /dev/ttyS0 with baud rate 115200
+2024-05-20 14:35:58,441 - INFO - Serial input flushed and ready.
+2024-05-20 14:35:58,441 - INFO - Device is ready
+2024-05-20 14:35:58,441 - INFO - Obtaining access token using gcloud
+2024-05-20 14:36:02,782 - INFO - Access token obtained
+2024-05-20 14:36:02,783 - INFO - Preparing to send AT command: AT+HTTPTERM
+2024-05-20 14:36:03,786 - INFO - Received buffer: AT+HTTPTERM
+
+2024-05-20 14:36:03,787 - INFO - Received buffer: OK
+
+2024-05-20 14:36:04,788 - INFO - Complete response received: AT+HTTPTERM
+OK
+
+2024-05-20 14:36:04,788 - INFO - Preparing to send AT command: AT+CSQ
+2024-05-20 14:36:05,790 - INFO - Received buffer: AT+CSQ
+
+2024-05-20 14:36:05,791 - INFO - Received buffer: +CSQ: 15,99
+
+2024-05-20 14:36:05,791 - INFO - Received buffer: 
+
+2024-05-20 14:36:05,792 - INFO - Received buffer: OK
+
+2024-05-20 14:36:06,793 - INFO - Complete response received: AT+CSQ
++CSQ: 15,99
+
+OK
+
+2024-05-20 14:36:06,794 - INFO - Preparing to send AT command: AT+CREG?
+2024-05-20 14:36:07,796 - INFO - Received buffer: AT+CREG?
+
+2024-05-20 14:36:07,797 - INFO - Received buffer: +CREG: 0,1
+
+2024-05-20 14:36:07,797 - INFO - Received buffer: 
+
+2024-05-20 14:36:07,797 - INFO - Received buffer: OK
+
+2024-05-20 14:36:08,799 - INFO - Complete response received: AT+CREG?
++CREG: 0,1
+
+OK
+
+2024-05-20 14:36:08,799 - INFO - Preparing to send AT command: AT+CGREG?
+2024-05-20 14:36:09,801 - INFO - Received buffer: AT+CGREG?
+
+2024-05-20 14:36:09,802 - INFO - Received buffer: +CGREG: 0,1
+
+2024-05-20 14:36:09,803 - INFO - Received buffer: 
+
+2024-05-20 14:36:09,803 - INFO - Received buffer: OK
+
+2024-05-20 14:36:10,804 - INFO - Complete response received: AT+CGREG?
++CGREG: 0,1
+
+OK
+
+2024-05-20 14:36:10,805 - INFO - Preparing to send AT command: AT+CPSI?
+2024-05-20 14:36:11,807 - INFO - Received buffer: AT+CPSI?
+
+2024-05-20 14:36:11,810 - INFO - Received buffer: +CPSI: LTE,Online,232-03,0x36F8,18230028,371,EUTRAN-BAND3,1300,5,5,-154,-1179,-823,7
+
+2024-05-20 14:36:11,810 - INFO - Received buffer: 
+
+2024-05-20 14:36:11,811 - INFO - Received buffer: OK
+
+2024-05-20 14:36:12,812 - INFO - Complete response received: AT+CPSI?
++CPSI: LTE,Online,232-03,0x36F8,18230028,371,EUTRAN-BAND3,1300,5,5,-154,-1179,-823,7
+
+OK
+
+2024-05-20 14:36:12,813 - INFO - Preparing to send AT command: AT+HTTPINIT
+2024-05-20 14:36:13,815 - INFO - Received buffer: AT+HTTPINIT
+
+2024-05-20 14:36:13,815 - INFO - Received buffer: OK
+
+2024-05-20 14:36:14,817 - INFO - Complete response received: AT+HTTPINIT
+OK
+
+2024-05-20 14:36:14,817 - INFO - Preparing to send AT command: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+2024-05-20 14:36:15,823 - INFO - Received buffer: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+
+2024-05-20 14:36:15,823 - INFO - Received buffer: OK
+
+2024-05-20 14:36:16,825 - INFO - Complete response received: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+OK
+
+2024-05-20 14:36:16,825 - INFO - Preparing to send AT command: AT+HTTPPARA="CONTENT","application/json"
+2024-05-20 14:36:17,828 - INFO - Received buffer: AT+HTTPPARA="CONTENT","application/json"
+
+2024-05-20 14:36:17,829 - INFO - Received buffer: OK
+
+2024-05-20 14:36:18,830 - INFO - Complete response received: AT+HTTPPARA="CONTENT","application/json"
+OK
+
+2024-05-20 14:36:18,831 - INFO - Preparing to send AT command: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+2024-05-20 14:36:19,942 - INFO - Received buffer: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+
+2024-05-20 14:36:19,943 - INFO - Received buffer: ERROR
+
+2024-05-20 14:36:20,944 - INFO - Complete response received: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+ERROR
+
+2024-05-20 14:36:20,945 - INFO - Preparing to send AT command: AT+HTTPDATA=22,10000
+2024-05-20 14:36:21,947 - INFO - Received buffer: AT+HTTPDATA=22,10000
+
+2024-05-20 14:36:21,948 - INFO - Received buffer: DOWNLOAD
+
+2024-05-20 14:36:22,950 - INFO - Complete response received: AT+HTTPDATA=22,10000
+DOWNLOAD
+
+2024-05-20 14:36:22,950 - INFO - Preparing to send AT command: AT+HTTPACTION=1
+2024-05-20 14:36:23,952 - INFO - Received buffer: AT+HTTPACTION=1
+
+2024-05-20 14:36:24,954 - INFO - Complete response received: AT+HTTPACTION=1
+
+2024-05-20 14:36:24,954 - INFO - Preparing to send AT command: AT+HTTPHEAD
+2024-05-20 14:36:25,956 - INFO - Received buffer: AT+HT
+
+2024-05-20 14:36:25,957 - INFO - Received buffer: OK
+
+2024-05-20 14:36:26,958 - INFO - Complete response received: AT+HT
+OK
+
+2024-05-20 14:36:52,032 - INFO - Initializing serial connection on /dev/ttyS0 with baud rate 115200
+2024-05-20 14:36:52,033 - INFO - Serial input flushed and ready.
+2024-05-20 14:36:52,034 - INFO - Device is ready
+2024-05-20 14:36:52,034 - INFO - Obtaining access token using gcloud
+2024-05-20 14:36:56,303 - INFO - Access token obtained
+2024-05-20 14:36:56,304 - INFO - Preparing to send AT command: AT+HTTPTERM
+2024-05-20 14:36:57,307 - INFO - Received buffer: AT+HTTPTERM
+
+2024-05-20 14:36:57,307 - INFO - Received buffer: OK
+
+2024-05-20 14:36:58,309 - INFO - Complete response received: AT+HTTPTERM
+OK
+
+2024-05-20 14:36:58,309 - INFO - Preparing to send AT command: AT+CSQ
+2024-05-20 14:36:59,311 - INFO - Received buffer: AT+CSQ
+
+2024-05-20 14:36:59,312 - INFO - Received buffer: +CSQ: 15,99
+
+2024-05-20 14:36:59,312 - INFO - Received buffer: 
+
+2024-05-20 14:36:59,312 - INFO - Received buffer: OK
+
+2024-05-20 14:37:00,314 - INFO - Complete response received: AT+CSQ
++CSQ: 15,99
+
+OK
+
+2024-05-20 14:37:00,314 - INFO - Preparing to send AT command: AT+CREG?
+2024-05-20 14:37:01,316 - INFO - Received buffer: AT+CREG?
+
+2024-05-20 14:37:01,317 - INFO - Received buffer: +CREG: 0,1
+
+2024-05-20 14:37:01,317 - INFO - Received buffer: 
+
+2024-05-20 14:37:01,318 - INFO - Received buffer: OK
+
+2024-05-20 14:37:02,319 - INFO - Complete response received: AT+CREG?
++CREG: 0,1
+
+OK
+
+2024-05-20 14:37:02,321 - INFO - Preparing to send AT command: AT+CGREG?
+2024-05-20 14:37:03,324 - INFO - Received buffer: AT+CGREG?
+
+2024-05-20 14:37:03,326 - INFO - Received buffer: +CGREG: 0,1
+
+2024-05-20 14:37:03,327 - INFO - Received buffer: 
+
+2024-05-20 14:37:03,328 - INFO - Received buffer: OK
+
+2024-05-20 14:37:04,330 - INFO - Complete response received: AT+CGREG?
++CGREG: 0,1
+
+OK
+
+2024-05-20 14:37:04,330 - INFO - Preparing to send AT command: AT+CPSI?
+2024-05-20 14:37:05,332 - INFO - Received buffer: AT+CPSI?
+
+2024-05-20 14:37:05,336 - INFO - Received buffer: +CPSI: LTE,Online,232-03,0x36F8,18230037,147,EUTRAN-BAND20,6400,3,3,-137,-1105,-799,10
+
+2024-05-20 14:37:05,336 - INFO - Received buffer: 
+
+2024-05-20 14:37:05,336 - INFO - Received buffer: OK
+
+2024-05-20 14:37:06,338 - INFO - Complete response received: AT+CPSI?
++CPSI: LTE,Online,232-03,0x36F8,18230037,147,EUTRAN-BAND20,6400,3,3,-137,-1105,-799,10
+
+OK
+
+2024-05-20 14:37:06,338 - INFO - Preparing to send AT command: AT+HTTPINIT
+2024-05-20 14:37:07,340 - INFO - Received buffer: AT+HTTPINIT
+
+2024-05-20 14:37:07,341 - INFO - Received buffer: OK
+
+2024-05-20 14:37:08,342 - INFO - Complete response received: AT+HTTPINIT
+OK
+
+2024-05-20 14:37:08,343 - INFO - Preparing to send AT command: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+2024-05-20 14:37:09,349 - INFO - Received buffer: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+
+2024-05-20 14:37:09,349 - INFO - Received buffer: OK
+
+2024-05-20 14:37:10,350 - INFO - Complete response received: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+OK
+
+2024-05-20 14:37:10,351 - INFO - Preparing to send AT command: AT+HTTPPARA="CONTENT","application/json"
+2024-05-20 14:37:11,354 - INFO - Received buffer: AT+HTTPPARA="CONTENT","application/json"
+
+2024-05-20 14:37:11,355 - INFO - Received buffer: OK
+
+2024-05-20 14:37:12,356 - INFO - Complete response received: AT+HTTPPARA="CONTENT","application/json"
+OK
+
+2024-05-20 14:37:12,356 - INFO - Preparing to send AT command: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+2024-05-20 14:37:13,475 - INFO - Received buffer: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+
+2024-05-20 14:37:13,476 - INFO - Received buffer: ERROR
+
+2024-05-20 14:37:14,478 - INFO - Complete response received: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+ERROR
+
+2024-05-20 14:37:14,478 - INFO - Preparing to send AT command: AT+HTTPDATA=22,10000
+2024-05-20 14:37:15,481 - INFO - Received buffer: AT+HTTPDATA=22,10000
+
+2024-05-20 14:37:15,482 - INFO - Received buffer: DOWNLOAD
+
+2024-05-20 14:37:16,483 - INFO - Complete response received: AT+HTTPDATA=22,10000
+DOWNLOAD
+
+2024-05-20 14:37:16,483 - INFO - Preparing to send AT command: AT+HTTPACTION=1
+2024-05-20 14:37:17,486 - INFO - Received buffer: AT+HTTPACTION=1
+
+2024-05-20 14:37:18,487 - INFO - Complete response received: AT+HTTPACTION=1
+
+2024-05-20 14:37:18,488 - INFO - Preparing to send AT command: AT+HTTPHEAD
+2024-05-20 14:37:19,489 - INFO - Received buffer: AT+HT
+
+2024-05-20 14:37:19,490 - INFO - Received buffer: OK
+
+2024-05-20 14:37:20,491 - INFO - Complete response received: AT+HT
+OK
+
+2024-05-20 14:40:15,715 - INFO - Initializing serial connection on /dev/ttyS0 with baud rate 115200
+2024-05-20 14:40:15,716 - INFO - Serial input flushed and ready.
+2024-05-20 14:40:15,716 - INFO - Device is ready
+2024-05-20 14:40:15,716 - INFO - Obtaining access token using gcloud
+2024-05-20 14:40:19,969 - INFO - Access token obtained
+2024-05-20 14:40:19,969 - INFO - Preparing to send AT command: AT+HTTPTERM
+2024-05-20 14:40:20,972 - INFO - Received buffer: AT+HTTPTERM
+
+2024-05-20 14:40:20,973 - INFO - Received buffer: OK
+
+2024-05-20 14:40:21,974 - INFO - Complete response received: AT+HTTPTERM
+OK
+
+2024-05-20 14:40:21,975 - INFO - Preparing to send AT command: AT+CSQ
+2024-05-20 14:40:22,977 - INFO - Received buffer: AT+CSQ
+
+2024-05-20 14:40:22,978 - INFO - Received buffer: +CSQ: 15,99
+
+2024-05-20 14:40:22,978 - INFO - Received buffer: 
+
+2024-05-20 14:40:22,978 - INFO - Received buffer: OK
+
+2024-05-20 14:40:23,980 - INFO - Complete response received: AT+CSQ
++CSQ: 15,99
+
+OK
+
+2024-05-20 14:40:23,981 - INFO - Preparing to send AT command: AT+CREG?
+2024-05-20 14:40:24,984 - INFO - Received buffer: AT+CREG?
+
+2024-05-20 14:40:24,985 - INFO - Received buffer: +CREG: 0,1
+
+2024-05-20 14:40:24,986 - INFO - Received buffer: 
+
+2024-05-20 14:40:24,987 - INFO - Received buffer: OK
+
+2024-05-20 14:40:25,989 - INFO - Complete response received: AT+CREG?
++CREG: 0,1
+
+OK
+
+2024-05-20 14:40:25,990 - INFO - Preparing to send AT command: AT+CGREG?
+2024-05-20 14:40:26,995 - INFO - Received buffer: AT+CGREG?
+
+2024-05-20 14:40:26,996 - INFO - Received buffer: +CGREG: 0,1
+
+2024-05-20 14:40:26,996 - INFO - Received buffer: 
+
+2024-05-20 14:40:26,996 - INFO - Received buffer: OK
+
+2024-05-20 14:40:27,998 - INFO - Complete response received: AT+CGREG?
++CGREG: 0,1
+
+OK
+
+2024-05-20 14:40:27,998 - INFO - Preparing to send AT command: AT+CPSI?
+2024-05-20 14:40:29,000 - INFO - Received buffer: AT+CPSI?
+
+2024-05-20 14:40:29,003 - INFO - Received buffer: +CPSI: LTE,Online,232-03,0x36F8,18230028,371,EUTRAN-BAND3,1300,5,5,-146,-1160,-811,8
+
+2024-05-20 14:40:29,004 - INFO - Received buffer: 
+
+2024-05-20 14:40:29,004 - INFO - Received buffer: OK
+
+2024-05-20 14:40:30,005 - INFO - Complete response received: AT+CPSI?
++CPSI: LTE,Online,232-03,0x36F8,18230028,371,EUTRAN-BAND3,1300,5,5,-146,-1160,-811,8
+
+OK
+
+2024-05-20 14:40:30,006 - INFO - Preparing to send AT command: AT+HTTPINIT
+2024-05-20 14:40:31,008 - INFO - Received buffer: AT+HTTPINIT
+
+2024-05-20 14:40:31,009 - INFO - Received buffer: OK
+
+2024-05-20 14:40:32,010 - INFO - Complete response received: AT+HTTPINIT
+OK
+
+2024-05-20 14:40:32,011 - INFO - Preparing to send AT command: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+2024-05-20 14:40:33,024 - INFO - Received buffer: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+
+2024-05-20 14:40:33,025 - INFO - Received buffer: OK
+
+2024-05-20 14:40:34,026 - INFO - Complete response received: AT+HTTPPARA="URL","https://firestore.googleapis.com/v1/projects/race-monitor-pro-x/databases/(default)/documents/data"
+OK
+
+2024-05-20 14:40:34,027 - INFO - Preparing to send AT command: AT+HTTPPARA="CONTENT","application/json"
+2024-05-20 14:40:35,030 - INFO - Received buffer: AT+HTTPPARA="CONTENT","application/json"
+
+2024-05-20 14:40:35,031 - INFO - Received buffer: OK
+
+2024-05-20 14:40:36,032 - INFO - Complete response received: AT+HTTPPARA="CONTENT","application/json"
+OK
+
+2024-05-20 14:40:36,032 - INFO - Preparing to send AT command: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+2024-05-20 14:40:37,144 - INFO - Received buffer: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+
+2024-05-20 14:40:37,144 - INFO - Received buffer: ERROR
+
+2024-05-20 14:40:38,146 - INFO - Complete response received: AT+HTTPPARA="USERDATA","Authorization: Bearer ya29.c.c0AY_VpZhGXucX_ySCn8hsAZuWC4K0v2SuDPd-zMSVvf9ZPW_nByCI_lYvJZr5v1g3nfGBApPBpRHsP_7Zr74O7BYe27fgotO23nNyxVdAXAeFXSOV15NQOVlqkabZprId4_LMfLqM9c3gshd4uh1wkSCmNAuBJ8xZxVWfAiKT-T_YBh_02Id0WCsL8g2OCCk-RMsMEnKWI2dwR2DdiqMc7s-zrVwnYW4sKC6tlsLmHK0YKqsGLrk4wFbV1i-Ot05OZK4EMIwawOS5adM9MZqS9Q72ISrBON2kcuDAjoq2i6K0BBmsATWmdH4ZIcYmFrrHUqj41SPxvlUVQthFtkFhw_R-IBkqdGXfXJ1-saGWpC1aAN1YkKu56z9H8IO2Vfqa9ZYJWsYT400C59Rrcxj8Fdarc4IYBofsedfY_BctzzFj8vj5t169i74lWw11afkn_vul-QSnJFJyS243_6bFboShJJpuFw6etVnZghoMtejd2m1td1lVn8jFugjB_SfIe28_VWe9ueSOx_7qvoXabyF44OnxatuMVuUBuOOVRk0sVooUYMWwR5w6zXWXWsejs5QexzMoUxJBoknWB3V2UUOoXpqZtjhOtmQRkZexqf2Sdg9Fh3rwwvsjag1qZfpRIuS2z9jMZsxnrhMOyStQI7pthgtXRJ2SIa5zpxx3zhZZkgtYcavz9SUV6c__n8OoIBRFR52X5ql9QkmgjWIawZn14-6ayYQW-dq9B_nUcVkelw6OwQYS8dnt-mzpzF2koaoqcd2dSh3RnM99R5xJRwc_Xpl-Jzhv1vJ-mnh4hYedOW-O6wMBV-_9z6g4Y40bf2Rnz9bVnUuczoWY7qdlcXn27il6U67UVQ8kd0SJgqRocyOU5In3yWudupR_f91753S2_YzdrF405WJZil3RzMeie9gMuvm9seZ8dqtFrSfj3yf4ksaSxaogpfcX60Fef3yVy1hjFOhkzz2xcZml2l8vg-lsmOywBb_UvOn_ky16qy2zfm3gJxm"
+ERROR
+
+2024-05-20 14:40:38,146 - INFO - Preparing to send AT command: AT+HTTPDATA=22,10000
+2024-05-20 14:40:39,149 - INFO - Received buffer: AT+HTTPDATA=22,10000
+
+2024-05-20 14:40:39,149 - INFO - Received buffer: DOWNLOAD
+
+2024-05-20 14:40:40,151 - INFO - Complete response received: AT+HTTPDATA=22,10000
+DOWNLOAD
+
+2024-05-20 14:40:40,151 - INFO - Preparing to send AT command: AT+HTTPACTION=1
+2024-05-20 14:40:41,153 - INFO - Received buffer: AT+HTTPACTION=1
+
+2024-05-20 14:40:42,155 - INFO - Complete response received: AT+HTTPACTION=1
+
+2024-05-20 14:40:42,155 - INFO - Preparing to send AT command: AT+HTTPHEAD
+2024-05-20 14:40:43,157 - INFO - Received buffer: AT+HT
+
+2024-05-20 14:40:43,158 - INFO - Received buffer: OK
+
+2024-05-20 14:40:44,159 - INFO - Complete response received: AT+HT
+OK
+
