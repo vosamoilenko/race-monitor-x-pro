@@ -1,7 +1,9 @@
 # obdreader/OBDReader.py
 # -*- coding: utf-8 -*-
 import logging
+import time
 from utils.SerialDevice import SerialDevice
+from .FakeOBD import FakeOBD
 from constants import PID_VARIABLE_MAP
 from pid_mapper import PIDMapper
 
@@ -9,14 +11,22 @@ SERIAL_PORT='/dev/serial/by-id/usb-NATIONS_N32G43x_Port_MT005330-if00'
 BAUD_RATE=38400
 
 class OBDReader:
-    def __init__(self):
-        self.serial = SerialDevice(SERIAL_PORT, BAUD_RATE)
+    def __init__(self, isFakeOBD):
+        self.fakeOBD = FakeOBD()
+        self.isFakeOBD = isFakeOBD == 'true'
         self.allPIDs = []
+        if (self.isFakeOBD):
+            return
+
+        self.serial = SerialDevice(SERIAL_PORT, BAUD_RATE)
 
     def send(self, command, sleep):
         return self.serial.send_at(command, sleep)
 
     def initialize(self):
+        if (self.isFakeOBD):
+            return
+
         print(self.send("ATD", 1))
         print(self.send("ATZ", 1))
         print(self.send("ATE0", 1))
@@ -29,9 +39,15 @@ class OBDReader:
         self.send("0100", 5)  # We ignore the first result in case it's just bus status like "BUS INIT...OK"
 
     def scanPIDS(self):
+        if (self.isFakeOBD):
+            return
+
         self.allPIDs = self.query_pids("0100")
 
     def getAllPIDsData(self):
+        if (self.isFakeOBD):
+            return self.fakeOBD.getAllPIDsData()
+
         data = {}
         for pid in self.allPIDs:
             # Extract the command part of the PID, which should be the last two characters

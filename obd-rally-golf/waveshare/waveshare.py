@@ -5,17 +5,36 @@ import time
 import json
 import logging
 from .WaveshareSerial import WaveshareSerial
+from .FakeWaveshare import FakeWaveshare
 import subprocess
 
 class Waveshare:
-    def __init__(self):
+    def __init__(self, isFakeGPS):
+        self.isFakeGPS = isFakeGPS == 'true'
+        self.fakeWaveshare = FakeWaveshare()
+
+        if self.isFakeGPS:
+            return
+
         self.ser = WaveshareSerial('/dev/ttyS0', 115200, 6)
         
     def initGPS(self):
+        if self.isFakeGPS:
+            return
+
         self.ser.send_at('AT+CGPS=1,1', 1)
         time.sleep(1)
 
+    def power_off(self):
+        if self.isFakeGPS:
+            return
+            
+        self.ser.power_off()
+
     def getGPS(self, callback):
+        if self.isFakeGPS:
+            return self.fakeWaveshare.getGPS(callback)
+        
         gps_data = self.ser.send_at('AT+CGPSINFO', 1)
         if gps_data:
             try:

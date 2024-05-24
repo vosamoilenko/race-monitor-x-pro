@@ -26,6 +26,5 @@ class Firebase:
             doc_ref.update({
                 'history': ArrayUnion([data])
             })
-            logging.info(f"Successfully updated 'history' for user: {user} with timestamp: {new_timestamp}")
         except Exception as e:
             logging.error(f"Failed to update document for user: {user} with error: {e}")

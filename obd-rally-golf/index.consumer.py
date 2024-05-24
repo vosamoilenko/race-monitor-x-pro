@@ -1,7 +1,6 @@
 import pika
 import json
 from collections import defaultdict
-from waveshare.waveshare import Waveshare
 import subprocess
 import logging
 import time
@@ -21,11 +20,6 @@ def get_access_token():
     except subprocess.CalledProcessError as e:
         logging.error("Failed to obtain access token: %s", e.output)
         return None
-
-# access_token = get_access_token()
-
-# Initialize Waveshare object
-waveshare = Waveshare()
 
 # Establish connection
 credentials = pika.PlainCredentials('portal', 'none')
@@ -48,13 +42,12 @@ def adjust_to_firebase_format(data):
     return firebase_data
 
 def process_and_send_to_firebase():
-    if 'gps' in data_storage:
-    # if 'gps' in data_storage and 'obd' in data_storage:
+    # if 'gps' in data_storage:
+    if 'gps' in data_storage and 'obd' in data_storage:
         # Combine the data
         combined_data = data_storage['gps'].copy()
-        # combined_data.update(data_storage['obd'])
+        combined_data.update(data_storage['obd'])
         logging.info("Processing and sending data to Firebase: %s", combined_data)
-        # formatted_data = adjust_to_firebase_format(combined_data)
 
         fb.push('vova',combined_data)
 

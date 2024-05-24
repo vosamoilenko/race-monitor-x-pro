@@ -1,0 +1,12 @@
+[Unit]
+Description=OBD reader
+After=init_rmpx_service.service
+Requires=init_rmpx_service.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/pi/Developer/py/obd-rally-golf
+ExecStart=/home/pi/Developer/py/boot/obd_rmpx_service.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -3,11 +3,17 @@
 
 import time
 import json
+import os
 import logging
+from dotenv import load_dotenv
 from waveshare.waveshare import Waveshare
 from mq.PikaClientProducer import PikaClientProducer
 
 logging.basicConfig(filename="/home/pi/Developer/py/obd-rally-golf/logs/gps.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+load_dotenv()
+
+FAKE_GPS = os.environ.get("FAKE_GPS")
 
 rabbitMq = PikaClientProducer('gps')
 
@@ -17,7 +23,7 @@ def callback(lat, lon):
     rabbitMq.send(json_data)
     logging.info("GPS data sent: %s", json_data)
 
-waveshare = Waveshare()
+waveshare = Waveshare(FAKE_GPS)
 
 try:
     waveshare.initGPS()
@@ -28,5 +34,5 @@ except Exception as e:
     logging.error("An error occurred: {}".format( str(e)))
 
 finally: 
-    waveshare.ser.power_off()
+    waveshare.power_off()
     logging.info("GPS module powered off.")
