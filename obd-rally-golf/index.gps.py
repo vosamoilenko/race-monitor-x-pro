@@ -7,7 +7,7 @@ import logging
 from waveshare.waveshare import Waveshare
 from mq.PikaClientProducer import PikaClientProducer
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename="/home/pi/Developer/py/obd-rally-golf/logs/gps.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 rabbitMq = PikaClientProducer('gps')
 

@@ -1,0 +1,12 @@
+[Unit]
+Description=GPS reader
+After=init_rmpx_service.service
+Requires=init_rmpx_service.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/pi/Developer/py/obd-rally-golf
+ExecStart=/home/pi/Developer/py/boot/gps_rmpx_service.sh
+
+[Install]
+WantedBy=multi-user.target

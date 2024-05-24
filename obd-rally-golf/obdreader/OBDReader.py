@@ -8,8 +8,6 @@ from pid_mapper import PIDMapper
 SERIAL_PORT='/dev/serial/by-id/usb-NATIONS_N32G43x_Port_MT005330-if00'
 BAUD_RATE=38400
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 class OBDReader:
     def __init__(self):
         self.serial = SerialDevice(SERIAL_PORT, BAUD_RATE)

@@ -4,8 +4,6 @@ import logging
 import serial
 import time
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 class SerialDevice(object):  # Explicit new-style class
     def __init__(self, serial_port, baud_rate):
         logging.info("Initializing serial connection on {} with baud rate {}".format(serial_port, baud_rate))

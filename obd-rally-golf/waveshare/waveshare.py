@@ -7,8 +7,6 @@ import logging
 from .WaveshareSerial import WaveshareSerial
 import subprocess
 
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-
 class Waveshare:
     def __init__(self):
         self.ser = WaveshareSerial('/dev/ttyS0', 115200, 6)

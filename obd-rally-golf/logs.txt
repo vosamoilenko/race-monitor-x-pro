@@ -1,9 +1,0 @@
-2024-05-20 14:25:25,808 - INFO - Python version
-2024-05-20 14:25:25,809 - INFO - 2.7.15 | packaged by conda-forge | (default, Mar  5 2020, 14:54:20) 
-[GCC 7.3.0]
-2024-05-20 14:25:25,810 - INFO - Version info.
-2024-05-20 14:25:25,810 - INFO - sys.version_info(major=2, minor=7, micro=15, releaselevel='final', serial=0)
-2024-05-20 14:25:25,811 - INFO - Initializing serial connection on /dev/ttyS0 with baud rate 115200
-2024-05-20 14:25:25,812 - INFO - Serial input flushed and ready.
-2024-05-20 14:25:25,812 - INFO - Powering on the device...
-2024-05-20 14:25:47,831 - INFO - Device is ready
