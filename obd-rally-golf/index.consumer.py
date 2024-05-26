@@ -8,7 +8,7 @@ import time
 from dotenv import load_dotenv
 from firebase.Firebase import Firebase
 
-logging.basicConfig(filename="/home/pi/Developer/py/obd-rally-golf/logs/consumer.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename="/home/pi/Developer/race-monitor-x-pro/obd-rally-golf/logs/consumer.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Set up basic logging
 fb = Firebase()

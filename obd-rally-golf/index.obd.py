@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from obdreader.OBDReader import OBDReader
 from mq.PikaClientProducer import PikaClientProducer
 
-logging.basicConfig(filename="/home/pi/Developer/py/obd-rally-golf/logs/obd.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename="/home/pi/Developer/race-monitor-x-pro/obd-rally-golf/logs/obd.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 load_dotenv()
 

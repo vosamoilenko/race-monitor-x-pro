@@ -76,7 +76,7 @@ Services and init scripts are located at ./boot
 The services file symlinks need to be moved to /etc/systemd/system/
 
 ```sh
-sudo ln -s /home/pi/Developer/py/boot/init_rmpx_service.service /etc/systemd/system/init_rmpx_service.service
+sudo ln -s /home/pi/Developer/race-monitor-x-pro/boot/init_rmpx_service.service /etc/systemd/system/init_rmpx_service.service
 
 sudo systemctl daemon-reload
 
@@ -103,7 +103,7 @@ sudo snap install google-cloud-cli --classic
 Activate service account
 
 ```
-gcloud auth activate-service-account --key-file=/home/pi/Developer/py/race-monitor-pro-x-firebase-adminsdk-ttnud-d12cb67075.json
+gcloud auth activate-service-account --key-file=/home/pi/Developer/race-monitor-x-pro/race-monitor-pro-x-firebase-adminsdk-ttnud-d12cb67075.json
 ```
 
 Get access token:

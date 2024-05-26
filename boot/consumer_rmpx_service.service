@@ -5,8 +5,8 @@ Requires=init_rmpx_service.service
 
 [Service]
 Type=simple
-WorkingDirectory=/home/pi/Developer/py/obd-rally-golf
-ExecStart=/home/pi/Developer/py/boot/consumer_rmpx_service.sh
+WorkingDirectory=/home/pi/Developer/race-monitor-x-pro/obd-rally-golf
+ExecStart=/home/pi/Developer/race-monitor-x-pro/boot/consumer_rmpx_service.sh
 Restart=always
 RestartSec=5
 

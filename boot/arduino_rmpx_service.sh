@@ -10,4 +10,4 @@ which python
 
 sleep 5
 
-python /home/pi/Developer/py/obd-rally-golf/index.arduino.py
+python /home/pi/Developer/race-monitor-x-pro/obd-rally-golf/index.arduino.py

@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from waveshare.waveshare import Waveshare
 from mq.PikaClientProducer import PikaClientProducer
 
-logging.basicConfig(filename="/home/pi/Developer/py/obd-rally-golf/logs/gps.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename="/home/pi/Developer/race-monitor-x-pro/obd-rally-golf/logs/gps.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 load_dotenv()
 

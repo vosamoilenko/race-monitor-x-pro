@@ -6,7 +6,7 @@ import firebase_admin
 from firebase_admin import credentials, firestore
 from google.cloud.firestore import ArrayUnion
 
-FIREBASE_ADMIN_CRED_JSON_PATH = '/home/pi/Developer/py/race-monitor-pro-x-firebase-adminsdk-ttnud-d12cb67075.json'
+FIREBASE_ADMIN_CRED_JSON_PATH = '/home/pi/Developer/race-monitor-x-pro/race-monitor-pro-x-firebase-adminsdk-ttnud-d12cb67075.json'
 class Firebase:
     def __init__(self):
         try:

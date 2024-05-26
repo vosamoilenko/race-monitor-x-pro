@@ -9,7 +9,7 @@ from utils.Systemctl import Systemctl
 from utils.Ping import Ping
 
 # Setup logging configuration
-logging.basicConfig(filename="/home/pi/Developer/py/obd-rally-golf/logs/arduino.log", level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename="/home/pi/Developer/race-monitor-x-pro/obd-rally-golf/logs/arduino.log", level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 fb = Firebase()
 arduino = Arduino()
