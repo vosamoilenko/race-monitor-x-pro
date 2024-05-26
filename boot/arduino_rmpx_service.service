@@ -1,12 +1,10 @@
 [Unit]
-Description=GPS reader
-After=init_rmpx_service.service
-Requires=init_rmpx_service.service
+Description=Consumer
 
 [Service]
 Type=simple
 WorkingDirectory=/home/pi/Developer/py/obd-rally-golf
-ExecStart=/home/pi/Developer/py/boot/gps_rmpx_service.sh
+ExecStart=/home/pi/Developer/py/boot/arduino_rmpx_service.sh
 Restart=always
 RestartSec=5
 

@@ -3,10 +3,12 @@ Description=Initialization Service
 After=network.target
 
 [Service]
-Type=oneshot
+Type=simple
 ExecStart=/home/pi/Developer/py/boot/init.sh
 RemainAfterExit=true
 WorkingDirectory=/home/pi/Developer/py/obd-rally-golf
+Restart=always
+RestartSec=5
 
 [Install]
 WantedBy=multi-user.target

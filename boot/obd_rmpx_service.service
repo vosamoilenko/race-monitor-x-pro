@@ -4,9 +4,11 @@ After=init_rmpx_service.service
 Requires=init_rmpx_service.service
 
 [Service]
-Type=oneshot
+Type=simple
 WorkingDirectory=/home/pi/Developer/py/obd-rally-golf
 ExecStart=/home/pi/Developer/py/boot/obd_rmpx_service.sh
+Restart=always
+RestartSec=5
 
 [Install]
 WantedBy=multi-user.target
