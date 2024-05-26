@@ -8,7 +8,10 @@ import time
 from dotenv import load_dotenv
 from firebase.Firebase import Firebase
 
-logging.basicConfig(filename="/home/pi/Developer/race-monitor-x-pro/obd-rally-golf/logs/consumer.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+BASE_PATH = os.environ.get("BASE_PATH")
+
+
+logging.basicConfig(filename=f"{BASE_PATH}/obd-rally-golf/logs/consumer.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Set up basic logging
 fb = Firebase()
@@ -34,7 +37,7 @@ def process_and_send_to_firebase():
         logging.info("Processing and sending data to Firebase: %s", combined_data)
 
         if FAKE_FIREBASE != 'true':
-            fb.push('vova',combined_data)
+            fb.push('vova', combined_data)
             logging.info("Data sent to Firebase")
 
         data_storage.clear()

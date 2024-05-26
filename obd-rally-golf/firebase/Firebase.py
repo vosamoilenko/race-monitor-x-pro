@@ -1,12 +1,19 @@
 # firebase/Firebase.py
 # -*- coding: utf-8 -*-
 
+import json
 import logging
 import firebase_admin
+import os
 from firebase_admin import credentials, firestore
 from google.cloud.firestore import ArrayUnion
+from dotenv import load_dotenv
 
-FIREBASE_ADMIN_CRED_JSON_PATH = '/home/pi/Developer/race-monitor-x-pro/race-monitor-pro-x-firebase-adminsdk-ttnud-d12cb67075.json'
+load_dotenv()
+
+BASE_PATH = os.environ.get("BASE_PATH")
+
+FIREBASE_ADMIN_CRED_JSON_PATH = f'{BASE_PATH}/race-monitor-pro-x-firebase-adminsdk-ttnud-d12cb67075.json'
 class Firebase:
     def __init__(self):
         try:
@@ -60,4 +67,46 @@ class Firebase:
             logging.info(f"Updated currentRacerId to {racer_id}")
         except Exception as e:
             logging.error(f"Failed to update currentRacerId with error: {e}")
+            raise e  # Re-raise the exception if there's a critical error
+
+    def fetch_data_document(self, document_id):
+        try:
+            doc_ref = self.db.collection('data').document(document_id)
+            doc = doc_ref.get()
+            if doc.exists:
+                # Convert the document to JSON format
+                doc_data = doc.to_dict()
+                with open(f'{document_id}.json', 'w') as json_file:
+                    json.dump(doc_data, json_file)
+                logging.info(f"Document {document_id} fetched and saved as JSON.")
+            else:
+                logging.error(f"No such document with ID {document_id}.")
+                return None
+        except Exception as e:
+            logging.error(f"Failed to fetch and save document {document_id} with error: {e}")
+            raise e  # Re-raise the exception if there's a critical error
+
+    def overwrite_document(self, json_path, document_id):
+        try:
+            # Open and read the JSON file containing the document data
+            with open(json_path, 'r') as file:
+                data = json.load(file)
+
+            # Get a reference to the Firestore document
+            doc_ref = self.db.collection('data').document(document_id)
+
+            # Set the document with the data from the JSON file, overwriting any existing data
+            doc_ref.set(data)
+            logging.info(f"Document {document_id} overwritten successfully with data from {json_path}.")
+
+        except FileNotFoundError:
+            logging.error(f"The file {json_path} was not found.")
+            raise FileNotFoundError(f"The file {json_path} was not found.")
+
+        except json.JSONDecodeError:
+            logging.error(f"Error decoding JSON from the file {json_path}.")
+            raise ValueError(f"Error decoding JSON from the file {json_path}.")
+
+        except Exception as e:
+            logging.error(f"Failed to overwrite document {document_id} with error: {e}")
             raise e  # Re-raise the exception if there's a critical error

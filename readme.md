@@ -1,5 +1,10 @@
 ## Pid codes
 
+# Firebase
+
+## Run emulator with data 
+`/fe firebase emulators:start --export-on-exit ./firestore-state.json --import ./firestore-state.json`
+
 # Pi
 
 ## Logs
