@@ -21,6 +21,7 @@ declare module 'vue' {
     ChartTooltip: typeof import('./components/ui/chart/ChartTooltip.vue')['default']
     HomeView: typeof import('./views/HomeView.vue')['default']
     LineChart: typeof import('./components/ui/chart-line/LineChart.vue')['default']
+    Map: typeof import('./components/shared/Map.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Speedometer: typeof import('./components/shared/Speedometer.vue')['default']

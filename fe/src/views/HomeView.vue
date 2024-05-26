@@ -10,8 +10,10 @@ const col = fb.doc1('vova')
 </script>
 
 <template>
+  
+  <Map :history="col?.history"></Map>
+
   <div class="text text-3xl pl-4 my-5">RaceMonitorXPro</div>
-  DOC: {{ col }}
   <main class="px-4">
     <!-- {{ data }} -->
     <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
