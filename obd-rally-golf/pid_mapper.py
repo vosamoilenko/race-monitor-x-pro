@@ -1,4 +1,5 @@
 from constants import PIDCommand
+
 from PID.pid_engine_speed import PIDEngineSpeed
 from PID.pid_monitor_status import PIDMonitorStatus
 from PID.pid_engine_load import PIDEngineLoad
@@ -12,6 +13,9 @@ from PID.pid_throttle_position import PIDThrottlePosition
 from PID.pid_bank1_sensor2_oxygen_sensor_voltage import PIDBank1Sensor2OxygenSensorVoltage
 from PID.pid_short_term_fuel_trim_bank1 import PIDShortTermFuelTrimBank1
 from PID.pid_fuel_status import PIDFuelStatus
+from PID.pid_bank1_sensor1_oxygen_sensor_voltage import PIDBank1Sensor1OxygenSensorVoltage
+from PID.pid_oxygen_sensors_present import PIDOxygenSensorsPresent
+from PID.pid_commanded_secondary_air_status import PIDCommandedSecondaryAirStatus
 
 class PIDMapper:
     @staticmethod
@@ -45,6 +49,12 @@ class PIDMapper:
             return PIDMapper.map(PIDCommand.MAF_SENSOR_AIR_FLOW_RATE, hex_string)
         elif command == '4111':
             return PIDMapper.map(PIDCommand.THROTTLE_POSITION, hex_string)
+        elif command == '4112':
+            return PIDMapper.map(PIDCommand.COMMANDED_SECONDARY_AIR_STATUS, hex_string)
+        elif command == '4113':
+            return PIDMapper.map(PIDCommand.OXYGEN_SENSORS_PRESENT, hex_string)
+        elif command == '4114':
+            return PIDMapper.map(PIDCommand.BANK_1_SENSOR_1_OXYGEN_SENSOR_VOLTAGE, hex_string)
         elif command == '4115':
             return PIDMapper.map(PIDCommand.BANK_1_SENSOR_2_OXYGEN_SENSOR_VOLTAGE, hex_string)
         else:
@@ -79,6 +89,12 @@ class PIDMapper:
             return PIDMAFSensorAirFlowRate.parse(hex_string)
         elif command == PIDCommand.THROTTLE_POSITION:
             return PIDThrottlePosition.parse(hex_string)
+        elif command == PIDCommand.OXYGEN_SENSORS_PRESENT:
+            return PIDBank1Sensor1OxygenSensorVoltage.parse(hex_string)
+        elif command == PIDCommand.COMMANDED_SECONDARY_AIR_STATUS:
+            return PIDCommandedSecondaryAirStatus.parse(hex_string)
+        elif command == PIDCommand.BANK_1_SENSOR_1_OXYGEN_SENSOR_VOLTAGE:
+            return PIDBank1Sensor1OxygenSensorVoltage.parse(hex_string)
         elif command == PIDCommand.BANK_1_SENSOR_2_OXYGEN_SENSOR_VOLTAGE:
             return PIDBank1Sensor2OxygenSensorVoltage.parse(hex_string)
         elif command == PIDCommand.SHORT_TERM_FUEL_TRIM_BANK_1:

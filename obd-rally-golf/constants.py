@@ -14,6 +14,9 @@ class PIDCommand(Enum):
     INTAKE_AIR_TEMPERATURE = "010F", "Intake air temperature"
     MAF_SENSOR_AIR_FLOW_RATE = "0110", "Mass air flow sensor (MAF) air flow rate"
     THROTTLE_POSITION = "0111", "Throttle position"
+    COMMANDED_SECONDARY_AIR_STATUS = "0112", "Commanded secondary air status"
+    OXYGEN_SENSORS_PRESENT = "0113", "Oxygen sensors present"
+    BANK_1_SENSOR_1_OXYGEN_SENSOR_VOLTAGE = "0114", "Bank 1 Sensor 1 Oxygen Sensor Voltage"
     BANK_1_SENSOR_2_OXYGEN_SENSOR_VOLTAGE = "0115", "Bank 1 Sensor 2 Oxygen Sensor Voltage"
 
 
