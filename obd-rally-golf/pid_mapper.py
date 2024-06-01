@@ -16,6 +16,8 @@ from PID.pid_fuel_status import PIDFuelStatus
 from PID.pid_bank1_sensor1_oxygen_sensor_voltage import PIDBank1Sensor1OxygenSensorVoltage
 from PID.pid_oxygen_sensors_present import PIDOxygenSensorsPresent
 from PID.pid_commanded_secondary_air_status import PIDCommandedSecondaryAirStatus
+from PID.pid_fuel_air_commanded_equivalence_ratio import PIDFuelAirCommandedEquivalenceRatio
+from PID.pid_long_term_fuel_trim_bank1 import PIDLongTermFuelTrimBank1
 
 class PIDMapper:
     @staticmethod
@@ -35,6 +37,8 @@ class PIDMapper:
             return PIDMapper.map(PIDCommand.COOLANT_TEMPERATURE, hex_string)
         elif command == '4106':
             return PIDMapper.map(PIDCommand.SHORT_TERM_FUEL_TRIM_BANK_1, hex_string)
+        elif command == '4107':
+            return PIDMapper.map(PIDCommand.LONG_TERM_FUEL_TRIM_BANK_1, hex_string)
         elif command == '410B':
             return PIDMapper.map(PIDCommand.INTAKE_MANIFOLD_PRESSURE, hex_string)
         elif command == '410C':
@@ -57,6 +61,8 @@ class PIDMapper:
             return PIDMapper.map(PIDCommand.BANK_1_SENSOR_1_OXYGEN_SENSOR_VOLTAGE, hex_string)
         elif command == '4115':
             return PIDMapper.map(PIDCommand.BANK_1_SENSOR_2_OXYGEN_SENSOR_VOLTAGE, hex_string)
+        elif command == '4134':
+            return PIDMapper.map(PIDCommand.FUEL_AIR_COMMANDED_EQUIVALENCE_RATIO, hex_string)
         else:
             print(command)
             return "Unknown command"
@@ -99,6 +105,11 @@ class PIDMapper:
             return PIDBank1Sensor2OxygenSensorVoltage.parse(hex_string)
         elif command == PIDCommand.SHORT_TERM_FUEL_TRIM_BANK_1:
             return PIDShortTermFuelTrimBank1.parse(hex_string)
+        elif command == PIDCommand.LONG_TERM_FUEL_TRIM_BANK_1:
+            return PIDLongTermFuelTrimBank1.parse(hex_string)
+        elif command == PIDCommand.FUEL_AIR_COMMANDED_EQUIVALENCE_RATIO:
+            return PIDFuelAirCommandedEquivalenceRatio.parse(hex_string)
+
         else:
             return "Unknown command"
 

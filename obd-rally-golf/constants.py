@@ -7,6 +7,7 @@ class PIDCommand(Enum):
     ENGINE_LOAD = "0104", "Calculated engine load"
     COOLANT_TEMPERATURE = "0105", "Engine coolant temperature"
     SHORT_TERM_FUEL_TRIM_BANK_1 = "0106", "Short Term Fuel Trim Bank 1"
+    LONG_TERM_FUEL_TRIM_BANK_1 = "0107", "Long-term fuel trim for Bank 1"
     INTAKE_MANIFOLD_PRESSURE = "010B", "Intake manifold absolute pressure"
     ENGINE_SPEED = "010C", "Engine speed"
     VEHICLE_SPEED = "010D", "Vehicle speed"
@@ -18,6 +19,7 @@ class PIDCommand(Enum):
     OXYGEN_SENSORS_PRESENT = "0113", "Oxygen sensors present"
     BANK_1_SENSOR_1_OXYGEN_SENSOR_VOLTAGE = "0114", "Bank 1 Sensor 1 Oxygen Sensor Voltage"
     BANK_1_SENSOR_2_OXYGEN_SENSOR_VOLTAGE = "0115", "Bank 1 Sensor 2 Oxygen Sensor Voltage"
+    FUEL_AIR_COMMANDED_EQUIVALENCE_RATIO = "0134", "Fuel air commanded equivalence ratio"
 
 
 class PIDPostfix(Enum):
