@@ -1,51 +1,34 @@
 import pika
 import json
 import os
-from collections import defaultdict
-import subprocess
 import logging
-import time
 from dotenv import load_dotenv
 from firebase.Firebase import Firebase
 
-BASE_PATH = os.environ.get("BASE_PATH")
-
-
-logging.basicConfig(filename=f"{BASE_PATH}/obd-rally-golf/logs/consumer.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
-# Set up basic logging
-fb = Firebase()
-
+# Load environment and set up logging
 load_dotenv()
+BASE_PATH = os.environ.get("BASE_PATH")
+logging.basicConfig(filename=f"{BASE_PATH}/obd-rally-golf/logs/consumer.log", level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+# Firebase setup
+fb = Firebase()
 FAKE_FIREBASE = os.environ.get("FAKE_FIREBASE")
 
-# Establish connection
+# RabbitMQ connection setup
 credentials = pika.PlainCredentials('portal', 'none')
-connection = pika.BlockingConnection(
-    pika.ConnectionParameters(host='localhost', credentials=credentials))
+connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost', credentials=credentials))
 channel = connection.channel()
 
-# Data storage for queues
-data_storage = defaultdict(dict)
-
-def process_and_send_to_firebase():
-    if 'gps' in data_storage and 'obd' in data_storage:
-        # Combine the data
-        combined_data = data_storage['gps'].copy()
-        combined_data.update(data_storage['obd'])
-        logging.info("Processing and sending data to Firebase: %s", combined_data)
-
-        if FAKE_FIREBASE != 'true':
-            fb.push('vova', combined_data)
-            logging.info("Data sent to Firebase")
-
-        data_storage.clear()
+def send_to_firebase(queue_name, data):
+    logging.info(f"Sending data to Firebase from {queue_name}: {data}")
+    if FAKE_FIREBASE != 'true':
+        fb.push(queue_name, data)
+        logging.info("Data sent to Firebase")
 
 def callback(ch, method, properties, body, queue_name):
-    print("QUEUE {} {}".format(queue_name, body))
-    data_storage[queue_name] = json.loads(body)
-    process_and_send_to_firebase()
+    logging.info(f"Received message from {queue_name}: {body}")
+    data = json.loads(body)
+    send_to_firebase(queue_name, data)
 
 def setup_consumer(queue_name):
     channel.queue_declare(queue=queue_name)

@@ -9,11 +9,12 @@ from dotenv import load_dotenv
 from waveshare.waveshare import Waveshare
 from mq.PikaClientProducer import PikaClientProducer
 
-logging.basicConfig(filename="/home/pi/Developer/race-monitor-x-pro/obd-rally-golf/logs/gps.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 load_dotenv()
 
+BASE_PATH = os.environ.get("BASE_PATH")
 FAKE_GPS = os.environ.get("FAKE_GPS")
+
+logging.basicConfig(filename=f"{BASE_PATH}/obd-rally-golf/logs/consumer.log", level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 rabbitMq = PikaClientProducer('gps')
 

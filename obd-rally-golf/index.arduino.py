@@ -7,9 +7,11 @@ from firebase.Firebase import Firebase
 from arduino.Arduino import Arduino
 from utils.Systemctl import Systemctl
 from utils.Ping import Ping
+from dotenv import load_dotenv
 
-# Setup logging configuration
-logging.basicConfig(filename="/home/pi/Developer/race-monitor-x-pro/obd-rally-golf/logs/arduino.log", level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+BASE_PATH = os.environ.get("BASE_PATH")
+logging.basicConfig(filename=f"{BASE_PATH}/obd-rally-golf/logs/consumer.log", level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 fb = Firebase()
 arduino = Arduino()

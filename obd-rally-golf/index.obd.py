@@ -9,11 +9,11 @@ from dotenv import load_dotenv
 from obdreader.OBDReader import OBDReader
 from mq.PikaClientProducer import PikaClientProducer
 
-logging.basicConfig(filename="/home/pi/Developer/race-monitor-x-pro/obd-rally-golf/logs/obd.log",level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 load_dotenv()
-
 FAKE_OBD = os.environ.get("FAKE_OBD")
+BASE_PATH = os.environ.get("BASE_PATH")
+logging.basicConfig(filename=f"{BASE_PATH}/obd-rally-golf/logs/consumer.log", level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 rabbitMq = PikaClientProducer('obd')
 
@@ -28,5 +28,4 @@ while True:
     json_data = json.dumps(data)
 
     logging.info(json_data)
-    
     rabbitMq.send(json_data)
