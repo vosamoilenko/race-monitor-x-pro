@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 
 
 BASE_PATH = os.environ.get("BASE_PATH")
-logging.basicConfig(filename=f"{BASE_PATH}/obd-rally-golf/logs/consumer.log", level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename=f"{BASE_PATH}/obd-rally-golf/logs/arduino.log", level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 fb = Firebase()
 arduino = Arduino()

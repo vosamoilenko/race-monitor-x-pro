@@ -13,7 +13,7 @@ def random_flow_rate(): return round(random.uniform(0, 100), 1)  # Flow rate in 
 
 class FakeOBD:
     def getAllPIDsData(self):
-        time.sleep(30)
+        time.sleep(10)
         return {
             'monitorStatusSinceDtcsCleared': random.choice(['OK', 'NOT OK']),
             'freezeDtc': 'P' + str(random.randint(1000, 1999)),

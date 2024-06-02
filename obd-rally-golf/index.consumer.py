@@ -14,10 +14,13 @@ logging.basicConfig(filename=f"{BASE_PATH}/obd-rally-golf/logs/consumer.log", le
 fb = Firebase()
 FAKE_FIREBASE = os.environ.get("FAKE_FIREBASE")
 
+
 # RabbitMQ connection setup
 credentials = pika.PlainCredentials('portal', 'none')
 connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost', credentials=credentials))
 channel = connection.channel()
+
+settings = fb.get_settings()
 
 def send_to_firebase(queue_name, data):
     logging.info(f"Sending data to Firebase from {queue_name}: {data}")
@@ -28,7 +31,7 @@ def send_to_firebase(queue_name, data):
 def callback(ch, method, properties, body, queue_name):
     logging.info(f"Received message from {queue_name}: {body}")
     data = json.loads(body)
-    send_to_firebase(queue_name, data)
+    send_to_firebase(settings['currentRacerId'], data)
 
 def setup_consumer(queue_name):
     channel.queue_declare(queue=queue_name)
