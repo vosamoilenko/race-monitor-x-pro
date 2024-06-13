@@ -51,6 +51,7 @@ export const useDatapointsStore = defineStore('datapoints', () => {
     () => route.params.raceId,
     async (raceId) => {
       console.log({ raceId })
+      // const value = await fb.getDocument('racing-shifts', raceId as string)
       const value = await fb.getDataDocumentData(raceId as string)
       const data = value[0].data()
       datapoints.value = data.entries

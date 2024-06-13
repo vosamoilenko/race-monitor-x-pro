@@ -30,9 +30,9 @@ export const useFirestore = () => {
   }
 
   // Function to get all document IDs from the 'data' collection
-  const getAllDocumentIds = async () => {
+  const getAllDocumentIds = async (collectionId: string) => {
     try {
-      const dataCollection = collection(db, 'data')
+      const dataCollection = collection(db, collectionId)
       const snapshot = await getDocs(dataCollection)
       const documentIds = snapshot.docs.map((doc) => doc.id)
       console.log('Document IDs:', documentIds)
@@ -59,6 +59,10 @@ export const useFirestore = () => {
     return useDocument(doc(db, 'team', 'team'))
   }
 
+  const getDocument = (collectionId: string, documentId: string) => {
+    return useDocument(doc(db, collectionId, documentId))
+  }
+
   const getDataDocumentRef = (id: string, collection: string = 'data') => {
     try {
       const docRef = doc(db, 'data', id)
@@ -69,5 +73,14 @@ export const useFirestore = () => {
     }
   }
 
-  return { getDataDocumentData, getAllDocumentIds, getDataDocumentRef, getUseDataDocument, getUseCollection, getUseSettingsDocument, getUseTeamDocument }
+  return {
+    getDataDocumentData,
+    getAllDocumentIds,
+    getDataDocumentRef,
+    getUseDataDocument,
+    getUseCollection,
+    getUseSettingsDocument,
+    getUseTeamDocument,
+    getDocument
+  }
 }

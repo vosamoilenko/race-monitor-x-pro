@@ -2,6 +2,7 @@ import { defineStore } from 'pinia'
 import { ref, computed, watch } from 'vue'
 import {
   isGPSDataPoint,
+  isOBDDataPoint,
   useDatapointsStore,
   type CarDataPoint,
   type JoinedCarDataPoint
@@ -25,6 +26,16 @@ export const useRaceDashboardStore = defineStore('race-dashboard', () => {
     const filteredEntries = entries.value.slice(0, currentIndex.value + 1).filter(isGPSDataPoint)
 
     return filteredEntries.slice(Math.max(filteredEntries.length - 100, 0))
+  })
+
+  const lastEntry = computed(() => {
+    return entries.value[currentIndex.value]
+  })
+
+  const lastOBDData = computed(() => {
+    const obdItems = entries.value.slice(0, currentIndex.value + 1).filter(isOBDDataPoint)
+
+    return obdItems[obdItems.length - 1]
   })
 
   // Helper function to perform binary search
@@ -99,6 +110,8 @@ export const useRaceDashboardStore = defineStore('race-dashboard', () => {
     incrementIndex,
     decrementIndex,
     setIndex,
-    allGPSDateUntilIndex
+    allGPSDateUntilIndex,
+    lastOBDData,
+    lastEntry
   }
 })

@@ -1,26 +1,43 @@
 <template>
-  <div class="seek-container flex items-center border p-2">
-    {{ currentIndex }}
-    <button @click="prev" class="mr-2">Prev</button>
-    <button @click="playPause" class="mr-2">{{ isPlaying ? 'Pause' : 'Play' }}</button>
-    <button @click="next" class="mr-2">Next</button>
-    <div id="seek-bar" class="relative w-full h-4 bg-gray-200" @click="onSeekBarClick">
+  <Card class="flex items-center border p-2 gap-4">
+    <div class="flex">
+      <StepBackIcon @click="prev" class="h-5 w-5 shrink-0 opacity-50 hover:cursor-pointer"
+        >Prev</StepBackIcon
+      >
+      <PlayIcon
+        v-if="!isPlaying"
+        @click="playPause"
+        class="h-5 w-5 shrink-0 opacity-50 hover:cursor-pointer"
+        >Play'
+      </PlayIcon>
+      <PauseIcon
+        v-if="isPlaying"
+        @click="playPause"
+        class="h-5 w-5 shrink-0 opacity-50 hover:cursor-pointer"
+        >Pause</PauseIcon
+      >
+      <StepForwardIcon @click="next" class="h-5 w-5 shrink-0 opacity-50 hover:cursor-pointer"
+        >Next</StepForwardIcon
+      >
+    </div>
+    <div id="seek-bar" class="relative w-full h-4 bg-gray-200 rounded-sm" @click="onSeekBarClick">
       <div
         id="seek-progress"
-        class="absolute h-4 bg-blue-500"
+        class="absolute bg-secondary h-4 bg-gray-300"
         :style="{ width: progressWidth }"
       ></div>
       <div
         id="seek-control"
-        class="absolute w-6 h-6 bg-blue-700 rounded-full -mt-1 -ml-3 cursor-pointer"
+        class="absolute w-6 h-6 bg-black rounded-full -mt-1 -ml-3 cursor-pointer"
         :style="{ left: controlLeft }"
         @mousedown="onMouseDown"
       ></div>
     </div>
-  </div>
+  </Card>
 </template>
 
 <script setup lang="ts">
+import { StepBackIcon, StepForwardIcon, PlayIcon, PauseIcon } from 'lucide-vue-next'
 import { ref, watch, onMounted, onUnmounted, defineProps, defineEmits } from 'vue'
 
 const props = defineProps<{

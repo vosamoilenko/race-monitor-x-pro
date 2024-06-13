@@ -7,13 +7,13 @@ export interface Props {
 const props = withDefaults(defineProps<Props>(), {})
 </script>
 <template>
-  <Card>
-    <CardHeader class="flex flex-row items-center justify-between space-y-0 pb-2">
+  <Card class="stat-card shadow-sm">
+    <CardHeader class="flex flex-row items-center justify-between space-y-0 pb-1">
       <CardTitle class="text-sm font-medium"> {{ title }} </CardTitle>
     </CardHeader>
     <CardContent>
       <div>
-        <span class="text-2xl font-bold">{{ value === null || value === 'null' ? '-' : value }}</span
+        <span class="text-xl font-bold">{{ value === null || value === 'null' ? '-' : value }}</span
         ><span v-if="postfix">&nbsp;{{ postfix }}</span>
       </div>
       <div class="relative flex">
@@ -23,3 +23,10 @@ const props = withDefaults(defineProps<Props>(), {})
     </CardContent>
   </Card>
 </template>
+
+<style>
+  .stat-card > div {
+    padding: 8px;
+    padding-bottom: 0px;
+  }
+</style>

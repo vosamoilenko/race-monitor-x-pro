@@ -1,5 +1,9 @@
 <template>
-  <div :ref="(el) => (mapRef = el)" class="map-overlay" style="width: 100%; height: 100%"></div>
+  <div
+    :ref="(el) => (mapRef = el)"
+    class="map-overlay rounded-lg overflow-hidden shadow-md"
+    style="width: 100%; height: 100%"
+  ></div>
 </template>
 
 <script setup lang="ts">
