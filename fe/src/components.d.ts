@@ -20,11 +20,17 @@ declare module 'vue' {
     ChartSingleTooltip: typeof import('./components/ui/chart/ChartSingleTooltip.vue')['default']
     ChartTooltip: typeof import('./components/ui/chart/ChartTooltip.vue')['default']
     HomeView: typeof import('./views/HomeView.vue')['default']
+    Layout: typeof import('./components/shared/Layout.vue')['default']
     LineChart: typeof import('./components/ui/chart-line/LineChart.vue')['default']
     Map: typeof import('./components/shared/Map.vue')['default']
+    RaceDashboardLayout: typeof import('./components/shared/RaceDashboardLayout.vue')['default']
+    RaceMap: typeof import('./components/shared/RaceMap.vue')['default']
+    RaceSeek: typeof import('./components/shared/RaceSeek.vue')['default']
+    RaceView: typeof import('./views/RaceView.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Speedometer: typeof import('./components/shared/Speedometer.vue')['default']
     StatCard: typeof import('./components/shared/StatCard.vue')['default']
+    Team: typeof import('./components/shared/Team.vue')['default']
   }
 }

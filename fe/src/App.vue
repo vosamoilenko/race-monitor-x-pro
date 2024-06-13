@@ -2,9 +2,10 @@
 import { RouterView } from 'vue-router'
 </script>
 
-<template>12
-  <RouterView />
+<template>
+  <main class="w-screen h-screen" style="width: 100vw; height: 100vh;">
+    <RouterView />
+  </main>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

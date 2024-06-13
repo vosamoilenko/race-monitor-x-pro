@@ -16,11 +16,17 @@ export const useFirestore = () => {
 
   const db = getFirestore(firebaseApp)
 
-  const col = () => {
-    return useCollection(collection(db, 'data'))
-  }
-  const doc1 = () => {
-    return useDocument(doc(db, 'data', 'vova'))
+  const getDataDocumentData = async (id: string) => {
+    try {
+      const dataCollection = collection(db, 'data')
+      const snapshot = await getDocs(dataCollection)
+      const document = snapshot.docs.filter((doc) => doc.id === id)
+
+      return document
+    } catch (error) {
+      console.error('Error getting document IDs:', error)
+      throw error
+    }
   }
 
   // Function to get all document IDs from the 'data' collection
@@ -37,7 +43,23 @@ export const useFirestore = () => {
     }
   }
 
-  const getDocument = (id: string) => {
+  const getUseDataDocument = (id: string) => {
+    return useDocument(doc(db, 'data', id))
+  }
+
+  const getUseCollection = () => {
+    return useCollection(collection(db, 'data'))
+  }
+
+  const getUseSettingsDocument = () => {
+    return useDocument(doc(db, 'settings', 'settings'))
+  }
+
+  const getUseTeamDocument = () => {
+    return useDocument(doc(db, 'team', 'team'))
+  }
+
+  const getDataDocumentRef = (id: string, collection: string = 'data') => {
     try {
       const docRef = doc(db, 'data', id)
       return docRef
@@ -47,5 +69,5 @@ export const useFirestore = () => {
     }
   }
 
-  return { getAllDocumentIds, getDocument, col, doc1 }
+  return { getDataDocumentData, getAllDocumentIds, getDataDocumentRef, getUseDataDocument, getUseCollection, getUseSettingsDocument, getUseTeamDocument }
 }

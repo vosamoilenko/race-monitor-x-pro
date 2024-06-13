@@ -13,7 +13,7 @@ const props = withDefaults(defineProps<Props>(), {})
     </CardHeader>
     <CardContent>
       <div>
-        <span class="text-2xl font-bold">{{ value }}</span
+        <span class="text-2xl font-bold">{{ value === null || value === 'null' ? '-' : value }}</span
         ><span v-if="postfix">&nbsp;{{ postfix }}</span>
       </div>
       <div class="relative flex">
