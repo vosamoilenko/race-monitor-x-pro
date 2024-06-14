@@ -23,8 +23,12 @@ export const useTeamStore = defineStore('team', () => {
     team.value = data.team
   })
 
+  const getTeamMemberByName = (name: string): Driver | null => {
+    return team.value?.find((driver) => driver.name === name) ?? null
+  }
 
   return {
-    team
+    team,
+    getTeamMemberByName
   }
 })

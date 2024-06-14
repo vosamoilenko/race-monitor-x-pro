@@ -20,21 +20,25 @@ const index = ref(0)
 const updateIndex = (c: number) => {
   index.value = c
 }
+const formattedDate = (ts: number): string => {
+  return DateTime.fromSeconds(ts).toFormat('dd.MM.yyyy')
+}
 
-const iconComponent = computed(() => {
-  return `i-back`
-})
+const formattedTime = (ts: number): string => {
+  return DateTime.fromSeconds(ts).toFormat('HH:mm')
+}
 </script>
 
 <template>
   <RaceDashboardLayout>
     <template #race>
       <div v-if="raceStore.currentData" class="flex flex-col">
-        <div>
-          {{ DateTime.fromSeconds(raceStore.currentData.ts).toISO() }}
+        <div class="text-gray-500 text-sm">
+          {{ formattedDate(raceStore.currentData.ts) }} /
+          {{ raceStore.currentData.ts }}
         </div>
-        <div v-if="raceStore.lastEntry">
-          {{ racingShiftsStore.getCurrentDriverInfo(raceStore.lastEntry.ts) }}
+        <div class="text-black text-6xl font-bold">
+          {{ formattedTime(raceStore.currentData.ts) }}
         </div>
       </div>
     </template>
@@ -42,7 +46,9 @@ const iconComponent = computed(() => {
       <RaceMap :gps-datapoints="raceStore.allGPSDateUntilIndex"></RaceMap>
     </template>
     <template #racers>
-      <Team :team="teamStore.team" />
+      <!-- <div class="overflow-hidden h-full"> -->
+      <Team :team="teamStore.team" class="h-full overflow-y-scroll" />
+      <!-- </div> -->
     </template>
     <template #car>
       <CarStats></CarStats>

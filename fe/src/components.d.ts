@@ -7,6 +7,9 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    Avatar: typeof import('./components/ui/avatar/Avatar.vue')['default']
+    AvatarFallback: typeof import('./components/ui/avatar/AvatarFallback.vue')['default']
+    AvatarImage: typeof import('./components/ui/avatar/AvatarImage.vue')['default']
     Button: typeof import('./components/ui/button/Button.vue')['default']
     Card: typeof import('./components/ui/card/Card.vue')['default']
     CardContent: typeof import('./components/ui/card/CardContent.vue')['default']
@@ -14,6 +17,7 @@ declare module 'vue' {
     CardFooter: typeof import('./components/ui/card/CardFooter.vue')['default']
     CardHeader: typeof import('./components/ui/card/CardHeader.vue')['default']
     CardTitle: typeof import('./components/ui/card/CardTitle.vue')['default']
+    CarStats: typeof import('./components/shared/CarStats.vue')['default']
     Ch: typeof import('./components/shared/Ch.vue')['default']
     ChartCrosshair: typeof import('./components/ui/chart/ChartCrosshair.vue')['default']
     ChartLegend: typeof import('./components/ui/chart/ChartLegend.vue')['default']
@@ -27,10 +31,16 @@ declare module 'vue' {
     RaceMap: typeof import('./components/shared/RaceMap.vue')['default']
     RaceSeek: typeof import('./components/shared/RaceSeek.vue')['default']
     RaceView: typeof import('./views/RaceView.vue')['default']
+    RacingOrder: typeof import('./components/shared/RacingOrder.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Speedometer: typeof import('./components/shared/Speedometer.vue')['default']
     StatCard: typeof import('./components/shared/StatCard.vue')['default']
+    Tabs: typeof import('./components/ui/tabs/Tabs.vue')['default']
+    TabsContainer: typeof import('./components/shared/TabsContainer.vue')['default']
+    TabsContent: typeof import('./components/ui/tabs/TabsContent.vue')['default']
+    TabsList: typeof import('./components/ui/tabs/TabsList.vue')['default']
+    TabsTrigger: typeof import('./components/ui/tabs/TabsTrigger.vue')['default']
     Team: typeof import('./components/shared/Team.vue')['default']
   }
 }
