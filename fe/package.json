@@ -18,7 +18,7 @@
     "@fawmi/vue-google-maps": "^0.9.72",
     "@unovis/ts": "^1.4.1",
     "@unovis/vue": "^1.4.1",
-    "@vueuse/core": "^10.9.0",
+    "@vueuse/core": "^10.11.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "firebase": "^10.12.1",

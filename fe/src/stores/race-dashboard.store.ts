@@ -46,13 +46,10 @@ export const useRaceDashboardStore = defineStore('race-dashboard', () => {
     while (low <= high) {
       const mid = Math.floor((low + high) / 2)
       if (
-        // @ts-ignore
         entries.value[mid][key] !== undefined &&
-        // @ts-ignore
         (mid === index || entries.value[mid + 1][key] === undefined)
       ) {
         return entries.value[mid]
-        // @ts-ignore
       } else if (entries.value[mid][key] !== undefined) {
         low = mid + 1
       } else {
@@ -69,6 +66,31 @@ export const useRaceDashboardStore = defineStore('race-dashboard', () => {
     const closestOBD = binarySearchClosest('engineRpm', index)
 
     return { closestGPS, closestOBD }
+  }
+
+  const getOBDDataAtTimestamp = (timestamp: number) => {
+    let low = 0
+    let high = entries.value.length - 1
+
+    while (low <= high) {
+      const mid = Math.floor((low + high) / 2)
+      const midTs = entries.value[mid].ts
+
+      if (midTs === timestamp) {
+        return isOBDDataPoint(entries.value[mid]) ? entries.value[mid] : null
+      } else if (midTs < timestamp) {
+        low = mid + 1
+      } else {
+        high = mid - 1
+      }
+    }
+
+    // After exiting the loop, high is the greatest index with ts less than timestamp
+    while (high >= 0 && !isOBDDataPoint(entries.value[high])) {
+      high--
+    }
+
+    return high >= 0 ? entries.value[high] : null
   }
 
   const currentData = computed(() => {
@@ -112,6 +134,7 @@ export const useRaceDashboardStore = defineStore('race-dashboard', () => {
     setIndex,
     allGPSDateUntilIndex,
     lastOBDData,
-    lastEntry
+    lastEntry,
+    getOBDDataAtTimestamp // Export the function
   }
 })

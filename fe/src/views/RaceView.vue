@@ -32,23 +32,26 @@ const formattedTime = (ts: number): string => {
 <template>
   <RaceDashboardLayout>
     <template #race>
-      <div v-if="raceStore.currentData" class="flex flex-col">
-        <div class="text-gray-500 text-sm">
-          {{ formattedDate(raceStore.currentData.ts) }} /
-          {{ raceStore.currentData.ts }}
-        </div>
-        <div class="text-black text-6xl font-bold">
-          {{ formattedTime(raceStore.currentData.ts) }}
-        </div>
+      <div class="flex flex-col gap-3 h-full">
+        <Card class="p-6 shadow-md">
+          <div v-if="raceStore.currentData" class="flex flex-col">
+            <div class="text-gray-500 text-sm">
+              {{ formattedDate(raceStore.currentData.ts) }} /
+              {{ raceStore.currentData.ts }}
+            </div>
+            <div class="text-black text-6xl font-bold">
+              {{ formattedTime(raceStore.currentData.ts) }}
+            </div>
+          </div>
+        </Card>
+        <RaceInfo></RaceInfo>
       </div>
     </template>
     <template #map>
       <RaceMap :gps-datapoints="raceStore.allGPSDateUntilIndex"></RaceMap>
     </template>
     <template #racers>
-      <!-- <div class="overflow-hidden h-full"> -->
-      <Team :team="teamStore.team" class="h-full overflow-y-scroll" />
-      <!-- </div> -->
+      <Team :team="teamStore.team" />
     </template>
     <template #car>
       <CarStats></CarStats>

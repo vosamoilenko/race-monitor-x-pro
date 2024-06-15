@@ -14,7 +14,7 @@ const props = withDefaults(defineProps<Props>(), {
 })
 </script>
 <template>
-  <Tabs :default-value="props.tabs[0]?.key" class="w-[400px]">
+  <Tabs :default-value="props.tabs[0]?.key">
     <TabsList>
       <TabsTrigger v-for="item in props.tabs" :key="item.key" :value="item.key">
         {{ item.name }}
