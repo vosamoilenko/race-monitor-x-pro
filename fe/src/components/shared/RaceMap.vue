@@ -8,7 +8,8 @@ import {
   onUnmounted,
   defineProps,
   withDefaults,
-  nextTick
+  nextTick,
+  type VNodeRef
 } from 'vue'
 import Map from 'ol/Map'
 import OSM from 'ol/source/OSM.js'
@@ -165,11 +166,17 @@ onUnmounted(() => {
   map.setTarget(undefined)
   map = undefined!
 })
+
+const assignRef = (el: Element | ComponentPublicInstance | null) => {
+  if (!el) return
+  mapRef.value = el as unknown as HTMLElement
+}
 </script>
 <template>
   <div
-    :ref="(el) => (mapRef = el)"
+    :ref="assignRef"
     class="map-overlay rounded-lg overflow-hidden shadow-md"
     style="width: 100%; height: 100%"
   ></div>
 </template>
+s

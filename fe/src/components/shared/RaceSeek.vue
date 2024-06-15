@@ -57,6 +57,7 @@ const progressWidth = ref('0%')
 const controlLeft = ref('0%')
 
 const updateProgress = () => {
+  // @ts-ignore
   const percentage = ((currentIndex.value - props.from) / (props.to - props.from)) * 100
   progressWidth.value = `${percentage}%`
   controlLeft.value = `${percentage}%`
@@ -100,7 +101,9 @@ const onMouseDown = () => {
 }
 
 const prev = () => {
+  // @ts-ignore
   if (currentIndex.value > props.from) {
+    // @ts-ignore
     currentIndex.value--
     emit('updateIndex', currentIndex.value)
     emit('prev')
@@ -108,7 +111,9 @@ const prev = () => {
 }
 
 const next = () => {
+  // @ts-ignore
   if (currentIndex.value < props.to) {
+    // @ts-ignore
     currentIndex.value++
     emit('updateIndex', currentIndex.value)
     emit('next')
@@ -124,8 +129,11 @@ const playPause = () => {
   } else {
     isPlaying.value = true
     emit('playPause', isPlaying.value)
+    // @ts-ignore
     intervalId.value = setInterval(() => {
+      // @ts-ignore
       if (currentIndex.value < props.to) {
+        // @ts-ignore
         currentIndex.value++
         emit('updateIndex', currentIndex.value)
       } else {

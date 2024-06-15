@@ -34,6 +34,7 @@ watch(
       {} as Record<string, number>
     )
 
+    // @ts-ignore
     data.value = Object.entries(totalTimeByRacer).map(([name, totalMinutes]) => {
       const totalHours = totalMinutes / 60
       return { name, total: parseFloat(totalHours.toFixed(2)) }

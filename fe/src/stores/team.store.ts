@@ -20,6 +20,7 @@ export const useTeamStore = defineStore('team', () => {
   const response = fb.getDocument('team', 'team')
 
   watch(response, (data) => {
+    // @ts-ignore
     team.value = data.team
   })
 

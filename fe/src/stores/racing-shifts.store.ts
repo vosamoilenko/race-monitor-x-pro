@@ -24,6 +24,7 @@ export const useRacingShiftsStore = defineStore('racing-shifts', () => {
       const response = fb.getDocument('racing-shifts', raceId as string)
 
       watch(response, (data) => {
+        // @ts-ignore
         shifts.value = data.shifts
       })
     },

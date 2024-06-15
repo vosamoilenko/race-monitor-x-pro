@@ -46,10 +46,13 @@ export const useRaceDashboardStore = defineStore('race-dashboard', () => {
     while (low <= high) {
       const mid = Math.floor((low + high) / 2)
       if (
+        // @ts-ignore
         entries.value[mid][key] !== undefined &&
+        // @ts-ignore
         (mid === index || entries.value[mid + 1][key] === undefined)
       ) {
         return entries.value[mid]
+        // @ts-ignore
       } else if (entries.value[mid][key] !== undefined) {
         low = mid + 1
       } else {

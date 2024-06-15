@@ -49,7 +49,7 @@ const updateIndex = (c: number) => {
       <div class="flex gap-4 flex flex-col">
         <StatCard
           postfix="RPM"
-          :value="store?.latestOBDDatapoint?.engineRpm"
+          :value="`${store?.latestOBDDatapoint?.engineRpm}`"
           title="Engine RPM"
         ></StatCard>
         <StatCard
